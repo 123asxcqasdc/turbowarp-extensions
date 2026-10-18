@@ -6,7 +6,7 @@
     <title>🐌 Расширения TurboWarp</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🐌%3C/text%3E%3C/svg%3E">
     <meta property="og:title" content="Расширения TurboWarp">
-    <meta property="og:description" content="Каталог расширений для TurboWarp: официальная галерея и сообщество.">
+    <meta property="og:description" content="Каталог расширений для TurboWarp с категориями и скачиванием .js">
     <meta property="og:type" content="website">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -28,8 +28,7 @@
             content: "🐌🐌🐌";
             font-size: 8rem;
             position: fixed;
-            top: 10px;
-            left: 10px;
+            top: 10px; left: 10px;
             opacity: 0.08;
             white-space: nowrap;
             transform: rotate(-10deg);
@@ -42,8 +41,7 @@
             content: "🐌🐌🐌";
             font-size: 12rem;
             position: fixed;
-            bottom: -20px;
-            right: 0;
+            bottom: -20px; right: 0;
             opacity: 0.05;
             transform: rotate(15deg);
             pointer-events: none;
@@ -59,7 +57,7 @@
             -webkit-backdrop-filter: blur(6px);
             border: 3px solid #9bbc7b;
             border-radius: 30px;
-            box-shadow: 0 25px 40px -10px rgba(0, 0, 0, 0.6), 0 0 0 2px #6f8c5d inset, 0 0 0 4px #3f6140 inset;
+            box-shadow: 0 25px 40px -10px rgba(0,0,0,0.6), 0 0 0 2px #6f8c5d inset, 0 0 0 4px #3f6140 inset;
             padding: 2.5rem 2rem;
             position: relative;
             z-index: 1;
@@ -142,11 +140,20 @@
             white-space: nowrap;
         }
 
+        .filters-label {
+            font-size: 0.85rem;
+            color: #9dbd90;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 0.6rem 0 0.3rem;
+        }
+
         .filters {
             display: flex;
             flex-wrap: wrap;
             gap: 0.5rem;
-            margin-bottom: 1.8rem;
+            margin-bottom: 0.8rem;
         }
 
         .chip {
@@ -198,8 +205,7 @@
         }
 
         .card-icon {
-            width: 72px;
-            height: 72px;
+            width: 72px; height: 72px;
             object-fit: contain;
             margin: 0 auto 0.6rem;
             filter: drop-shadow(2px 4px 4px #1e331e);
@@ -229,8 +235,15 @@
             padding-bottom: 0.4rem;
         }
 
+        .card-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem;
+            justify-content: center;
+            margin: 0.4rem 0 0;
+        }
+
         .card-source {
-            display: block;
             text-align: center;
             font-size: 0.8rem;
             font-weight: 700;
@@ -238,9 +251,39 @@
             background: #a3c4a3;
             border-radius: 20px;
             padding: 0.15rem 0.7rem;
-            width: fit-content;
-            margin: 0.4rem auto 0;
         }
+
+        .card-source.multi { background: #d6e8a8; }
+
+        .deprecated-badge {
+            background: #6b3030;
+            border: 2px solid #c97b7b;
+            color: #ffd6d6;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            padding: 0.15rem 0.7rem;
+        }
+
+        .card-cats {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem;
+            justify-content: center;
+            margin: 0.45rem 0 0;
+        }
+
+        .card-cat {
+            font-size: 0.75rem;
+            background: #24402a;
+            border: 1px solid #6f9a6a;
+            color: #b9d6a3;
+            border-radius: 20px;
+            padding: 0.1rem 0.6rem;
+            cursor: pointer;
+        }
+
+        .card-cat:hover { background: #386d38; color: #e2ffb3; }
 
         .card-author {
             text-align: center;
@@ -286,6 +329,8 @@
             transition: 0.15s;
             text-align: center;
             box-shadow: 0 4px 0 #446d44;
+            cursor: pointer;
+            font-family: inherit;
         }
 
         .card-link:hover {
@@ -300,28 +345,7 @@
         .card-link.warn { background: #c9a86a; border-color: #ffe2ad; }
         .card-link.warn:hover { background: #e0c384; }
 
-        button.card-link {
-            cursor: pointer;
-            font-family: inherit;
-        }
-
-        button.card-link:disabled {
-            opacity: 0.6;
-            cursor: wait;
-            transform: none;
-        }
-
-        .deprecated-badge {
-            background: #6b3030;
-            border: 2px solid #c97b7b;
-            color: #ffd6d6;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            font-weight: 700;
-            padding: 0.15rem 0.7rem;
-            width: fit-content;
-            margin: 0.4rem auto 0;
-        }
+        button.card-link:disabled { opacity: 0.6; cursor: wait; transform: none; }
 
         .empty {
             text-align: center;
@@ -334,6 +358,98 @@
             color: #fcfae1;
             grid-column: 1 / -1;
         }
+
+        /* модалка выбора источника */
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(5, 15, 5, 0.75);
+            backdrop-filter: blur(3px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 50;
+            padding: 1rem;
+        }
+
+        .modal-overlay[hidden] { display: none; }
+
+        .modal {
+            background: #2e4d2e;
+            border: 3px solid #9bbc7b;
+            border-radius: 28px;
+            box-shadow: 0 25px 40px -10px rgba(0,0,0,0.7), 0 0 0 2px #6f8c5d inset;
+            padding: 1.6rem 1.4rem;
+            max-width: 480px;
+            width: 100%;
+            max-height: 85vh;
+            overflow-y: auto;
+            color: #f0f7da;
+        }
+
+        .modal h3 {
+            text-align: center;
+            font-size: 1.4rem;
+            color: #fcfad6;
+            text-shadow: 0 2px 0 #466b46;
+            margin-bottom: 0.4rem;
+            word-break: break-word;
+        }
+
+        .modal .modal-sub {
+            text-align: center;
+            color: #b9d6a3;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .modal-variant {
+            background: #385f38;
+            border: 2px solid #8ab47a;
+            border-radius: 20px;
+            padding: 0.8rem 0.9rem;
+            margin-bottom: 0.7rem;
+        }
+
+        .modal-variant-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 0.4rem;
+        }
+
+        .modal-variant-src {
+            font-weight: 800;
+            color: #e2ffb3;
+            font-size: 1rem;
+        }
+
+        .modal-variant-desc {
+            font-size: 0.85rem;
+            color: #dcedc4;
+            margin-bottom: 0.6rem;
+            line-height: 1.4;
+        }
+
+        .modal-variant-actions { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+
+        .modal-close {
+            display: block;
+            margin: 0.8rem auto 0;
+            background: #a3c4a3;
+            border: 2px solid #d6f0be;
+            color: #1b3f1b;
+            font-weight: 700;
+            border-radius: 30px;
+            padding: 0.5rem 1.4rem;
+            cursor: pointer;
+            font-size: 1rem;
+            box-shadow: 0 4px 0 #446d44;
+        }
+
+        .modal-close:hover { background: #c3e6b3; }
 
         .footer-snails {
             margin-top: 2.5rem;
@@ -380,15 +496,14 @@
         <span>РАСШИРЕНИЯ TURBOWARP</span>
         <span class="snail-icon-big">🐌</span>
     </div>
-    <p class="subtitle">каталог расширений: официальная галерея + сообщество</p>
+    <p class="subtitle">каталог расширений: официальная галерея + сообщество · одинаковые объединены</p>
 
     <div class="warning">
         ⚠️ <b>ВНИМАНИЕ: расширения TurboWarp — сторонний код.</b>
         Они выполняются без песочницы и <b>могут содержать вредоносный код</b>
         (кража данных, удаление файлов, доступ к камере/микрофону и т.д.).
         Официальная галерея проверяется вручную, все остальные источники — нет.
-        <b>Используйте на свой страх и риск</b>, перед добавлением читайте код
-        (<a href="#" style="color:#ffe9c2;">открывайте .js</a> и смотрите содержимое).
+        <b>Используйте на свой страх и риск</b>, перед добавлением читайте код.
         Проекты с такими расширениями нельзя загружать на сайт Scratch.
     </div>
 
@@ -397,7 +512,11 @@
         <span class="count" id="count">...</span>
     </div>
 
-    <div class="filters" id="filters"></div>
+    <div class="filters-label">категории</div>
+    <div class="filters" id="cat-filters"></div>
+
+    <div class="filters-label">источники</div>
+    <div class="filters" id="src-filters"></div>
 
     <div class="links-grid" id="grid">
         <div class="empty">загружаем улиток... 🐌</div>
@@ -415,30 +534,25 @@
     </div>
 </div>
 
+<div class="modal-overlay" id="modal-overlay" hidden>
+    <div class="modal" id="modal"></div>
+</div>
+
 <script>
 (function () {
-    const SOURCE_LABELS = {
-        "official": "Официальная галерея",
-        "sharkpool": "SharkPool",
-        "dimka-10": "Dimka-10",
-        "turbowarp-cn": "turbowarp-cn",
-        "bluedome77": "BlueDome77"
-    };
-    const SOURCE_EMOJI = {
-        "official": "✅",
-        "sharkpool": "🦈",
-        "dimka-10": "🔟",
-        "turbowarp-cn": "🀄",
-        "bluedome77": "🩵"
-    };
+    const SOURCE_ORDER = ["official", "sharkpool", "dimka-10", "turbowarp-cn", "bluedome77"];
 
     let EXTENSIONS = [];
     let activeSource = "all";
+    let activeCat = "all";
 
     const grid = document.getElementById("grid");
     const countEl = document.getElementById("count");
     const searchEl = document.getElementById("search");
-    const filtersEl = document.getElementById("filters");
+    const srcFiltersEl = document.getElementById("src-filters");
+    const catFiltersEl = document.getElementById("cat-filters");
+    const overlay = document.getElementById("modal-overlay");
+    const modal = document.getElementById("modal");
 
     function esc(s) {
         return String(s == null ? "" : s)
@@ -446,35 +560,56 @@
             .replace(/"/g, "&quot;").replace(/'/g, "&#039;");
     }
 
+    function variantsForSource(ext) {
+        return ext.variants.filter(v => activeSource === "all" || v.source === activeSource);
+    }
+
     function buildFilters() {
-        const sources = {};
-        EXTENSIONS.forEach(e => { sources[e.source] = (sources[e.source] || 0) + 1; });
-        const order = ["all"].concat(Object.keys(SOURCE_LABELS).filter(s => sources[s]));
-        filtersEl.innerHTML = "";
-        order.forEach(id => {
+        // категории
+        const catCounts = {};
+        EXTENSIONS.forEach(e => (e.categories || []).forEach(c => { catCounts[c] = (catCounts[c] || 0) + 1; }));
+        catFiltersEl.innerHTML = "";
+        const mkCat = (id, label, n) => {
+            const chip = document.createElement("div");
+            chip.className = "chip" + (id === activeCat ? " active" : "");
+            chip.innerHTML = esc(label) + " · " + n;
+            chip.addEventListener("click", () => { activeCat = id; buildFilters(); render(); });
+            catFiltersEl.appendChild(chip);
+        };
+        mkCat("all", "все", EXTENSIONS.length);
+        Object.keys(catCounts).sort((a, b) => catCounts[b] - catCounts[a]).forEach(c => mkCat(c, c, catCounts[c]));
+
+        // источники
+        const srcCounts = {};
+        EXTENSIONS.forEach(e => e.variants.forEach(v => { srcCounts[v.source] = (srcCounts[v.source] || 0) + 1; }));
+        srcFiltersEl.innerHTML = "";
+        const mkSrc = (id, label, n) => {
             const chip = document.createElement("div");
             chip.className = "chip" + (id === activeSource ? " active" : "");
-            const label = id === "all" ? "все" : (SOURCE_LABELS[id] || id);
-            const n = id === "all" ? EXTENSIONS.length : sources[id];
             chip.innerHTML = esc(label) + " · " + n;
-            chip.addEventListener("click", () => {
-                activeSource = id;
-                filtersEl.querySelectorAll(".chip").forEach(c => c.classList.remove("active"));
-                chip.classList.add("active");
-                render();
-            });
-            filtersEl.appendChild(chip);
-        });
+            chip.addEventListener("click", () => { activeSource = id; buildFilters(); render(); });
+            srcFiltersEl.appendChild(chip);
+        };
+        mkSrc("all", "все", EXTENSIONS.reduce((s, e) => s + e.variants.length, 0));
+        SOURCE_ORDER.filter(s => srcCounts[s]).forEach(s => mkSrc(s, s, srcCounts[s]));
+    }
+
+    function bestVariant(ext) {
+        const vs = variantsForSource(ext);
+        return vs.find(v => !v.deprecated) || vs[0];
     }
 
     function render() {
         const q = searchEl.value.trim().toLowerCase();
         const items = EXTENSIONS.filter(e => {
-            if (activeSource !== "all" && e.source !== activeSource) return false;
+            const vs = variantsForSource(e);
+            if (!vs.length) return false;
+            if (activeCat !== "all" && !(e.categories || []).includes(activeCat)) return false;
             if (!q) return true;
             return (e.name || "").toLowerCase().includes(q)
                 || (e.description || "").toLowerCase().includes(q)
-                || (e.author || "").toLowerCase().includes(q);
+                || (e.author || "").toLowerCase().includes(q)
+                || (e.categories || []).some(c => c.toLowerCase().includes(q));
         });
         countEl.textContent = items.length + " 🐌";
         grid.innerHTML = "";
@@ -484,54 +619,52 @@
         }
         const frag = document.createDocumentFragment();
         items.forEach(e => {
+            const vs = variantsForSource(e);
+            const best = bestVariant(e);
             const card = document.createElement("div");
             card.className = "snail-card";
-            const openUrl = e.open || ("https://turbowarp.org/editor?extension=" + e.url);
-            let icon;
-            if (e.image) {
-                icon = '<img class="card-icon" loading="lazy" src="' + esc(e.image) + '" alt="" ' +
-                    'onerror="this.outerHTML=\'<div class=&quot;card-emoji&quot;>🐌</div>\'">';
-            } else {
-                icon = '<div class="card-emoji">🐌</div>';
-            }
-            let buttons = '<button class="card-link dl" data-url="' + esc(e.url) + '" data-name="' + esc(e.name) + '">⬇ скачать .js</button>' +
-                          '<a class="card-link warn" href="' + esc(openUrl) + '" target="_blank" rel="noopener noreferrer">открыть в TW</a>';
-            if (e.documentation) {
-                buttons += '<a class="card-link" href="' + esc(e.documentation) + '" target="_blank" rel="noopener noreferrer">доки</a>';
-            }
+            const icon = best.image
+                ? '<img class="card-icon" loading="lazy" src="' + esc(best.image) + '" alt="" onerror="this.outerHTML=\'<div class=&quot;card-emoji&quot;>🐌</div>\'">'
+                : '<div class="card-emoji">🐌</div>';
+            const multi = vs.length > 1;
+            const badges =
+                (multi
+                    ? '<span class="card-source multi">' + vs.length + ' источника</span>'
+                    : '<span class="card-source">' + esc(best.source_emoji + " " + best.source_label) + '</span>') +
+                (e.all_deprecated ? '<span class="deprecated-badge">устарело</span>' : '');
+            const cats = (e.categories || []).map(c =>
+                '<span class="card-cat" data-cat="' + esc(c) + '">' + esc(c) + '</span>').join('');
+            const idx = EXTENSIONS.indexOf(e);
             card.innerHTML =
                 icon +
                 '<div class="card-name">' + esc(e.name) + '</div>' +
-                '<span class="card-source">' + esc(SOURCE_EMOJI[e.source] || "🐌") + " " + esc(SOURCE_LABELS[e.source] || e.source) + '</span>' +
-                (e.deprecated ? '<span class="deprecated-badge">устарело</span>' : "") +
-                (e.author ? '<p class="card-author">' + esc(e.author) + '</p>' : "") +
+                '<div class="card-badges">' + badges + '</div>' +
+                (cats ? '<div class="card-cats">' + cats + '</div>' : '') +
+                (e.author ? '<p class="card-author">' + esc(e.author) + '</p>' : '') +
                 '<div class="card-description">' + esc(e.description || "без описания") + '</div>' +
-                '<div class="card-buttons">' + buttons + '</div>';
+                '<div class="card-buttons">' +
+                    '<button class="card-link dl" data-idx="' + idx + '">⬇ скачать .js</button>' +
+                    '<button class="card-link warn open" data-idx="' + idx + '">открыть в TW</button>' +
+                '</div>';
             frag.appendChild(card);
         });
         grid.appendChild(frag);
     }
 
-    searchEl.addEventListener("input", render);
-
     function fileNamesafe(name) {
         return (name || "extension").replace(/[\\/:*?"<>|]+/g, "_").replace(/\s+/g, "_") + ".js";
     }
 
-    async function downloadExtension(btn) {
-        const url = btn.dataset.url;
-        const filename = fileNamesafe(btn.dataset.name);
+    async function downloadFrom(btn, v, extName) {
+        const filename = fileNamesafe(extName);
         const original = btn.textContent;
         btn.disabled = true;
         btn.textContent = "⏳ качаем...";
         try {
-            const resp = await fetch(url, { cache: "no-store" });
+            const resp = await fetch(v.url, { cache: "no-store" });
             if (!resp.ok) throw new Error("HTTP " + resp.status);
-            let text = await resp.text();
-            if (!/\.(js|mjs)(\?|$)/i.test(url) && !/Scratch|ScratchExtension|sb3|getInfo/.test(text.slice(0, 5000))) {
-                throw new Error("не похоже на расширение");
-            }
-            const header = "/* " + filename + "\n   downloaded from: " + url + "\n   WARNING: third-party code, may be malicious! */\n";
+            const text = await resp.text();
+            const header = "/* " + filename + "\n   source: " + v.source_label + " (" + v.url + ")\n   WARNING: third-party code, may be malicious! */\n";
             const blob = new Blob([header + text], { type: "application/javascript;charset=utf-8" });
             const a = document.createElement("a");
             a.href = URL.createObjectURL(blob);
@@ -544,21 +677,98 @@
         } catch (err) {
             console.warn(err);
             btn.textContent = "⚠ открыть вкладку";
-            window.open(url, "_blank", "noopener");
+            window.open(v.url, "_blank", "noopener");
         }
         setTimeout(() => { btn.textContent = original; btn.disabled = false; }, 2500);
     }
 
+    function pickVariant(ext, action) {
+        const vs = variantsForSource(ext);
+        if (vs.length === 1) {
+            const v = vs[0];
+            if (action === "open") window.open(v.open, "_blank", "noopener");
+            return { single: v };
+        }
+        // модалка выбора источника
+        const ordered = vs.slice().sort((a, b) =>
+            SOURCE_ORDER.indexOf(a.source) - SOURCE_ORDER.indexOf(b.source));
+        modal.innerHTML =
+            '<h3>🐌 ' + esc(ext.name) + '</h3>' +
+            '<div class="modal-sub">выберите источник — их ' + ordered.length + '</div>' +
+            ordered.map((v, i) =>
+                '<div class="modal-variant">' +
+                    '<div class="modal-variant-head">' +
+                        '<span class="modal-variant-src">' + esc(v.source_emoji + " " + v.source_label) + '</span>' +
+                        (v.deprecated ? '<span class="deprecated-badge">устарело</span>' : '') +
+                    '</div>' +
+                    (v.description ? '<div class="modal-variant-desc">' + esc(v.description) + '</div>' : '') +
+                    (v.author ? '<div class="modal-variant-desc">автор: ' + esc(v.author) + '</div>' : '') +
+                    '<div class="modal-variant-actions">' +
+                        '<button class="card-link dl-v" data-v="' + i + '">⬇ скачать .js</button>' +
+                        '<button class="card-link warn open-v" data-v="' + i + '">открыть в TW</button>' +
+                        (v.documentation ? '<a class="card-link" href="' + esc(v.documentation) + '" target="_blank" rel="noopener">доки</a>' : '') +
+                    '</div>' +
+                '</div>'
+            ).join('') +
+            '<button class="modal-close" id="modal-close">← закрыть</button>';
+        overlay.hidden = false;
+        modal.querySelectorAll("button.dl-v").forEach(btn => {
+            btn.addEventListener("click", () => downloadFrom(btn, ordered[+btn.dataset.v], ext.name));
+        });
+        modal.querySelectorAll("button.open-v").forEach(btn => {
+            btn.addEventListener("click", () => window.open(ordered[+btn.dataset.v].open, "_blank", "noopener"));
+        });
+        document.getElementById("modal-close").addEventListener("click", () => { overlay.hidden = true; });
+        if (action === "open") {
+            // подсветить первую кнопку открытия
+            const first = modal.querySelector("button.open-v");
+            if (first) first.focus();
+        }
+        return { modal: true };
+    }
+
+    overlay.addEventListener("click", (ev) => { if (ev.target === overlay) overlay.hidden = true; });
+    document.addEventListener("keydown", (ev) => { if (ev.key === "Escape") overlay.hidden = true; });
+
     grid.addEventListener("click", (ev) => {
-        const btn = ev.target.closest("button.dl");
-        if (btn) downloadExtension(btn);
+        const cat = ev.target.closest(".card-cat");
+        if (cat) {
+            activeCat = cat.dataset.cat;
+            buildFilters();
+            render();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+            return;
+        }
+        const dl = ev.target.closest("button.dl");
+        if (dl) {
+            const ext = EXTENSIONS[+dl.dataset.idx];
+            const vs = variantsForSource(ext);
+            if (vs.length <= 1) {
+                if (vs[0]) downloadFrom(dl, vs[0], ext.name);
+            } else {
+                pickVariant(ext, "download");
+            }
+            return;
+        }
+        const open = ev.target.closest("button.open");
+        if (open) {
+            const ext = EXTENSIONS[+open.dataset.idx];
+            const vs = variantsForSource(ext);
+            if (vs.length <= 1) {
+                if (vs[0]) window.open(vs[0].open, "_blank", "noopener");
+            } else {
+                pickVariant(ext, "open");
+            }
+        }
     });
+
+    searchEl.addEventListener("input", render);
 
     fetch("extensions.json", { cache: "no-cache" })
         .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
         .then(data => {
             EXTENSIONS = (data.extensions || []).slice().sort((a, b) =>
-                (a.source || "").localeCompare(b.source || "") || (a.name || "").localeCompare(b.name || "", "ru"));
+                (a.name || "").localeCompare(b.name || "", "ru"));
             buildFilters();
             render();
         })
