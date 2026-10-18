@@ -300,6 +300,17 @@
         .card-link.warn { background: #c9a86a; border-color: #ffe2ad; }
         .card-link.warn:hover { background: #e0c384; }
 
+        button.card-link {
+            cursor: pointer;
+            font-family: inherit;
+        }
+
+        button.card-link:disabled {
+            opacity: 0.6;
+            cursor: wait;
+            transform: none;
+        }
+
         .deprecated-badge {
             background: #6b3030;
             border: 2px solid #c97b7b;
@@ -483,8 +494,8 @@
             } else {
                 icon = '<div class="card-emoji">🐌</div>';
             }
-            let buttons = '<a class="card-link warn" href="' + esc(openUrl) + '" target="_blank" rel="noopener noreferrer">открыть в TW</a>' +
-                          '<a class="card-link" href="' + esc(e.url) + '" target="_blank" rel="noopener noreferrer">.js код</a>';
+            let buttons = '<button class="card-link dl" data-url="' + esc(e.url) + '" data-name="' + esc(e.name) + '">⬇ скачать .js</button>' +
+                          '<a class="card-link warn" href="' + esc(openUrl) + '" target="_blank" rel="noopener noreferrer">открыть в TW</a>';
             if (e.documentation) {
                 buttons += '<a class="card-link" href="' + esc(e.documentation) + '" target="_blank" rel="noopener noreferrer">доки</a>';
             }
@@ -502,6 +513,46 @@
     }
 
     searchEl.addEventListener("input", render);
+
+    function fileNamesafe(name) {
+        return (name || "extension").replace(/[\\/:*?"<>|]+/g, "_").replace(/\s+/g, "_") + ".js";
+    }
+
+    async function downloadExtension(btn) {
+        const url = btn.dataset.url;
+        const filename = fileNamesafe(btn.dataset.name);
+        const original = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = "⏳ качаем...";
+        try {
+            const resp = await fetch(url, { cache: "no-store" });
+            if (!resp.ok) throw new Error("HTTP " + resp.status);
+            let text = await resp.text();
+            if (!/\.(js|mjs)(\?|$)/i.test(url) && !/Scratch|ScratchExtension|sb3|getInfo/.test(text.slice(0, 5000))) {
+                throw new Error("не похоже на расширение");
+            }
+            const header = "/* " + filename + "\n   downloaded from: " + url + "\n   WARNING: third-party code, may be malicious! */\n";
+            const blob = new Blob([header + text], { type: "application/javascript;charset=utf-8" });
+            const a = document.createElement("a");
+            a.href = URL.createObjectURL(blob);
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            a.remove();
+            setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+            btn.textContent = "✅ готово";
+        } catch (err) {
+            console.warn(err);
+            btn.textContent = "⚠ открыть вкладку";
+            window.open(url, "_blank", "noopener");
+        }
+        setTimeout(() => { btn.textContent = original; btn.disabled = false; }, 2500);
+    }
+
+    grid.addEventListener("click", (ev) => {
+        const btn = ev.target.closest("button.dl");
+        if (btn) downloadExtension(btn);
+    });
 
     fetch("extensions.json", { cache: "no-cache" })
         .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
