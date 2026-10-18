@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐌 Расширения TurboWarp</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🐌%3C/text%3E%3C/svg%3E">
+    <meta property="og:title" content="Расширения TurboWarp">
+    <meta property="og:description" content="Каталог расширений для TurboWarp: официальная галерея и сообщество.">
+    <meta property="og:type" content="website">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', Roboto, system-ui, -apple-system, sans-serif;
+            background-color: #1b3b1b;
+            background-image: radial-gradient(circle at 30% 40%, #2b5a2b 0%, #0e2f0e 90%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem 1.5rem;
+            position: relative;
+            color: #f0f7da;
+        }
+
+        body::before {
+            content: "🐌🐌🐌";
+            font-size: 8rem;
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            opacity: 0.08;
+            white-space: nowrap;
+            transform: rotate(-10deg);
+            pointer-events: none;
+            letter-spacing: 2rem;
+            z-index: 0;
+        }
+
+        body::after {
+            content: "🐌🐌🐌";
+            font-size: 12rem;
+            position: fixed;
+            bottom: -20px;
+            right: 0;
+            opacity: 0.05;
+            transform: rotate(15deg);
+            pointer-events: none;
+            white-space: nowrap;
+            z-index: 0;
+        }
+
+        .main-container {
+            max-width: 1200px;
+            width: 100%;
+            background: rgba(30, 50, 30, 0.7);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            border: 3px solid #9bbc7b;
+            border-radius: 30px;
+            box-shadow: 0 25px 40px -10px rgba(0, 0, 0, 0.6), 0 0 0 2px #6f8c5d inset, 0 0 0 4px #3f6140 inset;
+            padding: 2.5rem 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header-title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.6rem 1.2rem;
+            flex-wrap: wrap;
+            margin-bottom: 1.2rem;
+            font-size: 2.6rem;
+            font-weight: 800;
+            text-shadow: 3px 3px 0 #2d4a2d, 5px 5px 0 #1b331b;
+            color: #e2f0c0;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+
+        .snail-icon-big {
+            font-size: 3.2rem;
+            transform: rotate(15deg);
+            transition: transform 0.2s;
+            filter: drop-shadow(2px 4px 4px #0f2a0f);
+        }
+
+        .snail-icon-big:hover { transform: rotate(25deg) scale(1.1); }
+
+        .subtitle {
+            text-align: center;
+            color: #cde5b0;
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+        }
+
+        .warning {
+            background: #5a3a1e;
+            border: 3px dashed #ffb84d;
+            border-radius: 24px;
+            padding: 1.1rem 1.3rem;
+            margin: 0 0 1.8rem 0;
+            color: #ffe9c2;
+            font-size: 1rem;
+            line-height: 1.55;
+            box-shadow: 0 0 0 2px #3d2a14 inset;
+        }
+
+        .warning b { color: #ffd27a; }
+
+        .toolbar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        #search {
+            flex: 1 1 260px;
+            background: #24402a;
+            border: 2px solid #7eaf7a;
+            border-radius: 30px;
+            padding: 0.7rem 1.2rem;
+            font-size: 1.05rem;
+            color: #f0f7da;
+            outline: none;
+        }
+
+        #search:focus { border-color: #d8f0b5; background: #2c4d33; }
+        #search::placeholder { color: #9dbd90; }
+
+        .count {
+            background: #385f38;
+            border: 2px solid #8ab47a;
+            border-radius: 30px;
+            padding: 0.55rem 1.1rem;
+            font-weight: 700;
+            color: #e2ffb3;
+            white-space: nowrap;
+        }
+
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1.8rem;
+        }
+
+        .chip {
+            background: #2e4d2e;
+            border: 2px solid #7eaf7a;
+            color: #dcedc4;
+            border-radius: 30px;
+            padding: 0.4rem 1rem;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: 0.15s;
+            user-select: none;
+        }
+
+        .chip:hover { background: #386d38; border-color: #d8f0b5; }
+
+        .chip.active {
+            background: #a3c4a3;
+            color: #1b3f1b;
+            border-color: #d6f0be;
+            font-weight: 700;
+        }
+
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.8rem;
+            margin: 1rem 0;
+        }
+
+        .snail-card {
+            background: #2e4d2e;
+            border: 2px solid #7eaf7a;
+            border-radius: 24px;
+            padding: 1.3rem 1.1rem 1.1rem;
+            transition: all 0.25s ease;
+            box-shadow: 0 12px 15px -7px #102310, 0 0 0 2px #a7c8a3 inset;
+            display: flex;
+            flex-direction: column;
+            backdrop-filter: blur(2px);
+        }
+
+        .snail-card:hover {
+            background: #386d38;
+            border-color: #d8f0b5;
+            transform: translateY(-6px) rotate(0.5deg);
+            box-shadow: 0 20px 25px -8px #091409, 0 0 0 3px #c7f0b1 inset;
+            border-radius: 28px;
+        }
+
+        .card-icon {
+            width: 72px;
+            height: 72px;
+            object-fit: contain;
+            margin: 0 auto 0.6rem;
+            filter: drop-shadow(2px 4px 4px #1e331e);
+            transition: transform 0.2s;
+        }
+
+        .snail-card:hover .card-icon { transform: scale(1.1) rotate(3deg); }
+
+        .card-emoji {
+            font-size: 3.2rem;
+            line-height: 1;
+            margin-bottom: 0.6rem;
+            text-align: center;
+            filter: drop-shadow(2px 4px 4px #1e331e);
+        }
+
+        .card-name {
+            font-size: 1.35rem;
+            font-weight: 800;
+            text-align: center;
+            color: #fcfad6;
+            text-shadow: 0 3px 0 #466b46;
+            margin-bottom: 0.3rem;
+            word-break: break-word;
+            letter-spacing: 0.5px;
+            border-bottom: 2px dotted #8bb46c;
+            padding-bottom: 0.4rem;
+        }
+
+        .card-source {
+            display: block;
+            text-align: center;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: #1b3f1b;
+            background: #a3c4a3;
+            border-radius: 20px;
+            padding: 0.15rem 0.7rem;
+            width: fit-content;
+            margin: 0.4rem auto 0;
+        }
+
+        .card-author {
+            text-align: center;
+            font-size: 0.85rem;
+            color: #b9d6a3;
+            margin: 0.35rem 0 0;
+            word-break: break-word;
+        }
+
+        .card-description {
+            font-size: 0.95rem;
+            color: #dcedc4;
+            margin: 0.8rem 0 1rem;
+            line-height: 1.45;
+            text-align: center;
+            background: #385f38;
+            padding: 0.6rem;
+            border-radius: 20px;
+            border: 1px solid #8ab47a;
+            flex: 1;
+            max-height: 8.5em;
+            overflow: hidden;
+        }
+
+        .card-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            justify-content: center;
+            margin-top: auto;
+        }
+
+        .card-link {
+            display: inline-block;
+            background: #a3c4a3;
+            color: #1b3f1b;
+            text-decoration: none;
+            font-weight: 700;
+            padding: 0.5rem 1rem;
+            border-radius: 30px;
+            font-size: 0.95rem;
+            border: 2px solid #d6f0be;
+            transition: 0.15s;
+            text-align: center;
+            box-shadow: 0 4px 0 #446d44;
+        }
+
+        .card-link:hover {
+            background: #c3e6b3;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 0 #2f542f;
+            color: #0f300f;
+        }
+
+        .card-link:active { transform: translateY(2px); box-shadow: 0 1px 0 #2f542f; }
+
+        .card-link.warn { background: #c9a86a; border-color: #ffe2ad; }
+        .card-link.warn:hover { background: #e0c384; }
+
+        .deprecated-badge {
+            background: #6b3030;
+            border: 2px solid #c97b7b;
+            color: #ffd6d6;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            padding: 0.15rem 0.7rem;
+            width: fit-content;
+            margin: 0.4rem auto 0;
+        }
+
+        .empty {
+            text-align: center;
+            font-size: 1.2rem;
+            background: #446644;
+            padding: 1.5rem;
+            border-radius: 30px;
+            margin: 1rem 0;
+            border: 2px dashed #c7e9a8;
+            color: #fcfae1;
+            grid-column: 1 / -1;
+        }
+
+        .footer-snails {
+            margin-top: 2.5rem;
+            display: flex;
+            justify-content: center;
+            gap: 0.8rem 2rem;
+            flex-wrap: wrap;
+            font-size: 2rem;
+            color: #a2c78d;
+            border-top: 2px dashed #61855e;
+            padding-top: 1.5rem;
+            opacity: 0.8;
+        }
+
+        .footer-snails span {
+            filter: drop-shadow(0 5px 5px #172e17);
+            transition: 0.2s;
+            cursor: default;
+        }
+
+        .footer-snails span:hover { transform: scale(1.2) rotate(5deg); color: #e2ffb3; }
+
+        .footer-copyright {
+            text-align: center;
+            margin-top: 0.8rem;
+            color: #89ab78;
+            font-size: 0.9rem;
+        }
+
+        .footer-copyright a { color: #b9d6a3; }
+
+        @media (max-width: 600px) {
+            .main-container { padding: 1.5rem 1rem; }
+            .header-title { font-size: 1.9rem; }
+            .card-name { font-size: 1.15rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="header-title">
+        <span class="snail-icon-big">🐌</span>
+        <span>РАСШИРЕНИЯ TURBOWARP</span>
+        <span class="snail-icon-big">🐌</span>
+    </div>
+    <p class="subtitle">каталог расширений: официальная галерея + сообщество</p>
+
+    <div class="warning">
+        ⚠️ <b>ВНИМАНИЕ: расширения TurboWarp — сторонний код.</b>
+        Они выполняются без песочницы и <b>могут содержать вредоносный код</b>
+        (кража данных, удаление файлов, доступ к камере/микрофону и т.д.).
+        Официальная галерея проверяется вручную, все остальные источники — нет.
+        <b>Используйте на свой страх и риск</b>, перед добавлением читайте код
+        (<a href="#" style="color:#ffe9c2;">открывайте .js</a> и смотрите содержимое).
+        Проекты с такими расширениями нельзя загружать на сайт Scratch.
+    </div>
+
+    <div class="toolbar">
+        <input type="text" id="search" placeholder="🐌 поиск расширения..." autocomplete="off">
+        <span class="count" id="count">...</span>
+    </div>
+
+    <div class="filters" id="filters"></div>
+
+    <div class="links-grid" id="grid">
+        <div class="empty">загружаем улиток... 🐌</div>
+    </div>
+
+    <div class="footer-snails">
+        <span>🐌</span><span>🐌💚</span><span>🐌</span><span>🐚</span><span>🐌</span><span>🍀🐌</span>
+    </div>
+    <div class="footer-copyright">
+        данные: <a href="https://extensions.turbowarp.org/" target="_blank" rel="noopener">официальная галерея</a> ·
+        <a href="https://sharkpool-sp.github.io/SharkPools-Extensions/" target="_blank" rel="noopener">SharkPool</a> ·
+        <a href="https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/" target="_blank" rel="noopener">Dimka-10</a> ·
+        <a href="https://github.com/turbowarp-cn/cn-extensions" target="_blank" rel="noopener">turbowarp-cn</a> ·
+        <a href="https://github.com/BlueDome77/Turbowarp-Extension-List" target="_blank" rel="noopener">BlueDome77</a>
+    </div>
+</div>
+
+<script>
+(function () {
+    const SOURCE_LABELS = {
+        "official": "Официальная галерея",
+        "sharkpool": "SharkPool",
+        "dimka-10": "Dimka-10",
+        "turbowarp-cn": "turbowarp-cn",
+        "bluedome77": "BlueDome77"
+    };
+    const SOURCE_EMOJI = {
+        "official": "✅",
+        "sharkpool": "🦈",
+        "dimka-10": "🔟",
+        "turbowarp-cn": "🀄",
+        "bluedome77": "🩵"
+    };
+
+    let EXTENSIONS = [];
+    let activeSource = "all";
+
+    const grid = document.getElementById("grid");
+    const countEl = document.getElementById("count");
+    const searchEl = document.getElementById("search");
+    const filtersEl = document.getElementById("filters");
+
+    function esc(s) {
+        return String(s == null ? "" : s)
+            .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+    }
+
+    function buildFilters() {
+        const sources = {};
+        EXTENSIONS.forEach(e => { sources[e.source] = (sources[e.source] || 0) + 1; });
+        const order = ["all"].concat(Object.keys(SOURCE_LABELS).filter(s => sources[s]));
+        filtersEl.innerHTML = "";
+        order.forEach(id => {
+            const chip = document.createElement("div");
+            chip.className = "chip" + (id === activeSource ? " active" : "");
+            const label = id === "all" ? "все" : (SOURCE_LABELS[id] || id);
+            const n = id === "all" ? EXTENSIONS.length : sources[id];
+            chip.innerHTML = esc(label) + " · " + n;
+            chip.addEventListener("click", () => {
+                activeSource = id;
+                filtersEl.querySelectorAll(".chip").forEach(c => c.classList.remove("active"));
+                chip.classList.add("active");
+                render();
+            });
+            filtersEl.appendChild(chip);
+        });
+    }
+
+    function render() {
+        const q = searchEl.value.trim().toLowerCase();
+        const items = EXTENSIONS.filter(e => {
+            if (activeSource !== "all" && e.source !== activeSource) return false;
+            if (!q) return true;
+            return (e.name || "").toLowerCase().includes(q)
+                || (e.description || "").toLowerCase().includes(q)
+                || (e.author || "").toLowerCase().includes(q);
+        });
+        countEl.textContent = items.length + " 🐌";
+        grid.innerHTML = "";
+        if (!items.length) {
+            grid.innerHTML = '<div class="empty">ничего не нашлось 🐌🍂</div>';
+            return;
+        }
+        const frag = document.createDocumentFragment();
+        items.forEach(e => {
+            const card = document.createElement("div");
+            card.className = "snail-card";
+            const openUrl = e.open || ("https://turbowarp.org/editor?extension=" + e.url);
+            let icon;
+            if (e.image) {
+                icon = '<img class="card-icon" loading="lazy" src="' + esc(e.image) + '" alt="" ' +
+                    'onerror="this.outerHTML=\'<div class=&quot;card-emoji&quot;>🐌</div>\'">';
+            } else {
+                icon = '<div class="card-emoji">🐌</div>';
+            }
+            let buttons = '<a class="card-link warn" href="' + esc(openUrl) + '" target="_blank" rel="noopener noreferrer">открыть в TW</a>' +
+                          '<a class="card-link" href="' + esc(e.url) + '" target="_blank" rel="noopener noreferrer">.js код</a>';
+            if (e.documentation) {
+                buttons += '<a class="card-link" href="' + esc(e.documentation) + '" target="_blank" rel="noopener noreferrer">доки</a>';
+            }
+            card.innerHTML =
+                icon +
+                '<div class="card-name">' + esc(e.name) + '</div>' +
+                '<span class="card-source">' + esc(SOURCE_EMOJI[e.source] || "🐌") + " " + esc(SOURCE_LABELS[e.source] || e.source) + '</span>' +
+                (e.deprecated ? '<span class="deprecated-badge">устарело</span>' : "") +
+                (e.author ? '<p class="card-author">' + esc(e.author) + '</p>' : "") +
+                '<div class="card-description">' + esc(e.description || "без описания") + '</div>' +
+                '<div class="card-buttons">' + buttons + '</div>';
+            frag.appendChild(card);
+        });
+        grid.appendChild(frag);
+    }
+
+    searchEl.addEventListener("input", render);
+
+    fetch("extensions.json", { cache: "no-cache" })
+        .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+        .then(data => {
+            EXTENSIONS = (data.extensions || []).slice().sort((a, b) =>
+                (a.source || "").localeCompare(b.source || "") || (a.name || "").localeCompare(b.name || "", "ru"));
+            buildFilters();
+            render();
+        })
+        .catch(err => {
+            grid.innerHTML = '<div class="empty">🐌🍂 не удалось загрузить каталог: ' + esc(err.message) + '</div>';
+        });
+})();
+</script>
+</body>
+</html>
