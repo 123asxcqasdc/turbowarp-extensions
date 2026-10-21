@@ -278,6 +278,62 @@ def fetch_snail():
     return recs
 
 
+# -------------------------------------------------------------------- scrandled
+def fetch_scrandled():
+    html = get("https://scrandled.vercel.app/")
+    base = "https://scrandled.vercel.app/"
+    recs = []
+    for block in re.split(r'<div>', html)[1:]:
+        js = re.search(r'href="(https://scrandled\.vercel\.app/[^"]+\.js)" class="button"', block)
+        if not js:
+            continue
+        big = re.search(r'<b><big>(.*?)</big><br>(.*?)</b><br>(.*?)<br></p>', block, re.S)
+        if big:
+            name = strip_html(big.group(1))
+            note = strip_html(big.group(2))
+            desc = strip_html(big.group(3))
+        else:
+            name = strip_html(re.search(r'<b>(.*?)</b>', block, re.S).group(1)) if re.search(r'<b>', block) else None
+            note, desc = "", None
+        if not name:
+            continue
+        author = re.sub(r'^\s*by\s+', '', note, flags=re.I)
+        author = re.sub(r'\s*\(Ported from TurboWarp\)\s*', '', author, flags=re.I).strip() or None
+        recs.append({
+            "name": name,
+            "description": desc or None,
+            "url": js.group(1),
+            "image": None,
+            "author": author,
+            "source": "scrandled",
+        })
+    return recs
+
+
+# ------------------------------------------------------------------- crispstrobe
+def fetch_crispstrobe():
+    html = get("https://crispstrobe.github.io/extensions/")
+    base = "https://crispstrobe.github.io/extensions/"
+    cards = re.split(r'<div class="extension">', html)[1:]
+    recs = []
+    for card in cards:
+        h2 = re.search(r'<h2>(.*?)</h2>', card, re.S)
+        p = re.search(r'<p>(.*?)</p>', card, re.S)
+        img = re.search(r'<img[^>]+src="([^"]+)"', card)
+        copy = re.search(r'data-copy="([^"]+)"', card)
+        if not h2 or not copy:
+            continue
+        recs.append({
+            "name": strip_html(h2.group(1)),
+            "description": strip_html(p.group(1)) if p else None,
+            "url": copy.group(1),
+            "image": base + img.group(1) if img and not img.group(1).startswith("http") else (img.group(1) if img else None),
+            "author": "CrispStrobe",
+            "source": "crispstrobe",
+        })
+    return recs
+
+
 # -------------------------------------------------------------------- dashblocks
 def fetch_dashblocks():
     src = get("https://raw.githubusercontent.com/DashBlocks/extensions/develop/src/lib/extensions.js")
@@ -328,6 +384,8 @@ SOURCES = [
     ("dinosaurmod", "DinosaurMod", "https://dinosaurmod.github.io/extensions/", fetch_dinosaurmod, False),
     ("snail-ide", "Snail IDE", "https://snail-ide.js.org/community-extensions/", fetch_snail, False),
     ("dashblocks", "DashBlocks", "https://dashblocks.org/extensions/", fetch_dashblocks, False),
+    ("scrandled", "scrandled", "https://scrandled.vercel.app/", fetch_scrandled, False),
+    ("crispstrobe", "CrispStrobe", "https://crispstrobe.github.io/extensions/", fetch_crispstrobe, False),
 ]
 
 

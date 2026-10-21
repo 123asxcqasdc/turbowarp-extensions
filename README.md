@@ -20,8 +20,10 @@
 | 🦕 DinosaurMod | https://dinosaurmod.github.io/extensions/ |
 | 🔥 DashBlocks | https://dashblocks.org/extensions/ |
 | 🐌 Snail IDE | https://snail-ide.js.org/community-extensions/ |
+| 🎲 scrandled | https://scrandled.vercel.app/ |
+| 🧱 CrispStrobe | https://crispstrobe.github.io/extensions/ |
 
-Данные лежат в [`extensions.json`](extensions.json) — 655 расширений из 10 источников, 402 уникальных после объединения дублей по id расширения (а не по имени).
+Данные лежат в [`extensions.json`](extensions.json) — 923 расширения из 12 источников, 482 уникальных после объединения дублей по id расширения (а не по имени).
 
 Сайт: https://123asxcqasdc.github.io/turbowarp-extensions/
 
@@ -35,7 +37,7 @@ python3 update.py    # collect.py -> fetch_ids.py -> build_data.py
 
 | Скрипт | Что делает | Выход |
 |---|---|---|
-| `collect.py` | тянет каталоги со всех 10 галерей (новый источник добавляется, только если приносит хотя бы одно новое расширение) | `turbowarp_extensions.json` |
+| `collect.py` | тянет каталоги со всех 12 галерей (новый источник добавляется, только если приносит хотя бы одно новое расширение) | `turbowarp_extensions.json` |
 | `fetch_ids.py` | скачивает каждый `.js` и достаёт зарегистрированный `id` расширения (понимает UTF-16) | `extension_ids.json` |
 | `build_data.py` | объединяет дубли по `id` (fallback — по имени) и назначает категории | `extensions.json` |
 
