@@ -11,10 +11,11 @@ SOURCE_LABELS = {
     "dimka-10": "Dimka-10",
     "turbowarp-cn": "turbowarp-cn",
     "bluedome77": "BlueDome77",
+    "penguinmod": "PenguinMod",
 }
 SOURCE_EMOJI = {
     "official": "✅", "sharkpool": "🦈", "dimka-10": "🔟",
-    "turbowarp-cn": "🀄", "bluedome77": "🩵",
+    "turbowarp-cn": "🀄", "bluedome77": "🩵", "penguinmod": "🐧",
 }
 
 # ordered: first matches win priority (we collect up to 3)
@@ -131,7 +132,8 @@ out = {
     "categories": cats,
     "extensions": result,
 }
-json.dump(out, open('/tmp/opencode/tw-site/extensions.json', 'w'), ensure_ascii=False, indent=1)
+import os
+json.dump(out, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'extensions.json'), 'w'), ensure_ascii=False, indent=1)
 
 print('raw:', len(DATA['extensions']), '-> merged:', len(result))
 print('categories:', cats)
