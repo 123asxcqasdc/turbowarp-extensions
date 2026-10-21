@@ -597,6 +597,8 @@
 <script>
 (function () {
     const SOURCE_ORDER = ["official", "sharkpool", "penguinmod", "mistwarp", "dinosaurmod", "dashblocks", "snail-ide", "dimka-10", "turbowarp-cn", "bluedome77"];
+    const SOURCE_EMOJI = { "official": "✅", "sharkpool": "🦈", "dimka-10": "🔟", "turbowarp-cn": "🀄", "bluedome77": "🩵", "penguinmod": "🐧", "mistwarp": "🌫️", "dinosaurmod": "🦕", "snail-ide": "🐌", "dashblocks": "🔥" };
+    const SOURCE_LABELS = { "official": "Официальная галерея", "sharkpool": "SharkPool", "dimka-10": "Dimka-10", "turbowarp-cn": "turbowarp-cn", "bluedome77": "BlueDome77", "penguinmod": "PenguinMod", "mistwarp": "MistWarp", "dinosaurmod": "DinosaurMod", "snail-ide": "Snail IDE", "dashblocks": "DashBlocks" };
 
     let EXTENSIONS = [];
     let activeSource = "all";
@@ -617,7 +619,31 @@
     }
 
     function variantsForSource(ext) {
-        return ext.variants.filter(v => activeSource === "all" || v.source === activeSource);
+        if (activeSource === "all" || activeSource === "official" || activeSource === "__multi__") return ext.variants;
+        return ext.variants.filter(v => v.source === activeSource);
+    }
+
+    // источники расширения без официальной галереи
+    function communitySources(ext) {
+        return new Set(ext.variants.filter(v => v.source !== "official").map(v => v.source));
+    }
+
+    // расширение встречается только в этом источнике (среди неофициальных)?
+    function isExclusiveTo(ext, source) {
+        const cs = communitySources(ext);
+        return cs.size === 1 && cs.has(source);
+    }
+
+    function hasMultipleSources(ext) {
+        return communitySources(ext).size > 1 || (ext.variants.some(v => v.source === "official") && communitySources(ext).size >= 1);
+    }
+
+    // попадает ли расширение в выбранную группу-источник
+    function matchesSource(ext) {
+        if (activeSource === "all") return ext.variants.length > 0;
+        if (activeSource === "__multi__") return communitySources(ext).size > 1;
+        if (activeSource === "official") return ext.variants.some(v => v.source === "official");
+        return isExclusiveTo(ext, activeSource);
     }
 
     function buildFilters() {
@@ -637,7 +663,18 @@
 
         // источники
         const srcCounts = {};
-        EXTENSIONS.forEach(e => e.variants.forEach(v => { srcCounts[v.source] = (srcCounts[v.source] || 0) + 1; }));
+        EXTENSIONS.forEach(e => {
+            communitySources(e).forEach(s => { srcCounts[s] = (srcCounts[s] || 0) + 1; });
+        });
+        const exclusiveCounts = {};
+        EXTENSIONS.forEach(e => {
+            communitySources(e).forEach(s => {
+                if (isExclusiveTo(e, s)) exclusiveCounts[s] = (exclusiveCounts[s] || 0) + 1;
+            });
+        });
+        const multiCount = EXTENSIONS.filter(e => communitySources(e).size > 1).length;
+        const officialCount = EXTENSIONS.filter(e => e.variants.some(v => v.source === "official")).length;
+
         srcFiltersEl.innerHTML = "";
         const mkSrc = (id, label, n) => {
             const chip = document.createElement("div");
@@ -646,8 +683,11 @@
             chip.addEventListener("click", () => { activeSource = id; buildFilters(); render(); });
             srcFiltersEl.appendChild(chip);
         };
-        mkSrc("all", "все", EXTENSIONS.reduce((s, e) => s + e.variants.length, 0));
-        SOURCE_ORDER.filter(s => srcCounts[s]).forEach(s => mkSrc(s, s, srcCounts[s]));
+        mkSrc("all", "все", EXTENSIONS.length);
+        mkSrc("official", "✅ официальная", officialCount);
+        SOURCE_ORDER.filter(s => s !== "official" && exclusiveCounts[s]).forEach(s =>
+            mkSrc(s, (SOURCE_EMOJI[s] || "") + " " + (SOURCE_LABELS[s] || s), exclusiveCounts[s]));
+        if (multiCount) mkSrc("__multi__", "🔗 несколько источников", multiCount);
     }
 
     function bestVariant(ext) {
@@ -658,8 +698,7 @@
     function render() {
         const q = searchEl.value.trim().toLowerCase();
         const items = EXTENSIONS.filter(e => {
-            const vs = variantsForSource(e);
-            if (!vs.length) return false;
+            if (!matchesSource(e)) return false;
             if (activeCat !== "all" && !(e.categories || []).includes(activeCat)) return false;
             if (!q) return true;
             return (e.name || "").toLowerCase().includes(q)
@@ -682,10 +721,11 @@
             const icon = best.image
                 ? '<img class="card-icon" loading="lazy" src="' + esc(best.image) + '" alt="" onerror="this.outerHTML=\'<div class=&quot;card-emoji&quot;>🐌</div>\'">'
                 : '<div class="card-emoji">🐌</div>';
-            const multi = vs.length > 1;
+            const commCount = communitySources(e).size;
+            const multi = commCount > 1;
             const badges =
                 (multi
-                    ? '<span class="card-source multi">' + vs.length + ' источника</span>'
+                    ? '<span class="card-source multi">' + commCount + ' источника</span>'
                     : '<span class="card-source">' + esc(best.source_emoji + " " + best.source_label) + '</span>') +
                 (e.all_deprecated ? '<span class="deprecated-badge">устарело</span>' : '');
             const cats = (e.categories || []).map(c =>
@@ -738,7 +778,7 @@
     }
 
     function pickVariant(ext) {
-        const vs = variantsForSource(ext);
+        const vs = ext.variants;
         if (vs.length === 1) {
             return { single: vs[0] };
         }
@@ -786,7 +826,7 @@
         const dl = ev.target.closest("button.dl");
         if (dl) {
             const ext = EXTENSIONS[+dl.dataset.idx];
-            const vs = variantsForSource(ext);
+            const vs = ext.variants;
             if (vs.length <= 1) {
                 if (vs[0]) downloadFrom(dl, vs[0], ext.name);
             } else {
