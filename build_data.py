@@ -12,10 +12,12 @@ SOURCE_LABELS = {
     "turbowarp-cn": "turbowarp-cn",
     "bluedome77": "BlueDome77",
     "penguinmod": "PenguinMod",
+    "mistwarp": "MistWarp",
 }
 SOURCE_EMOJI = {
     "official": "✅", "sharkpool": "🦈", "dimka-10": "🔟",
     "turbowarp-cn": "🀄", "bluedome77": "🩵", "penguinmod": "🐧",
+    "mistwarp": "🌫️",
 }
 
 # ordered: first matches win priority (we collect up to 3)

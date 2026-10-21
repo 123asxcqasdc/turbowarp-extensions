@@ -1,7 +1,7 @@
 {
  "generated_at": "2026-10-18",
- "total_raw": 454,
- "total_merged": 344,
+ "total_raw": 499,
+ "total_merged": 383,
  "categories": [
   "3D и физика",
   "Время и таймеры",
@@ -575,12 +575,12 @@
   {
    "name": "Iframe",
    "description": "Display webpages or HTML over the stage. Created by GarboMuffin.",
-   "author": null,
+   "author": "Mistium",
    "image": "https://extensions.turbowarp.org/images/iframe.svg",
    "categories": [
     "Прочее"
    ],
-   "sources_count": 2,
+   "sources_count": 3,
    "all_deprecated": false,
    "variants": [
     {
@@ -607,6 +607,20 @@
      "description": null,
      "author": null,
      "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Iframe%2B.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Iframe%2B.js",
+     "image": "https://extensions.mistium.com/images/Iframe%2B.png",
+     "description": "Have many iframes at once",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
      "tags": null
@@ -2292,12 +2306,13 @@
   {
    "name": "XML",
    "description": "Create and extract values from XML. Created by mybearworld.",
-   "author": null,
+   "author": "Mistium",
    "image": "https://extensions.turbowarp.org/images/mbw/xml.svg",
    "categories": [
-    "Текст и шрифты"
+    "Текст и шрифты",
+    "Математика и логика"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -2310,6 +2325,20 @@
      "description": "Create and extract values from XML. Created by mybearworld.",
      "author": null,
      "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/xml.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/xml.js",
+     "image": "https://extensions.mistium.com/images/xml.png",
+     "description": "Parse, query, and serialize XML strings.",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
      "tags": null
@@ -3427,7 +3456,7 @@
     "Утилиты",
     "Графика и эффекты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -3447,6 +3476,20 @@
       "Graphics",
       "Category Expansion"
      ]
+    },
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Camera.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Camera.js",
+     "image": "https://extensions.mistium.com/images/Camera.png",
+     "description": "Use the camera :P",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
@@ -6551,13 +6594,13 @@
   },
   {
    "name": "Canvas",
-   "description": null,
+   "description": "Create and manipulate canvases with this extension",
    "author": "lll69",
-   "image": null,
+   "image": "https://extensions.mistium.com/images/Canvas.png",
    "categories": [
     "Графика и эффекты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -6570,6 +6613,20 @@
      "description": null,
      "author": "lll69",
      "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Canvas.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Canvas.js",
+     "image": "https://extensions.mistium.com/images/Canvas.png",
+     "description": "Create and manipulate canvases with this extension",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
      "tags": null
@@ -8527,9 +8584,11 @@
    "author": "LilyMakesThings",
    "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/Async Skins.png",
    "categories": [
-    "Костюмы и скины"
+    "Костюмы и скины",
+    "Графика и эффекты",
+    "Математика и логика"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -8542,6 +8601,20 @@
      "description": "Отрисуйте свои спрайты как другие изображения или костюмы.",
      "author": "LilyMakesThings",
      "author_link": "https://scratch.mit.edu/users/LilyMakesThings/",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Async%20Skins.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Async%20Skins.js",
+     "image": "https://extensions.mistium.com/images/Async%20Skins.png",
+     "description": "Have your sprites render as other images or costumes.",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
      "tags": null
@@ -8911,7 +8984,7 @@
    "categories": [
     "Прочее"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -8924,6 +8997,20 @@
      "description": "Сохраните более 5 МБ данных локально!",
      "author": "silly software",
      "author_link": "https://sillysoftware.lol",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/IndexedDB.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/IndexedDB.js",
+     "image": "https://extensions.mistium.com/images/IndexedDB.png",
+     "description": "Access and write to IndexedDB.",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
      "tags": null
@@ -11175,6 +11262,1070 @@
      "description": "Play tracker modules using Libxmp.",
      "author": "NishiOwO",
      "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Databases",
+   "description": "Databases of tables with SQL queries, saved with your project",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/Databases.png",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Databases.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Databases.js",
+     "image": "https://extensions.mistium.com/images/Databases.png",
+     "description": "Databases of tables with SQL queries, saved with your project",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "DiscordBot",
+   "description": "Make discord bots in turbowarp",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/DiscordBot.png",
+   "categories": [
+    "Сеть и онлайн"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/DiscordBot.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/DiscordBot.js",
+     "image": "https://extensions.mistium.com/images/DiscordBot.png",
+     "description": "Make discord bots in turbowarp",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "EvalPlus",
+   "description": "Evaluate JS better (plus some dom stuff)",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/EvalPlus.png",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/EvalPlus.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/EvalPlus.js",
+     "image": "https://extensions.mistium.com/images/EvalPlus.png",
+     "description": "Evaluate JS better (plus some dom stuff)",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Github",
+   "description": "Access github from scratch",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/Github.png",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Github.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Github.js",
+     "image": "https://extensions.mistium.com/images/Github.png",
+     "description": "Access github from scratch",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "HTMLInputs",
+   "description": "Manage html inut elements on the stage",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/HTMLInputs.png",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/HTMLInputs.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/HTMLInputs.js",
+     "image": "https://extensions.mistium.com/images/HTMLInputs.png",
+     "description": "Manage html inut elements on the stage",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "KeyHistory",
+   "description": "Manage previous keys simply",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/KeyHistory.png",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/KeyHistory.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/KeyHistory.js",
+     "image": "https://extensions.mistium.com/images/KeyHistory.png",
+     "description": "Manage previous keys simply",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "MediaUtils",
+   "description": "Just some uilities for media devices",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/MediaUtils.png",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/MediaUtils.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/MediaUtils.js",
+     "image": "https://extensions.mistium.com/images/MediaUtils.png",
+     "description": "Just some uilities for media devices",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Mist's Utils",
+   "description": "A bunch of compiled stuff",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/Mist%27s%20Utils.png",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Mist%27s%20Utils.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Mist%27s%20Utils.js",
+     "image": "https://extensions.mistium.com/images/Mist%27s%20Utils.png",
+     "description": "A bunch of compiled stuff",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "MistFetch",
+   "description": "my fetch extension for http and stuff cos i needed a better one for originOS",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/MistFetch.png",
+   "categories": [
+    "Сеть и онлайн",
+    "Математика и логика"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/MistFetch.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/MistFetch.js",
+     "image": "https://extensions.mistium.com/images/MistFetch.png",
+     "description": "my fetch extension for http and stuff cos i needed a better one for originOS",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "OASM",
+   "description": "Run the full oasm interpreter except very fast.",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/OASM.png",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/OASM.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/OASM.js",
+     "image": "https://extensions.mistium.com/images/OASM.png",
+     "description": "Run the full oasm interpreter except very fast.",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "OriginChats",
+   "description": "Make bots and clients for OriginChats servers, no JSON needed",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/OriginChats.png",
+   "categories": [
+    "Текст и шрифты"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/OriginChats.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/OriginChats.js",
+     "image": "https://extensions.mistium.com/images/OriginChats.png",
+     "description": "Make bots and clients for OriginChats servers, no JSON needed",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Persistent File System",
+   "description": "Persistent file system using IndexedDB",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/Persistent%20File%20System.png",
+   "categories": [
+    "Файлы и хранилище",
+    "Математика и логика"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Persistent%20File%20System.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Persistent%20File%20System.js",
+     "image": "https://extensions.mistium.com/images/Persistent%20File%20System.png",
+     "description": "Persistent file system using IndexedDB",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Python",
+   "description": "Run python in turbowarp with piodide",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/Python.png",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Python.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Python.js",
+     "image": "https://extensions.mistium.com/images/Python.png",
+     "description": "Run python in turbowarp with piodide",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "RDF",
+   "description": "Type restricted data formatting",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/RDF.png",
+   "categories": [
+    "Математика и логика"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/RDF.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/RDF.js",
+     "image": "https://extensions.mistium.com/images/RDF.png",
+     "description": "Type restricted data formatting",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "roturVoice",
+   "description": "Voice and video calling for turbowarp",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/roturVoice.png",
+   "categories": [
+    "Звук и видео"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/roturVoice.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/roturVoice.js",
+     "image": "https://extensions.mistium.com/images/roturVoice.png",
+     "description": "Voice and video calling for turbowarp",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Shaders",
+   "description": "Run GLSL shaders on your sprites",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/Shaders.png",
+   "categories": [
+    "Графика и эффекты"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Shaders.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Shaders.js",
+     "image": "https://extensions.mistium.com/images/Shaders.png",
+     "description": "Run GLSL shaders on your sprites",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Timing",
+   "description": "Waits with timeouts, named timers and cooldowns",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/Timing.png",
+   "categories": [
+    "Время и таймеры",
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Timing.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Timing.js",
+     "image": "https://extensions.mistium.com/images/Timing.png",
+     "description": "Waits with timeouts, named timers and cooldowns",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Virtual File System",
+   "description": "in memory file system as an ext goes pretty crazy :sunglasses:",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/Virtual%20File%20System.png",
+   "categories": [
+    "Файлы и хранилище"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Virtual%20File%20System.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Virtual%20File%20System.js",
+     "image": "https://extensions.mistium.com/images/Virtual%20File%20System.png",
+     "description": "in memory file system as an ext goes pretty crazy :sunglasses:",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "WebsocketPlus",
+   "description": "Connect and manage multiple websocket connections",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/WebsocketPlus.png",
+   "categories": [
+    "Сеть и онлайн"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/WebsocketPlus.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/WebsocketPlus.js",
+     "image": "https://extensions.mistium.com/images/WebsocketPlus.png",
+     "description": "Connect and manage multiple websocket connections",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Cloudlink4_Improved",
+   "description": "A powerful WebSocket extension for Scratch.",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/Cloudlink4_Improved.png",
+   "categories": [
+    "Сеть и онлайн"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Cloudlink4_Improved.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Cloudlink4_Improved.js",
+     "image": "https://extensions.mistium.com/images/Cloudlink4_Improved.png",
+     "description": "A powerful WebSocket extension for Scratch.",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Compiled Comments",
+   "description": "Add compiler-compatible comments to projects.",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/Compiled%20Comments.png",
+   "categories": [
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Compiled%20Comments.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Compiled%20Comments.js",
+     "image": "https://extensions.mistium.com/images/Compiled%20Comments.png",
+     "description": "Add compiler-compatible comments to projects.",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "ExportSpriteDataURI",
+   "description": "Export sprites as data URI strings.",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/ExportSpriteDataURI.png",
+   "categories": [
+    "Текст и шрифты",
+    "Математика и логика"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/ExportSpriteDataURI.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/ExportSpriteDataURI.js",
+     "image": "https://extensions.mistium.com/images/ExportSpriteDataURI.png",
+     "description": "Export sprites as data URI strings.",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Fast_List_Set",
+   "description": "Set Scratch list contents from JSON arrays.",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/Fast_List_Set.png",
+   "categories": [
+    "Текст и шрифты",
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Fast_List_Set.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Fast_List_Set.js",
+     "image": "https://extensions.mistium.com/images/Fast_List_Set.png",
+     "description": "Set Scratch list contents from JSON arrays.",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Faster Blur Uri",
+   "description": "High-performance WebGL-based stack blur with adaptive downscaling for optimal performance",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/Faster%20Blur%20Uri.png",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Faster%20Blur%20Uri.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Faster%20Blur%20Uri.js",
+     "image": "https://extensions.mistium.com/images/Faster%20Blur%20Uri.png",
+     "description": "High-performance WebGL-based stack blur with adaptive downscaling for optimal performance",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Faster Blur Uri Legacy",
+   "description": "Legacy canvas-based image blur from URLs and data URIs.",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/Faster%20Blur%20Uri%20Legacy.png",
+   "categories": [
+    "Графика и эффекты"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Faster%20Blur%20Uri%20Legacy.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Faster%20Blur%20Uri%20Legacy.js",
+     "image": "https://extensions.mistium.com/images/Faster%20Blur%20Uri%20Legacy.png",
+     "description": "Legacy canvas-based image blur from URLs and data URIs.",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Faster Blur Uri Legacy 2",
+   "description": "A simple extension that just blurs images from urls and data uris as fast as i could make it blur them!!!!",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/Faster%20Blur%20Uri%20Legacy%202.png",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Faster%20Blur%20Uri%20Legacy%202.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Faster%20Blur%20Uri%20Legacy%202.js",
+     "image": "https://extensions.mistium.com/images/Faster%20Blur%20Uri%20Legacy%202.png",
+     "description": "A simple extension that just blurs images from urls and data uris as fast as i could make it blur them!!!!",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "FastObject",
+   "description": "Store and retrieve object key/value data quickly.",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/FastObject.png",
+   "categories": [
+    "Математика и логика"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/FastObject.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/FastObject.js",
+     "image": "https://extensions.mistium.com/images/FastObject.png",
+     "description": "Store and retrieve object key/value data quickly.",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "InputManager",
+   "description": "Store a list of previously pressed keys. Made primarily for use in originOS (https://github.com/Mistium/Origin-OS).",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/InputManager.png",
+   "categories": [
+    "Сеть и онлайн",
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/InputManager.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/InputManager.js",
+     "image": "https://extensions.mistium.com/images/InputManager.png",
+     "description": "Store a list of previously pressed keys. Made primarily for use in originOS (https://github.com/Mistium/Origin-OS).",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "KeyHistory Legacy",
+   "description": "Manage previous keys simply",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/KeyHistory%20Legacy.png",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/KeyHistory%20Legacy.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/KeyHistory%20Legacy.js",
+     "image": "https://extensions.mistium.com/images/KeyHistory%20Legacy.png",
+     "description": "Manage previous keys simply",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "LowLevelSkins",
+   "description": "Low-level skin cloning and blur utilities.",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/LowLevelSkins.png",
+   "categories": [
+    "Костюмы и скины",
+    "Утилиты"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/LowLevelSkins.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/LowLevelSkins.js",
+     "image": "https://extensions.mistium.com/images/LowLevelSkins.png",
+     "description": "Low-level skin cloning and blur utilities.",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Microphone Stream",
+   "description": "Stream microphone analysis and keep a configurable rolling recording buffer.",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/Microphone%20Stream.png",
+   "categories": [
+    "Звук и видео"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Microphone%20Stream.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Microphone%20Stream.js",
+     "image": "https://extensions.mistium.com/images/Microphone%20Stream.png",
+     "description": "Stream microphone analysis and keep a configurable rolling recording buffer.",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "originOSL",
+   "description": "Run OSL code in the originOSL environment through the live embed system",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/originOSL.png",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/originOSL.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/originOSL.js",
+     "image": "https://extensions.mistium.com/images/originOSL.png",
+     "description": "Run OSL code in the originOSL environment through the live embed system",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Random",
+   "description": "Extra random value generator blocks.",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/Random.png",
+   "categories": [
+    "Математика и логика",
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Random.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Random.js",
+     "image": "https://extensions.mistium.com/images/Random.png",
+     "description": "Extra random value generator blocks.",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "roturVoice Advanced",
+   "description": "Advanced voice and video calling for TurboWarp.",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/roturVoice%20Advanced.png",
+   "categories": [
+    "Звук и видео"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/roturVoice%20Advanced.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/roturVoice%20Advanced.js",
+     "image": "https://extensions.mistium.com/images/roturVoice%20Advanced.png",
+     "description": "Advanced voice and video calling for TurboWarp.",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "SoundUtils",
+   "description": "Create channels and generate simple tones.",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/SoundUtils.png",
+   "categories": [
+    "Звук и видео"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/SoundUtils.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/SoundUtils.js",
+     "image": "https://extensions.mistium.com/images/SoundUtils.png",
+     "description": "Create channels and generate simple tones.",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Tables",
+   "description": "Legacy compiled 2d arrays. Use Databases for new projects.",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/Tables.png",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Tables.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Tables.js",
+     "image": "https://extensions.mistium.com/images/Tables.png",
+     "description": "Legacy compiled 2d arrays. Use Databases for new projects.",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "TabUtils",
+   "description": "Detect when the tab key is pressed and allow it to be disabled and enabled.",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/TabUtils.png",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/TabUtils.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/TabUtils.js",
+     "image": "https://extensions.mistium.com/images/TabUtils.png",
+     "description": "Detect when the tab key is pressed and allow it to be disabled and enabled.",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "URI Utilities",
+   "description": "Convert strings and downloaded files to data URIs.",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/URI%20Utilities.png",
+   "categories": [
+    "Файлы и хранилище",
+    "Текст и шрифты",
+    "Математика и логика"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/URI%20Utilities.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/URI%20Utilities.js",
+     "image": "https://extensions.mistium.com/images/URI%20Utilities.png",
+     "description": "Convert strings and downloaded files to data URIs.",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "USB",
+   "description": "Just some blocks for the web usb api",
+   "author": "Mistium",
+   "image": "https://extensions.mistium.com/images/USB.png",
+   "categories": [
+    "Сеть и онлайн",
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/USB.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/USB.js",
+     "image": "https://extensions.mistium.com/images/USB.png",
+     "description": "Just some blocks for the web usb api",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
      "tags": null
