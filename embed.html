@@ -76,10 +76,37 @@
 ></iframe>
 
 <script>
-    document.getElementById("frame").addEventListener("load", () => {
+    const frame = document.getElementById("frame");
+
+    function breakoutAllLinks() {
+        try {
+            const doc = frame.contentDocument;
+            if (!doc || doc.__breakoutInstalled) return;
+            doc.__breakoutInstalled = true;
+            // любая ссылка внутри фрейма открывается в новой вкладке, а не внутри iframe
+            doc.addEventListener("click", (ev) => {
+                const a = ev.target.closest("a[href]");
+                if (!a) return;
+                const href = a.getAttribute("href");
+                if (!href || href.startsWith("javascript:") || href.startsWith("#")) return;
+                ev.preventDefault();
+                ev.stopPropagation();
+                window.open(a.href, "_blank", "noopener");
+            }, true);
+            // страховка: если фрейм всё же навигировался — вернуть каталог
+            doc.addEventListener("submit", (ev) => ev.preventDefault(), true);
+        } catch (e) {
+            // cross-origin — перехват невозможен
+        }
+    }
+
+    frame.addEventListener("load", () => {
+        breakoutAllLinks();
         const splash = document.getElementById("splash");
-        splash.classList.add("hide");
-        setTimeout(() => splash.remove(), 500);
+        if (splash) {
+            splash.classList.add("hide");
+            setTimeout(() => splash.remove(), 500);
+        }
     });
 </script>
 
