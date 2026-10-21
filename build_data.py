@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Merge duplicate extensions and assign categories for the site."""
-import json, re
+import json, re, os
 from collections import Counter
 
 DATA = json.load(open('/home/ulitos/turbowarp_extensions.json'))
@@ -61,6 +61,20 @@ def norm_key(name):
     k = re.sub(r'[^a-z0-9а-яё]+', '', (name or '').lower())
     return k
 
+IDS = {}
+_ids_path = '/home/ulitos/extension_ids.json'
+if os.path.exists(_ids_path):
+    IDS = json.load(open(_ids_path))
+
+_id_cache = {}
+def ext_id(e):
+    """Registered extension id parsed from the .js code, or None."""
+    url = e.get('url')
+    if url not in _id_cache:
+        raw = IDS.get(url)
+        _id_cache[url] = re.sub(r'[^a-z0-9]+', '', raw.lower()) if raw else None
+    return _id_cache[url]
+
 def categorize(ext, variants):
     text = ' '.join(filter(None, [ext.get('name'), ext.get('description')] + [v.get('description') or '' for v in variants]))
     cats = []
@@ -80,10 +94,12 @@ def categorize(ext, variants):
 
 merged = {}
 order = []
+by_id = {}
 for e in DATA['extensions']:
     key = norm_key(e['name'])
     if not key:
         continue
+    eid = ext_id(e)
     variant = {
         "source": e['source'],
         "source_label": SOURCE_LABELS.get(e['source'], e['source']),
@@ -97,13 +113,22 @@ for e in DATA['extensions']:
         "documentation": e.get('documentation'),
         "deprecated": bool(e.get('deprecated')),
         "tags": e.get('tags'),
+        "ext_id": eid,
     }
-    if key not in merged:
+    # merge by registered id first, else fall back to normalized name
+    existing = by_id.get(eid) if eid else None
+    if existing is None:
+        existing = merged.get(key)
+    if existing is None:
         merged[key] = {"name": e['name'], "variants": [variant]}
         order.append(key)
+        if eid:
+            by_id[eid] = merged[key]
     else:
-        merged[key]["variants"].append(variant)
-        cur = merged[key]
+        existing["variants"].append(variant)
+        if eid:
+            by_id[eid] = existing
+        cur = existing
         if not cur.get('description') and e.get('description'):
             cur['description'] = e['description']
         # prefer non-deprecated, richer name

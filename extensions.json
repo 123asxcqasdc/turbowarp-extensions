@@ -1,7 +1,7 @@
 {
  "generated_at": "2026-10-18",
  "total_raw": 655,
- "total_merged": 414,
+ "total_merged": 402,
  "categories": [
   "3D и физика",
   "Время и таймеры",
@@ -43,7 +43,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "text"
     },
     {
      "source": "snail-ide",
@@ -57,7 +58,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "text"
     }
    ]
   },
@@ -85,7 +87,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "facesensing"
     }
    ]
   },
@@ -112,7 +115,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "videosprites"
     }
    ]
   },
@@ -139,7 +143,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "stretch"
     },
     {
      "source": "snail-ide",
@@ -153,19 +158,20 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "stretch"
     }
    ]
   },
   {
    "name": "Gamepad",
    "description": "Directly access gamepads instead of just mapping buttons to keys. Created by GarboMuffin.",
-   "author": null,
+   "author": "DNin01, Meehdrescher",
    "image": "https://extensions.turbowarp.org/images/gamepad.svg",
    "categories": [
     "Устройство и датчики"
    ],
-   "sources_count": 2,
+   "sources_count": 4,
    "all_deprecated": false,
    "variants": [
     {
@@ -180,7 +186,41 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "gamepad"
+    },
+    {
+     "source": "sharkpool",
+     "source_label": "SharkPool",
+     "source_emoji": "🦈",
+     "url": "https://sharkpool-sp.github.io/SharkPools-Extensions/extension-code/Gamepad-Expanded.js",
+     "open": "https://turbowarp.org/editor?extension=https://sharkpool-sp.github.io/SharkPools-Extensions/extension-code/Gamepad-Expanded.js",
+     "image": "https://sharkpool-sp.github.io/SharkPools-Extensions/extension-thumbs/Gamepad-Expanded.svg",
+     "description": "Expansion of Garbomuffin's Gamepad Extension",
+     "author": "DNin01, Meehdrescher",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": [
+      "Hardware",
+      "Dangerous"
+     ],
+     "ext_id": "gamepad"
+    },
+    {
+     "source": "dimka-10",
+     "source_label": "Dimka-10",
+     "source_emoji": "🔟",
+     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/Gamepad-Expanded.js",
+     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/Gamepad-Expanded.js",
+     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/Gamepad-Expanded.svg",
+     "description": "Новое дополнение, о подробностях сообщат позже.",
+     "author": "SharkPool",
+     "author_link": "https://github.com/SharkPool-SP",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "gamepad"
     },
     {
      "source": "snail-ide",
@@ -194,7 +234,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "gamepad"
     }
    ]
   },
@@ -221,7 +262,8 @@
      "author_link": null,
      "documentation": "https://extensions.turbowarp.org/box2d",
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "griffpatch"
     },
     {
      "source": "snail-ide",
@@ -235,7 +277,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "griffpatch"
     }
    ]
   },
@@ -262,7 +305,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "files"
     },
     {
      "source": "turbowarp-cn",
@@ -276,7 +320,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "files"
     },
     {
      "source": "snail-ide",
@@ -290,7 +335,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "files"
     }
    ]
   },
@@ -319,7 +365,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "pointerlock"
     },
     {
      "source": "snail-ide",
@@ -333,7 +380,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "pointerlock"
     }
    ]
   },
@@ -362,7 +410,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mousecursor"
     },
     {
      "source": "snail-ide",
@@ -376,7 +425,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mousecursor"
     }
    ]
   },
@@ -404,7 +454,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "runtimeoptions"
     },
     {
      "source": "snail-ide",
@@ -418,7 +469,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "runtimeoptions"
     }
    ]
   },
@@ -445,7 +497,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "fetch"
     },
     {
      "source": "dimka-10",
@@ -459,7 +512,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "0znzwfetch"
     },
     {
      "source": "snail-ide",
@@ -473,7 +527,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "fetch"
     }
    ]
   },
@@ -500,7 +555,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "strings"
     },
     {
      "source": "snail-ide",
@@ -514,7 +570,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "strings"
     }
    ]
   },
@@ -541,7 +598,8 @@
      "author_link": null,
      "documentation": "https://extensions.turbowarp.org/local-storage",
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "localstorage"
     },
     {
      "source": "snail-ide",
@@ -555,7 +613,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "localstorage"
     }
    ]
   },
@@ -582,7 +641,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "truefantombase"
     },
     {
      "source": "snail-ide",
@@ -596,7 +656,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "truefantombase"
     }
    ]
   },
@@ -624,7 +685,8 @@
      "author_link": null,
      "documentation": "https://extensions.turbowarp.org/bitwise",
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "bitwise"
     },
     {
      "source": "snail-ide",
@@ -638,7 +700,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "bitwise"
     }
    ]
   },
@@ -666,7 +729,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "skyhigh173bigint"
     },
     {
      "source": "snail-ide",
@@ -680,7 +744,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "skyhigh173bigint"
     }
    ]
   },
@@ -708,7 +773,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "utilities"
     },
     {
      "source": "bluedome77",
@@ -722,7 +788,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "utilitiescodegio"
     },
     {
      "source": "dimka-10",
@@ -736,7 +803,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sgcutils"
     },
     {
      "source": "snail-ide",
@@ -750,7 +818,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "utilities"
     }
    ]
   },
@@ -778,7 +847,8 @@
      "author_link": null,
      "documentation": "https://extensions.turbowarp.org/Lily/Video",
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmsvideo"
     },
     {
      "source": "snail-ide",
@@ -792,7 +862,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmsvideo"
     }
    ]
   },
@@ -819,7 +890,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "iframe"
     },
     {
      "source": "turbowarp-cn",
@@ -833,7 +905,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "jgiframe"
     },
     {
      "source": "mistwarp",
@@ -847,7 +920,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "iframeplus"
     },
     {
      "source": "snail-ide",
@@ -861,7 +935,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "iframe"
     },
     {
      "source": "dashblocks",
@@ -875,7 +950,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "iframeplus"
     }
    ]
   },
@@ -902,7 +978,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "claytonhtmlencode"
     }
    ]
   },
@@ -929,7 +1006,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "xeltallivclipblend"
     },
     {
      "source": "snail-ide",
@@ -943,7 +1021,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "xeltallivclipblend"
     }
    ]
   },
@@ -972,7 +1051,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "clipboard"
     },
     {
      "source": "dimka-10",
@@ -986,7 +1066,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "clipboard"
     },
     {
      "source": "snail-ide",
@@ -1000,19 +1081,22 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "clipboard"
     }
    ]
   },
   {
    "name": "Pen Plus V7",
    "description": "Advanced rendering capabilities. Created by ObviousAlexC and Pen-Group.",
-   "author": null,
+   "author": "pinksheep2917",
    "image": "https://extensions.turbowarp.org/images/obviousAlexC/penPlus.svg",
    "categories": [
-    "Графика и эффекты"
+    "Графика и эффекты",
+    "Математика и логика",
+    "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1027,7 +1111,23 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "penp"
+    },
+    {
+     "source": "penguinmod",
+     "source_label": "PenguinMod",
+     "source_emoji": "🐧",
+     "url": "https://extensions.penguinmod.com/extensions/ObviousAlexC/PenPlus.js",
+     "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/ObviousAlexC/PenPlus.js",
+     "image": "https://extensions.penguinmod.com/images/ObviousAlexC/PenPlus.svg",
+     "description": "Extended pen section! Adds blocks for drawing triangles using textures and tints, drawing images and editing their pixels, etc.",
+     "author": "pinksheep2917",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "penp"
     }
    ]
   },
@@ -1039,7 +1139,7 @@
    "categories": [
     "Графика и эффекты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1054,7 +1154,23 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "betterpen"
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/penplus.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/penplus.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/penplus.svg",
+     "description": "Advanced rendering capabilities. Created by ObviousAlexC.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "betterpen"
     }
    ]
   },
@@ -1081,7 +1197,8 @@
      "author_link": null,
      "documentation": "https://extensions.turbowarp.org/Xeltalliv/simple3D",
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     },
     {
      "source": "dimka-10",
@@ -1095,7 +1212,8 @@
      "author_link": "https://scratch.mit.edu/users/Vadik1/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -1124,7 +1242,8 @@
      "author_link": null,
      "documentation": "https://extensions.turbowarp.org/Lily/Skins",
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmsskins"
     },
     {
      "source": "snail-ide",
@@ -1138,7 +1257,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmsskins"
     }
    ]
   },
@@ -1165,7 +1285,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "obviousalexsensing"
     },
     {
      "source": "snail-ide",
@@ -1179,7 +1300,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "obviousalexsensing"
     }
    ]
   },
@@ -1206,7 +1328,8 @@
      "author_link": null,
      "documentation": "https://extensions.turbowarp.org/CubesterYT/KeySimulation",
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "cubesterkeysimulation"
     }
    ]
   },
@@ -1234,7 +1357,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmsclonesplus"
     },
     {
      "source": "snail-ide",
@@ -1248,7 +1372,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmsclonesplus"
     }
    ]
   },
@@ -1277,7 +1402,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmslooksplus"
     },
     {
      "source": "snail-ide",
@@ -1291,7 +1417,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmslooksplus"
     }
    ]
   },
@@ -1319,7 +1446,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmsmoreevents"
     },
     {
      "source": "snail-ide",
@@ -1333,19 +1461,21 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmsmoreevents"
     }
    ]
   },
   {
    "name": "Messages+",
    "description": "Powerful new message blocks that work with vanilla broadcasts. Created by SharkPool.",
-   "author": null,
+   "author": "SharkPool",
    "image": "https://extensions.turbowarp.org/images/SharkPool/Messages-Plus.svg",
    "categories": [
-    "Скрипты и данные"
+    "Скрипты и данные",
+    "Утилиты"
    ],
-   "sources_count": 1,
+   "sources_count": 3,
    "all_deprecated": false,
    "variants": [
     {
@@ -1360,7 +1490,43 @@
      "author_link": null,
      "documentation": "https://extensions.turbowarp.org/SharkPool/Messages-Plus",
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spmessageplus"
+    },
+    {
+     "source": "sharkpool",
+     "source_label": "SharkPool",
+     "source_emoji": "🦈",
+     "url": "https://sharkpool-sp.github.io/SharkPools-Extensions/extension-code/Messages-Plus.js",
+     "open": "https://turbowarp.org/editor?extension=https://sharkpool-sp.github.io/SharkPools-Extensions/extension-code/Messages-Plus.js",
+     "image": "https://sharkpool-sp.github.io/SharkPools-Extensions/extension-thumbs/Messages-Plus.svg",
+     "description": "Powerful Message Blocks that work with Vanilla Broadcasts",
+     "author": "SharkPool",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": [
+      "Utility",
+      "Data Management",
+      "Category Expansion",
+      "Runtime"
+     ],
+     "ext_id": "spmessageplus"
+    },
+    {
+     "source": "dimka-10",
+     "source_label": "Dimka-10",
+     "source_emoji": "🔟",
+     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/Messages-Plus.js",
+     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/Messages-Plus.js",
+     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/Messages-Plus.svg",
+     "description": "Новое дополнение, о подробностях сообщат позже.",
+     "author": "SharkPool",
+     "author_link": "https://github.com/SharkPool-SP",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "spmessageplus"
     }
    ]
   },
@@ -1388,7 +1554,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmsdata"
     }
    ]
   },
@@ -1415,7 +1582,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mobilekeyboard0419"
     }
    ]
   },
@@ -1442,7 +1610,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "nkmoremotion"
     },
     {
      "source": "snail-ide",
@@ -1456,7 +1625,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "nkmoremotion"
     }
    ]
   },
@@ -1484,7 +1654,8 @@
      "author_link": null,
      "documentation": "https://extensions.turbowarp.org/CubesterYT/WindowControls",
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "editorconfirmation"
     },
     {
      "source": "snail-ide",
@@ -1498,7 +1669,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "cubesterwindowcontrols"
     }
    ]
   },
@@ -1525,7 +1697,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "fullscreen0419"
     },
     {
      "source": "snail-ide",
@@ -1539,7 +1712,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "fullscreen0419"
     }
    ]
   },
@@ -1566,7 +1740,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "shreder95resolution"
     },
     {
      "source": "snail-ide",
@@ -1580,7 +1755,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "shreder95resolution"
     }
    ]
   },
@@ -1608,7 +1784,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "xmerclosecontrol"
     }
    ]
   },
@@ -1635,7 +1812,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "navigatorinfo"
     },
     {
      "source": "snail-ide",
@@ -1649,7 +1827,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "navigatorinfo"
     }
    ]
   },
@@ -1677,7 +1856,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "battery"
     },
     {
      "source": "snail-ide",
@@ -1691,7 +1871,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "battery"
     }
    ]
   },
@@ -1719,7 +1900,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "pwldevvibration"
     }
    ]
   },
@@ -1748,7 +1930,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "shovelcss"
     },
     {
      "source": "snail-ide",
@@ -1762,7 +1945,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "shovelcss"
     }
    ]
   },
@@ -1790,7 +1974,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "shovelcolorpicker"
     },
     {
      "source": "snail-ide",
@@ -1804,7 +1989,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "shovelcolorpicker"
     }
    ]
   },
@@ -1831,7 +2017,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "nkcontrols"
     },
     {
      "source": "snail-ide",
@@ -1845,7 +2032,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "nkcontrols"
     }
    ]
   },
@@ -1872,7 +2060,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mdwaltersnotifications"
     },
     {
      "source": "snail-ide",
@@ -1886,7 +2075,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mdwaltersnotifications"
     }
    ]
   },
@@ -1914,7 +2104,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "dtbyxeroname"
     },
     {
      "source": "snail-ide",
@@ -1928,7 +2119,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "dtbyxeroname"
     }
    ]
   },
@@ -1956,7 +2148,8 @@
      "author_link": null,
      "documentation": "https://extensions.turbowarp.org/ar",
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "ar"
     },
     {
      "source": "snail-ide",
@@ -1970,7 +2163,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "ar"
     }
    ]
   },
@@ -1998,7 +2192,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "encoding"
     },
     {
      "source": "snail-ide",
@@ -2012,7 +2207,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "encoding"
     }
    ]
   },
@@ -2041,7 +2237,8 @@
      "author_link": null,
      "documentation": "https://extensions.turbowarp.org/SharkPool/Tune-Shark-V3",
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sptuneshark3"
     },
     {
      "source": "sharkpool",
@@ -2059,7 +2256,8 @@
       "Utility",
       "Sound",
       "Category Expansion"
-     ]
+     ],
+     "ext_id": "sptuneshark3"
     },
     {
      "source": "dimka-10",
@@ -2073,7 +2271,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sptuneshark3"
     }
    ]
   },
@@ -2102,7 +2301,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmssoundexpanded"
     },
     {
      "source": "snail-ide",
@@ -2116,7 +2316,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmssoundexpanded"
     }
    ]
   },
@@ -2144,7 +2345,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmstempvars2"
     },
     {
      "source": "sharkpool",
@@ -2161,7 +2363,8 @@
      "tags": [
       "Utility",
       "Data Management"
-     ]
+     ],
+     "ext_id": "sptempvars"
     },
     {
      "source": "dimka-10",
@@ -2175,7 +2378,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sptempvars"
     },
     {
      "source": "snail-ide",
@@ -2189,7 +2393,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmstempvars2"
     }
    ]
   },
@@ -2218,7 +2423,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmstimers"
     },
     {
      "source": "snail-ide",
@@ -2232,7 +2438,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmstimers"
     }
    ]
   },
@@ -2261,7 +2468,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "clouddataping"
     },
     {
      "source": "snail-ide",
@@ -2275,7 +2483,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "clouddataping"
     }
    ]
   },
@@ -2302,7 +2511,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "localhost"
     }
    ]
   },
@@ -2330,7 +2540,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "truefantomnetwork"
     },
     {
      "source": "snail-ide",
@@ -2344,7 +2555,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "truefantomnetwork"
     }
    ]
   },
@@ -2372,7 +2584,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "truefantommath"
     },
     {
      "source": "snail-ide",
@@ -2386,7 +2599,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "truefantommath"
     }
    ]
   },
@@ -2414,7 +2628,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "truefantomregexp"
     },
     {
      "source": "snail-ide",
@@ -2428,7 +2643,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "truefantomregexp"
     }
    ]
   },
@@ -2455,7 +2671,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "truefantomcouplers"
     },
     {
      "source": "snail-ide",
@@ -2469,7 +2686,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "truefantomcouplers"
     }
    ]
   },
@@ -2498,7 +2716,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "samuelloufgeolocation"
     },
     {
      "source": "sharkpool",
@@ -2518,7 +2737,8 @@
       "Online",
       "Math",
       "Dangerous"
-     ]
+     ],
+     "ext_id": "spgeolocation"
     },
     {
      "source": "dimka-10",
@@ -2532,7 +2752,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spgeolocation"
     }
    ]
   },
@@ -2559,7 +2780,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "dogeiscutformatnumbers"
     }
    ]
   },
@@ -2588,7 +2810,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmsallmenus"
     },
     {
      "source": "penguinmod",
@@ -2602,7 +2825,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmsallmenus"
     },
     {
      "source": "snail-ide",
@@ -2616,7 +2840,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmsallmenus"
     }
    ]
   },
@@ -2644,7 +2869,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmshackedblocks"
     },
     {
      "source": "snail-ide",
@@ -2658,7 +2884,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmshackedblocks"
     }
    ]
   },
@@ -2686,7 +2913,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmscast"
     },
     {
      "source": "snail-ide",
@@ -2700,7 +2928,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmscast"
     }
    ]
   },
@@ -2729,7 +2958,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sipctime"
     },
     {
      "source": "snail-ide",
@@ -2743,7 +2973,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sipctime"
     }
    ]
   },
@@ -2771,7 +3002,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sipcconsole"
     },
     {
      "source": "snail-ide",
@@ -2785,7 +3017,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sipcconsole"
     }
    ]
   },
@@ -2812,7 +3045,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "zxmushroom63searchparams"
     },
     {
      "source": "snail-ide",
@@ -2826,7 +3060,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "zxmushroom63searchparams"
     }
    ]
   },
@@ -2854,7 +3089,8 @@
      "author_link": null,
      "documentation": "https://extensions.turbowarp.org/TheShovel/ShovelUtils",
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "shovelutils"
     },
     {
      "source": "turbowarp-cn",
@@ -2868,7 +3104,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "shovelutils"
     },
     {
      "source": "snail-ide",
@@ -2882,7 +3119,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "shovelutils"
     }
    ]
   },
@@ -2910,7 +3148,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmsassets"
     }
    ]
   },
@@ -2939,7 +3178,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "addedinputadded"
     },
     {
      "source": "sharkpool",
@@ -2958,7 +3198,8 @@
       "Graphics",
       "Data Management",
       "Configuration"
-     ]
+     ],
+     "ext_id": "addedfieldadded"
     },
     {
      "source": "dimka-10",
@@ -2972,7 +3213,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "addedfieldadded"
     }
    ]
   },
@@ -3000,7 +3242,8 @@
      "author_link": null,
      "documentation": "https://extensions.turbowarp.org/DNin/wake-lock",
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "dninwakelock"
     },
     {
      "source": "snail-ide",
@@ -3014,7 +3257,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "dninwakelock"
     }
    ]
   },
@@ -3042,7 +3286,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "skyhigh173json"
     },
     {
      "source": "turbowarp-cn",
@@ -3056,7 +3301,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "skyhigh173json"
     },
     {
      "source": "snail-ide",
@@ -3070,7 +3316,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "skyhigh173json"
     }
    ]
   },
@@ -3098,7 +3345,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mbwxml"
     },
     {
      "source": "mistwarp",
@@ -3112,7 +3360,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "simplexml"
     }
    ]
   },
@@ -3141,20 +3390,22 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "numericalencoding2"
     }
    ]
   },
   {
    "name": "Numerical Encoding V1",
    "description": "Use V2 instead as it is more efficient. V1 only exists for compatibility reasons. Created by cs2627883.",
-   "author": null,
+   "author": "cs2627883",
    "image": "https://extensions.turbowarp.org/images/unknown.svg",
    "categories": [
+    "Сеть и онлайн",
     "Текст и шрифты",
     "Математика и логика"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -3169,19 +3420,37 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "cs2627883numericalencoding"
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/cs2627883/numericalencoding.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/cs2627883/numericalencoding.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/cs2627883/numericalencoding.svg",
+     "description": "Encode strings as numbers for cloud variables. Created by cs2627883.",
+     "author": "cs2627883",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "cs2627883numericalencoding"
     }
    ]
   },
   {
    "name": "Camera V2",
    "description": "Move the visible part of the stage. Created by SharkPool.",
-   "author": null,
+   "author": "SharkPool",
    "image": "https://extensions.turbowarp.org/images/SharkPool/Camera.svg",
    "categories": [
-    "Устройство и датчики"
+    "Устройство и датчики",
+    "Утилиты",
+    "Графика и эффекты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -3196,19 +3465,39 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spcamera"
+    },
+    {
+     "source": "sharkpool",
+     "source_label": "SharkPool",
+     "source_emoji": "🦈",
+     "url": "https://sharkpool-sp.github.io/SharkPools-Extensions/extension-code/Camera.js",
+     "open": "https://turbowarp.org/editor?extension=https://sharkpool-sp.github.io/SharkPools-Extensions/extension-code/Camera.js",
+     "image": "https://sharkpool-sp.github.io/SharkPools-Extensions/extension-thumbs/Camera.svg",
+     "description": "Use Cameras to move the visible part of the Stage",
+     "author": "SharkPool",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": [
+      "Utility",
+      "Graphics",
+      "Category Expansion"
+     ],
+     "ext_id": "spcamera"
     }
    ]
   },
   {
    "name": "Camera V1 (Buggy)",
    "description": "Move the visible part of the stage. Created by DT.",
-   "author": null,
+   "author": "DT",
    "image": "https://extensions.turbowarp.org/images/DT/cameracontrols.svg",
    "categories": [
     "Устройство и датчики"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -3223,7 +3512,23 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "dtcameracontrols"
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/DT/cameracontrols.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/DT/cameracontrols.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/DT/cameracontrols.svg",
+     "description": "Move the visible part of the stage. Created by DT.",
+     "author": "DT",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "dtcameracontrols"
     }
    ]
   },
@@ -3251,7 +3556,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "theshovelcanvaseffects"
     },
     {
      "source": "snail-ide",
@@ -3265,7 +3571,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "theshovelcanvaseffects"
     }
    ]
   },
@@ -3292,7 +3599,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lbdrawtest"
     },
     {
      "source": "snail-ide",
@@ -3306,7 +3614,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lbdrawtest"
     }
    ]
   },
@@ -3333,7 +3642,8 @@
      "author_link": null,
      "documentation": "https://extensions.turbowarp.org/CST1229/zip",
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "cst1229zip"
     },
     {
      "source": "turbowarp-cn",
@@ -3347,7 +3657,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "cst1229zip"
     },
     {
      "source": "snail-ide",
@@ -3361,7 +3672,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "cst1229zip"
     }
    ]
   },
@@ -3388,7 +3700,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "images"
     },
     {
      "source": "bluedome77",
@@ -3402,7 +3715,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "images"
     }
    ]
   },
@@ -3431,7 +3745,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "shovellzcompress"
     },
     {
      "source": "snail-ide",
@@ -3445,7 +3760,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "shovellzcompress"
     }
    ]
   },
@@ -3473,7 +3789,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sync"
     },
     {
      "source": "turbowarp-cn",
@@ -3487,7 +3804,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "clean"
     },
     {
      "source": "turbowarp-cn",
@@ -3501,7 +3819,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "webin"
     },
     {
      "source": "snail-ide",
@@ -3515,7 +3834,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "folderdefault"
     }
    ]
   },
@@ -3542,7 +3862,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "nexuskittensgrab"
     },
     {
      "source": "snail-ide",
@@ -3556,7 +3877,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "nexuskittensgrab"
     }
    ]
   },
@@ -3584,7 +3906,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "pi"
     },
     {
      "source": "snail-ide",
@@ -3598,7 +3921,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "pi"
     }
    ]
   },
@@ -3626,7 +3950,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "nonameawacomparisons"
     },
     {
      "source": "snail-ide",
@@ -3640,7 +3965,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "nonameawacomparisons"
     }
    ]
   },
@@ -3667,7 +3993,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "jeremygamertweening"
     },
     {
      "source": "snail-ide",
@@ -3681,7 +4008,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "jeremygamertweening"
     }
    ]
   },
@@ -3709,7 +4037,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "rixxyx"
     },
     {
      "source": "snail-ide",
@@ -3723,7 +4052,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "rixxyx"
     }
    ]
   },
@@ -3750,7 +4080,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmsutilsblocks"
     },
     {
      "source": "snail-ide",
@@ -3764,7 +4095,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmsutilsblocks"
     }
    ]
   },
@@ -3792,7 +4124,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "qxsckdataanalysis"
     },
     {
      "source": "snail-ide",
@@ -3806,7 +4139,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "qxsckdataanalysis"
     }
    ]
   },
@@ -3833,7 +4167,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "qxsckvarandlist"
     },
     {
      "source": "snail-ide",
@@ -3847,7 +4182,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "qxsckvarandlist"
     }
    ]
   },
@@ -3874,7 +4210,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "verctedictionaries"
     },
     {
      "source": "snail-ide",
@@ -3888,7 +4225,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "verctedictionaries"
     }
    ]
   },
@@ -3915,7 +4253,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     },
     {
      "source": "snail-ide",
@@ -3929,7 +4268,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -3956,7 +4296,8 @@
      "author_link": null,
      "documentation": "https://extensions.turbowarp.org/godslayerakp/ws",
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "gsawebsocket"
     }
    ]
   },
@@ -3983,7 +4324,8 @@
      "author_link": null,
      "documentation": "https://extensions.turbowarp.org/CubesterYT/Webhooks",
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "cubesterwebhooks"
     }
    ]
   },
@@ -4011,7 +4353,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmscomments"
     },
     {
      "source": "snail-ide",
@@ -4025,7 +4368,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmscomments"
     }
    ]
   },
@@ -4053,7 +4397,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "longvegdictionary"
     },
     {
      "source": "snail-ide",
@@ -4067,7 +4412,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "longvegdictionary"
     }
    ]
   },
@@ -4094,7 +4440,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "alestorenfc"
     },
     {
      "source": "snail-ide",
@@ -4108,7 +4455,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "alestorenfc"
     }
    ]
   },
@@ -4136,7 +4484,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "nishiowodectalk"
     }
    ]
   },
@@ -4163,7 +4512,8 @@
      "author_link": null,
      "documentation": "https://extensions.turbowarp.org/steamworks",
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "steamworks"
     }
    ]
   },
@@ -4191,7 +4541,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "itchioerrors"
     },
     {
      "source": "snail-ide",
@@ -4205,7 +4556,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "itch"
     }
    ]
   },
@@ -4233,7 +4585,8 @@
      "author_link": null,
      "documentation": "https://extensions.turbowarp.org/gamejolt",
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "gamejoltapi"
     },
     {
      "source": "snail-ide",
@@ -4247,7 +4600,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "gamejoltapi"
     }
    ]
   },
@@ -4276,7 +4630,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "ngio"
     },
     {
      "source": "snail-ide",
@@ -4290,7 +4645,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "ngio"
     }
    ]
   },
@@ -4317,7 +4673,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmsmcutils"
     },
     {
      "source": "snail-ide",
@@ -4331,7 +4688,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmsmcutils"
     }
    ]
   },
@@ -4364,7 +4722,8 @@
       "Utility",
       "Dangerous",
       "Math"
-     ]
+     ],
+     "ext_id": "sharkpoolsharktilities"
     },
     {
      "source": "dimka-10",
@@ -4378,7 +4737,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sharkpoolsharktilities"
     }
    ]
   },
@@ -4411,7 +4771,8 @@
       "Utility",
       "Sound",
       "Online"
-     ]
+     ],
+     "ext_id": "spyoutubeoperations"
     },
     {
      "source": "dimka-10",
@@ -4425,7 +4786,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spyoutubeoperations"
     }
    ]
   },
@@ -4454,7 +4816,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spscratchutilities"
     },
     {
      "source": "sharkpool",
@@ -4474,7 +4837,8 @@
       "Data Management",
       "Online",
       "Dangerous"
-     ]
+     ],
+     "ext_id": "spscratchutilities"
     }
    ]
   },
@@ -4503,7 +4867,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sptuneshark"
     },
     {
      "source": "sharkpool",
@@ -4521,54 +4886,8 @@
       "Utility",
       "Sound",
       "Category Expansion"
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Camera",
-   "description": "Use Cameras to move the visible part of the Stage",
-   "author": "SharkPool",
-   "image": "https://sharkpool-sp.github.io/SharkPools-Extensions/extension-thumbs/Camera.svg",
-   "categories": [
-    "Устройство и датчики",
-    "Утилиты",
-    "Графика и эффекты"
-   ],
-   "sources_count": 2,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "sharkpool",
-     "source_label": "SharkPool",
-     "source_emoji": "🦈",
-     "url": "https://sharkpool-sp.github.io/SharkPools-Extensions/extension-code/Camera.js",
-     "open": "https://turbowarp.org/editor?extension=https://sharkpool-sp.github.io/SharkPools-Extensions/extension-code/Camera.js",
-     "image": "https://sharkpool-sp.github.io/SharkPools-Extensions/extension-thumbs/Camera.svg",
-     "description": "Use Cameras to move the visible part of the Stage",
-     "author": "SharkPool",
-     "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": [
-      "Utility",
-      "Graphics",
-      "Category Expansion"
-     ]
-    },
-    {
-     "source": "mistwarp",
-     "source_label": "MistWarp",
-     "source_emoji": "🌫️",
-     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Camera.js",
-     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Camera.js",
-     "image": "https://extensions.mistium.com/images/Camera.png",
-     "description": "Use the camera :P",
-     "author": "Mistium",
-     "author_link": "https://github.com/Mistium",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null
+     ],
+     "ext_id": "sptuneshark"
     }
    ]
   },
@@ -4599,7 +4918,8 @@
      "tags": [
       "Utility",
       "Category Expansion"
-     ]
+     ],
+     "ext_id": "spaddedmotion"
     },
     {
      "source": "dimka-10",
@@ -4613,7 +4933,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spaddedmotion"
     }
    ]
   },
@@ -4642,7 +4963,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "gdapisp"
     },
     {
      "source": "sharkpool",
@@ -4661,7 +4983,8 @@
       "Graphics",
       "Data Management",
       "Online"
-     ]
+     ],
+     "ext_id": "gdapisp"
     }
    ]
   },
@@ -4692,7 +5015,8 @@
      "tags": [
       "Sound",
       "Hardware"
-     ]
+     ],
+     "ext_id": "spsoundwaves"
     },
     {
      "source": "dimka-10",
@@ -4706,7 +5030,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spsoundwaves"
     }
    ]
   },
@@ -4739,7 +5064,8 @@
       "Utility",
       "Data Management",
       "Category Expansion"
-     ]
+     ],
+     "ext_id": "hypersense2sp"
     },
     {
      "source": "dimka-10",
@@ -4753,7 +5079,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "hypersensesp"
     }
    ]
   },
@@ -4786,7 +5113,8 @@
       "Utility",
       "Data Management",
       "Hardware"
-     ]
+     ],
+     "ext_id": "enderkeysplusv2"
     },
     {
      "source": "dimka-10",
@@ -4800,7 +5128,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -4831,7 +5160,8 @@
      "tags": [
       "Configuration",
       "Graphics"
-     ]
+     ],
+     "ext_id": "sppopups"
     },
     {
      "source": "dimka-10",
@@ -4845,7 +5175,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sppopups"
     }
    ]
   },
@@ -4874,7 +5205,8 @@
      "author_link": "https://github.com/SharkPool-SP/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "betterinputsp"
     },
     {
      "source": "sharkpool",
@@ -4891,7 +5223,8 @@
      "tags": [
       "Configuration",
       "Graphics"
-     ]
+     ],
+     "ext_id": "betterinputsp"
     },
     {
      "source": "dimka-10",
@@ -4905,7 +5238,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "betterinputsp"
     }
    ]
   },
@@ -4939,7 +5273,8 @@
       "Graphics",
       "Hardware",
       "Category Expansion"
-     ]
+     ],
+     "ext_id": "camerasensingplussp"
     },
     {
      "source": "dimka-10",
@@ -4953,7 +5288,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "camerasensingplussp"
     }
    ]
   },
@@ -4986,7 +5322,8 @@
       "Utility",
       "Graphics",
       "Data Management"
-     ]
+     ],
+     "ext_id": "sppartengine"
     },
     {
      "source": "dimka-10",
@@ -5000,7 +5337,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sppartengine"
     }
    ]
   },
@@ -5028,7 +5366,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "particletoolssp"
     },
     {
      "source": "sharkpool",
@@ -5045,7 +5384,8 @@
      "tags": [
       "Utility",
       "Data Management"
-     ]
+     ],
+     "ext_id": "particletoolssp"
     }
    ]
   },
@@ -5078,7 +5418,8 @@
       "Utility",
       "Graphics",
       "Category Expansion"
-     ]
+     ],
+     "ext_id": "splooksexpanded"
     },
     {
      "source": "dimka-10",
@@ -5092,7 +5433,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "splooksexpanded"
     }
    ]
   },
@@ -5125,7 +5467,8 @@
       "Utility",
       "Graphics",
       "Category Expansion"
-     ]
+     ],
+     "ext_id": "spspriteeffectsv2"
     },
     {
      "source": "dimka-10",
@@ -5139,7 +5482,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spspriteeffects"
     }
    ]
   },
@@ -5172,7 +5516,8 @@
       "Utility",
       "Graphics",
       "Category Expansion"
-     ]
+     ],
+     "ext_id": "imgeffectssp"
     },
     {
      "source": "dimka-10",
@@ -5186,7 +5531,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "imgeffectssp"
     }
    ]
   },
@@ -5219,7 +5565,8 @@
       "Utility",
       "Graphics",
       "Data Management"
-     ]
+     ],
+     "ext_id": "spimgeditor"
     },
     {
      "source": "dimka-10",
@@ -5233,7 +5580,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spimgeditor"
     }
    ]
   },
@@ -5265,7 +5613,8 @@
      "tags": [
       "Utility",
       "Math"
-     ]
+     ],
+     "ext_id": "lbgpixelutilities"
     },
     {
      "source": "dimka-10",
@@ -5279,7 +5628,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lbgpixelutilities"
     }
    ]
   },
@@ -5312,7 +5662,8 @@
       "Utility",
       "Sound",
       "Hardware"
-     ]
+     ],
+     "ext_id": "sprecording2"
     },
     {
      "source": "bluedome77",
@@ -5326,7 +5677,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sipcrecording"
     },
     {
      "source": "dimka-10",
@@ -5340,7 +5692,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sipcrecording"
     }
    ]
   },
@@ -5374,7 +5727,8 @@
       "Sound",
       "Data Management",
       "Online"
-     ]
+     ],
+     "ext_id": "spaudiong"
     },
     {
      "source": "dimka-10",
@@ -5388,7 +5742,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spaudiong"
     }
    ]
   },
@@ -5417,7 +5772,8 @@
      "deprecated": false,
      "tags": [
       "Utility"
-     ]
+     ],
+     "ext_id": "spspriteparent"
     },
     {
      "source": "dimka-10",
@@ -5431,7 +5787,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spspriteparent"
     }
    ]
   },
@@ -5465,7 +5822,8 @@
       "Graphics",
       "Math",
       "Category Expansion"
-     ]
+     ],
+     "ext_id": "sprigidbody"
     },
     {
      "source": "dimka-10",
@@ -5479,7 +5837,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sprigidbody"
     }
    ]
   },
@@ -5512,7 +5871,8 @@
       "Utility",
       "Math",
       "Category Expansion"
-     ]
+     ],
+     "ext_id": "lzcollisionssp"
     },
     {
      "source": "dimka-10",
@@ -5526,7 +5886,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lzcollisionssp"
     }
    ]
   },
@@ -5560,7 +5921,8 @@
       "Graphics",
       "Sound",
       "Data Management"
-     ]
+     ],
+     "ext_id": "filesexpanded"
     },
     {
      "source": "dimka-10",
@@ -5574,7 +5936,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "filesexpanded"
     }
    ]
   },
@@ -5607,7 +5970,8 @@
       "Utility",
       "Data Management",
       "Category Expansion"
-     ]
+     ],
+     "ext_id": "dicandspmonitorsplus"
     },
     {
      "source": "dimka-10",
@@ -5621,7 +5985,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "dicandspmonitorsplus"
     }
    ]
   },
@@ -5654,7 +6019,8 @@
       "Utility",
       "Data Management",
       "Category Expansion"
-     ]
+     ],
+     "ext_id": "scmonitorrowsinner"
     },
     {
      "source": "dimka-10",
@@ -5668,51 +6034,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
-    }
-   ]
-  },
-  {
-   "name": "Gamepad-Expanded",
-   "description": "Expansion of Garbomuffin's Gamepad Extension",
-   "author": "DNin01, Meehdrescher",
-   "image": "https://sharkpool-sp.github.io/SharkPools-Extensions/extension-thumbs/Gamepad-Expanded.svg",
-   "categories": [
-    "Устройство и датчики"
-   ],
-   "sources_count": 2,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "sharkpool",
-     "source_label": "SharkPool",
-     "source_emoji": "🦈",
-     "url": "https://sharkpool-sp.github.io/SharkPools-Extensions/extension-code/Gamepad-Expanded.js",
-     "open": "https://turbowarp.org/editor?extension=https://sharkpool-sp.github.io/SharkPools-Extensions/extension-code/Gamepad-Expanded.js",
-     "image": "https://sharkpool-sp.github.io/SharkPools-Extensions/extension-thumbs/Gamepad-Expanded.svg",
-     "description": "Expansion of Garbomuffin's Gamepad Extension",
-     "author": "DNin01, Meehdrescher",
-     "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": [
-      "Hardware",
-      "Dangerous"
-     ]
-    },
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/Gamepad-Expanded.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/Gamepad-Expanded.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/Gamepad-Expanded.svg",
-     "description": "Новое дополнение, о подробностях сообщат позже.",
-     "author": "SharkPool",
-     "author_link": "https://github.com/SharkPool-SP",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "scmonitorrowsinner"
     }
    ]
   },
@@ -5741,7 +6064,8 @@
      "deprecated": false,
      "tags": [
       "Utility"
-     ]
+     ],
+     "ext_id": "spgrids"
     },
     {
      "source": "dimka-10",
@@ -5755,7 +6079,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spgrids"
     }
    ]
   },
@@ -5788,7 +6113,8 @@
       "Utility",
       "Graphics",
       "Math"
-     ]
+     ],
+     "ext_id": "spanimations"
     },
     {
      "source": "dimka-10",
@@ -5802,7 +6128,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spanimations"
     }
    ]
   },
@@ -5835,7 +6162,8 @@
       "Sound",
       "Online",
       "Category Expansion"
-     ]
+     ],
+     "ext_id": "spttsv2"
     }
    ]
   },
@@ -5869,7 +6197,8 @@
       "Dangerous",
       "Configuration",
       "Runtime"
-     ]
+     ],
+     "ext_id": "sppausev2"
     }
    ]
   },
@@ -5902,7 +6231,8 @@
       "Utility",
       "Configuration",
       "Runtime"
-     ]
+     ],
+     "ext_id": "spscripts"
     },
     {
      "source": "dimka-10",
@@ -5916,54 +6246,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
-    }
-   ]
-  },
-  {
-   "name": "Messages-Plus",
-   "description": "Powerful Message Blocks that work with Vanilla Broadcasts",
-   "author": "SharkPool",
-   "image": "https://sharkpool-sp.github.io/SharkPools-Extensions/extension-thumbs/Messages-Plus.svg",
-   "categories": [
-    "Скрипты и данные",
-    "Утилиты"
-   ],
-   "sources_count": 2,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "sharkpool",
-     "source_label": "SharkPool",
-     "source_emoji": "🦈",
-     "url": "https://sharkpool-sp.github.io/SharkPools-Extensions/extension-code/Messages-Plus.js",
-     "open": "https://turbowarp.org/editor?extension=https://sharkpool-sp.github.io/SharkPools-Extensions/extension-code/Messages-Plus.js",
-     "image": "https://sharkpool-sp.github.io/SharkPools-Extensions/extension-thumbs/Messages-Plus.svg",
-     "description": "Powerful Message Blocks that work with Vanilla Broadcasts",
-     "author": "SharkPool",
-     "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": [
-      "Utility",
-      "Data Management",
-      "Category Expansion",
-      "Runtime"
-     ]
-    },
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/Messages-Plus.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/Messages-Plus.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/Messages-Plus.svg",
-     "description": "Новое дополнение, о подробностях сообщат позже.",
-     "author": "SharkPool",
-     "author_link": "https://github.com/SharkPool-SP",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spscripts"
     }
    ]
   },
@@ -5995,7 +6279,8 @@
       "Utility",
       "Data Management",
       "Category Expansion"
-     ]
+     ],
+     "ext_id": "spmessages"
     },
     {
      "source": "dimka-10",
@@ -6009,7 +6294,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spmessages"
     }
    ]
   },
@@ -6043,7 +6329,8 @@
       "Category Expansion",
       "Configuration",
       "Runtime"
-     ]
+     ],
+     "ext_id": "speventsplus"
     }
    ]
   },
@@ -6075,7 +6362,8 @@
       "Utility",
       "Category Expansion",
       "Runtime"
-     ]
+     ],
+     "ext_id": "spevents"
     },
     {
      "source": "dimka-10",
@@ -6089,7 +6377,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spevents"
     }
    ]
   },
@@ -6121,7 +6410,8 @@
      "tags": [
       "Data Management",
       "Online"
-     ]
+     ],
+     "ext_id": "spprogress"
     },
     {
      "source": "dimka-10",
@@ -6135,7 +6425,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -6168,7 +6459,8 @@
       "Sound",
       "Data Management",
       "Online"
-     ]
+     ],
+     "ext_id": "spspotify"
     },
     {
      "source": "bluedome77",
@@ -6182,7 +6474,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     },
     {
      "source": "dimka-10",
@@ -6196,7 +6489,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -6229,7 +6523,8 @@
       "Sound",
       "Data Management",
       "Online"
-     ]
+     ],
+     "ext_id": "spsoundcloud"
     },
     {
      "source": "dimka-10",
@@ -6243,7 +6538,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spsoundcloud"
     }
    ]
   },
@@ -6276,7 +6572,8 @@
       "Utility",
       "Data Management",
       "Online"
-     ]
+     ],
+     "ext_id": "spspreads"
     },
     {
      "source": "dimka-10",
@@ -6290,7 +6587,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spspreads"
     }
    ]
   },
@@ -6319,7 +6617,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spmoney"
     },
     {
      "source": "sharkpool",
@@ -6336,7 +6635,8 @@
      "tags": [
       "Math",
       "Online"
-     ]
+     ],
+     "ext_id": "spmoney"
     }
    ]
   },
@@ -6369,7 +6669,8 @@
       "Utility",
       "Graphics",
       "Category Expansion"
-     ]
+     ],
+     "ext_id": "spdisplaytextv2"
     },
     {
      "source": "dimka-10",
@@ -6383,7 +6684,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spdistext"
     }
    ]
   },
@@ -6417,7 +6719,8 @@
       "Graphics",
       "Math",
       "Data Management"
-     ]
+     ],
+     "ext_id": "spcolormaster"
     },
     {
      "source": "dimka-10",
@@ -6431,7 +6734,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spcolormaster"
     }
    ]
   },
@@ -6465,7 +6769,8 @@
       "Graphics",
       "Data Management",
       "Hardware"
-     ]
+     ],
+     "ext_id": "spqrcodes"
     },
     {
      "source": "dimka-10",
@@ -6479,7 +6784,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spqrcodes"
     }
    ]
   },
@@ -6510,7 +6816,8 @@
      "tags": [
       "Graphics",
       "Category Expansion"
-     ]
+     ],
+     "ext_id": "speechsp"
     },
     {
      "source": "dimka-10",
@@ -6524,7 +6831,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "speechsp"
     }
    ]
   },
@@ -6560,7 +6868,8 @@
       "Dangerous",
       "Configuration",
       "Runtime"
-     ]
+     ],
+     "ext_id": "splayering"
     },
     {
      "source": "dimka-10",
@@ -6574,7 +6883,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "splayering"
     }
    ]
   },
@@ -6610,7 +6920,8 @@
       "Dangerous",
       "Configuration",
       "Runtime"
-     ]
+     ],
+     "ext_id": "sprendercontrol"
     },
     {
      "source": "dimka-10",
@@ -6624,7 +6935,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sprendercontrol"
     },
     {
      "source": "dimka-10",
@@ -6638,7 +6950,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -6671,7 +6984,8 @@
       "Utility",
       "Math",
       "Time"
-     ]
+     ],
+     "ext_id": "sptimecalc"
     },
     {
      "source": "dimka-10",
@@ -6685,7 +6999,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sptimecalc"
     }
    ]
   },
@@ -6718,7 +7033,8 @@
       "Utility",
       "Math",
       "Time"
-     ]
+     ],
+     "ext_id": "istimezones"
     },
     {
      "source": "dimka-10",
@@ -6732,7 +7048,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "istimezones"
     }
    ]
   },
@@ -6765,7 +7082,8 @@
       "Utility",
       "Math",
       "Time"
-     ]
+     ],
+     "ext_id": "since2000"
     },
     {
      "source": "dimka-10",
@@ -6779,7 +7097,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "since2000"
     }
    ]
   },
@@ -6810,7 +7129,8 @@
      "tags": [
       "Utility",
       "Math"
-     ]
+     ],
+     "ext_id": "seedssp"
     },
     {
      "source": "dimka-10",
@@ -6824,7 +7144,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "seedssp"
     }
    ]
   },
@@ -6857,7 +7178,8 @@
       "Utility",
       "Graphics",
       "Math"
-     ]
+     ],
+     "ext_id": "spperlin"
     },
     {
      "source": "bluedome77",
@@ -6871,7 +7193,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "perlinnoise"
     },
     {
      "source": "dimka-10",
@@ -6885,7 +7208,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spperlin"
     }
    ]
   },
@@ -6918,7 +7242,8 @@
       "Utility",
       "Category Expansion",
       "Runtime"
-     ]
+     ],
+     "ext_id": "spadvcontrol"
     },
     {
      "source": "dimka-10",
@@ -6932,7 +7257,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spadvcontrol"
     }
    ]
   },
@@ -6965,7 +7291,8 @@
       "Utility",
       "Category Expansion",
       "Math"
-     ]
+     ],
+     "ext_id": "spmoreops"
     },
     {
      "source": "dimka-10",
@@ -6979,7 +7306,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spmoreops"
     }
    ]
   },
@@ -7006,7 +7334,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spcaptcha"
     },
     {
      "source": "sharkpool",
@@ -7023,7 +7352,8 @@
      "tags": [
       "Utility",
       "Dangerous"
-     ]
+     ],
+     "ext_id": "spcaptcha"
     }
    ]
   },
@@ -7054,7 +7384,8 @@
      "deprecated": false,
      "tags": [
       "Editor Tool"
-     ]
+     ],
+     "ext_id": "spcomments"
     },
     {
      "source": "dimka-10",
@@ -7068,7 +7399,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spcomments"
     }
    ]
   },
@@ -7100,7 +7432,8 @@
      "tags": [
       "Utility",
       "Editor Tool"
-     ]
+     ],
+     "ext_id": "spspritepanel"
     },
     {
      "source": "dimka-10",
@@ -7114,7 +7447,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spspritepanel"
     }
    ]
   },
@@ -7148,7 +7482,8 @@
       "Graphics",
       "Data Management",
       "Configuration"
-     ]
+     ],
+     "ext_id": "spdomselect"
     },
     {
      "source": "dimka-10",
@@ -7162,7 +7497,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spdomselect"
     }
    ]
   },
@@ -7195,7 +7531,8 @@
       "Utility",
       "Graphics",
       "Data Management"
-     ]
+     ],
+     "ext_id": "spsvgsheets"
     },
     {
      "source": "dimka-10",
@@ -7209,7 +7546,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spsvgsheets"
     }
    ]
   },
@@ -7243,7 +7581,8 @@
       "Sound",
       "Data Management",
       "Online"
-     ]
+     ],
+     "ext_id": "spspotlight"
     },
     {
      "source": "dimka-10",
@@ -7257,7 +7596,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spspotlight"
     }
    ]
   },
@@ -7290,7 +7630,8 @@
       "Utility",
       "Graphics",
       "Data Management"
-     ]
+     ],
+     "ext_id": "spgifmanager"
     },
     {
      "source": "dimka-10",
@@ -7304,7 +7645,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spgifmanager"
     }
    ]
   },
@@ -7318,7 +7660,7 @@
     "Утилиты",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -7338,7 +7680,23 @@
       "Data Management",
       "Math",
       "Category Expansion"
-     ]
+     ],
+     "ext_id": "spjson"
+    },
+    {
+     "source": "dimka-10",
+     "source_label": "Dimka-10",
+     "source_emoji": "🔟",
+     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/JSON-Array.js",
+     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/JSON-Array.js",
+     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/JSON-Array.svg",
+     "description": "Новое дополнение, о подробностях сообщат позже.",
+     "author": "SharkPool",
+     "author_link": "https://github.com/SharkPool-SP",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "spjson"
     }
    ]
   },
@@ -7374,7 +7732,8 @@
       "Configuration",
       "Runtime",
       "Dangerous"
-     ]
+     ],
+     "ext_id": "spmbpcst"
     },
     {
      "source": "dimka-10",
@@ -7388,7 +7747,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spmbpcst"
     }
    ]
   },
@@ -7422,7 +7782,8 @@
       "Data Management",
       "Editor Tool",
       "Configuration"
-     ]
+     ],
+     "ext_id": "sp0zmenumaker"
     },
     {
      "source": "dimka-10",
@@ -7436,7 +7797,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sp0zmenumaker"
     }
    ]
   },
@@ -7470,7 +7832,8 @@
       "Graphics",
       "Configuration",
       "Runtime"
-     ]
+     ],
+     "ext_id": "spturboskins"
     },
     {
      "source": "dimka-10",
@@ -7484,7 +7847,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spturboskins"
     }
    ]
   },
@@ -7516,7 +7880,8 @@
       "Utility",
       "Editor Tool",
       "Configuration"
-     ]
+     ],
+     "ext_id": "spscenes"
     },
     {
      "source": "dimka-10",
@@ -7530,7 +7895,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "spscenes"
     }
    ]
   },
@@ -7563,7 +7929,8 @@
       "Utility",
       "Graphics",
       "Category Expansion"
-     ]
+     ],
+     "ext_id": "sppenpapers"
     },
     {
      "source": "dimka-10",
@@ -7577,7 +7944,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sppenpapers"
     }
    ]
   },
@@ -7611,7 +7979,8 @@
       "Sound",
       "Data Management",
       "Hardware"
-     ]
+     ],
+     "ext_id": "obscurasmiditools"
     }
    ]
   },
@@ -7640,7 +8009,8 @@
      "deprecated": false,
      "tags": [
       "All"
-     ]
+     ],
+     "ext_id": null
     }
    ]
   },
@@ -7667,7 +8037,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "admireblocks"
     }
    ]
   },
@@ -7694,7 +8065,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "canvas"
     },
     {
      "source": "mistwarp",
@@ -7708,7 +8080,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mistiumcanvas"
     }
    ]
   },
@@ -7735,7 +8108,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "oeildlconsole"
     }
    ]
   },
@@ -7762,7 +8136,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "broadcast2example"
     }
    ]
   },
@@ -7789,7 +8164,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lmsdiscordapi"
     }
    ]
   },
@@ -7816,7 +8192,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "dotprop"
     }
    ]
   },
@@ -7843,7 +8220,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "globalcoordinate"
     }
    ]
   },
@@ -7870,7 +8248,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "isstracker"
     }
    ]
   },
@@ -7897,7 +8276,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -7924,7 +8304,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "javascript"
     }
    ]
   },
@@ -7951,7 +8332,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "loremipsumgenerator"
     }
    ]
   },
@@ -7979,7 +8361,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "nonameawamathandstring"
     }
    ]
   },
@@ -8006,7 +8389,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -8033,7 +8417,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "miscextension"
     }
    ]
   },
@@ -8060,7 +8445,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "morsecode"
     }
    ]
   },
@@ -8087,7 +8473,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "profanityapi"
     }
    ]
   },
@@ -8114,7 +8501,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "theshovelprofanity"
     }
    ]
   },
@@ -8141,7 +8529,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "nonameawaregex"
     }
    ]
   },
@@ -8168,7 +8557,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "randomnumber"
     }
    ]
   },
@@ -8196,7 +8586,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "splendidstrings"
     }
    ]
   },
@@ -8223,7 +8614,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "tempvarsandlists"
     }
    ]
   },
@@ -8250,7 +8642,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "wpstudio01tts"
     }
    ]
   },
@@ -8277,7 +8670,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "textanalyzer"
     }
    ]
   },
@@ -8305,7 +8699,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "textcomparison"
     }
    ]
   },
@@ -8332,7 +8727,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     },
     {
      "source": "dimka-10",
@@ -8346,7 +8742,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sptts"
     }
    ]
   },
@@ -8373,7 +8770,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "medericodertextcase"
     }
    ]
   },
@@ -8400,7 +8798,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -8427,7 +8826,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "turbofoolishness"
     }
    ]
   },
@@ -8454,19 +8854,22 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "vibrationsextension"
     }
    ]
   },
   {
    "name": "WebGL 2 bindings",
-   "description": null,
+   "description": "Предоставляет API для работы с графикой на основе WebGL 2, позволяя создавать и управлять шейдерами, текстурами, буферами и другими графическими ресурсами для динамического рендеринга и обработки изображений.",
    "author": "Xeltalliv",
-   "image": null,
+   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/WebGL2.png",
    "categories": [
-    "Прочее"
+    "Графика и эффекты",
+    "Сеть и онлайн",
+    "Текст и шрифты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -8481,7 +8884,23 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "webgl2"
+    },
+    {
+     "source": "dimka-10",
+     "source_label": "Dimka-10",
+     "source_emoji": "🔟",
+     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/WebGL2.js",
+     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/WebGL2.js",
+     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/WebGL2.png",
+     "description": "Предоставляет API для работы с графикой на основе WebGL 2, позволяя создавать и управлять шейдерами, текстурами, буферами и другими графическими ресурсами для динамического рендеринга и обработки изображений.",
+     "author": "Xeltalliv",
+     "author_link": "https://github.com/Xeltalliv",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "webgl2"
     }
    ]
   },
@@ -8508,7 +8927,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "notwait"
     }
    ]
   },
@@ -8535,7 +8955,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -8562,7 +8983,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "0832eval"
     }
    ]
   },
@@ -8589,7 +9011,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "function0832"
     }
    ]
   },
@@ -8616,7 +9039,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "project"
     }
    ]
   },
@@ -8643,7 +9067,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "postprocessing"
     }
    ]
   },
@@ -8670,7 +9095,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "postprocessreverse"
     }
    ]
   },
@@ -8697,7 +9123,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "split"
     }
    ]
   },
@@ -8724,7 +9151,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "control"
     }
    ]
   },
@@ -8751,7 +9179,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "debuggerlog"
     }
    ]
   },
@@ -8778,7 +9207,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "motion"
     }
    ]
   },
@@ -8805,7 +9235,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "operationsetting"
     }
    ]
   },
@@ -8832,7 +9263,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "customshader"
     }
    ]
   },
@@ -8859,7 +9291,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "rotatablecliping"
     }
    ]
   },
@@ -8886,7 +9319,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "strmani"
     }
    ]
   },
@@ -8913,7 +9347,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "webdata"
     }
    ]
   },
@@ -8940,7 +9375,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "itx"
     }
    ]
   },
@@ -8967,7 +9403,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "loadext"
     }
    ]
   },
@@ -8994,7 +9431,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "scratchopengl"
     }
    ]
   },
@@ -9021,7 +9459,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "witcatinput"
     }
    ]
   },
@@ -9048,7 +9487,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "chatnio"
     }
    ]
   },
@@ -9075,7 +9515,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "notes"
     }
    ]
   },
@@ -9103,7 +9544,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "0znzwbuffers"
     }
    ]
   },
@@ -9131,7 +9573,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "0znzwcompilerpatching"
     }
    ]
   },
@@ -9160,7 +9603,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "documentevents0znzw"
     }
    ]
   },
@@ -9187,7 +9631,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "0znzwdompurify"
     }
    ]
   },
@@ -9214,7 +9659,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "12840113549111"
     },
     {
      "source": "penguinmod",
@@ -9228,7 +9674,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "gaimericryptoextension"
     },
     {
      "source": "dashblocks",
@@ -9242,7 +9689,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -9269,7 +9717,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "0znzwerrorpages"
     }
    ]
   },
@@ -9297,7 +9746,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "pmblock0znzw"
     }
    ]
   },
@@ -9324,7 +9774,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "0znzwhtmlentitys"
     }
    ]
   },
@@ -9351,7 +9802,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "matrixplus0znzw"
     }
    ]
   },
@@ -9378,7 +9830,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "0znzwmimedb"
     }
    ]
   },
@@ -9405,7 +9858,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -9433,7 +9887,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "0znzwmorefields"
     },
     {
      "source": "penguinmod",
@@ -9447,7 +9902,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "0znzwmorefields"
     },
     {
      "source": "dashblocks",
@@ -9461,7 +9917,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -9490,7 +9947,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "0znzwnichetoolbox"
     }
    ]
   },
@@ -9517,7 +9975,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "0znzwperiodictable"
     }
    ]
   },
@@ -9546,7 +10005,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "0znzwrightclick"
     }
    ]
   },
@@ -9573,7 +10033,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "0znzwscriptmanagement"
     }
    ]
   },
@@ -9600,7 +10061,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "0znzwspellcheck"
     }
    ]
   },
@@ -9627,7 +10089,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "0znzwstarstorage"
     }
    ]
   },
@@ -9654,7 +10117,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "0znzwswitchcaseusb"
     }
    ]
   },
@@ -9681,7 +10145,8 @@
      "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "0znzwtrycatchv2"
     }
    ]
   },
@@ -9710,7 +10175,8 @@
      "author_link": "https://scratch.mit.edu/users/LilyMakesThings/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     },
     {
      "source": "mistwarp",
@@ -9724,7 +10190,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mistskins"
     }
    ]
   },
@@ -9751,36 +10218,8 @@
      "author_link": "https://github.com/Aness6040/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
-    }
-   ]
-  },
-  {
-   "name": "WebGL 2",
-   "description": "Предоставляет API для работы с графикой на основе WebGL 2, позволяя создавать и управлять шейдерами, текстурами, буферами и другими графическими ресурсами для динамического рендеринга и обработки изображений.",
-   "author": "Xeltalliv",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/WebGL2.png",
-   "categories": [
-    "Графика и эффекты",
-    "Сеть и онлайн",
-    "Текст и шрифты"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/WebGL2.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/WebGL2.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/WebGL2.png",
-     "description": "Предоставляет API для работы с графикой на основе WebGL 2, позволяя создавать и управлять шейдерами, текстурами, буферами и другими графическими ресурсами для динамического рендеринга и обработки изображений.",
-     "author": "Xeltalliv",
-     "author_link": "https://github.com/Xeltalliv",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "aness6040debugger"
     }
    ]
   },
@@ -9807,7 +10246,8 @@
      "author_link": "https://pen-group.github.io",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -9835,7 +10275,8 @@
      "author_link": "https://scratch.mit.edu/users/pinksheep2917/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -9862,7 +10303,8 @@
      "author_link": "https://scratch.mit.edu/users/pinksheep2917/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -9889,34 +10331,8 @@
      "author_link": "https://scratch.mit.edu/users/pinksheep2917/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
-    }
-   ]
-  },
-  {
-   "name": "JSON-Array",
-   "description": "Новое дополнение, о подробностях сообщат позже.",
-   "author": "SharkPool",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/JSON-Array.svg",
-   "categories": [
-    "Текст и шрифты"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/JSON-Array.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/JSON-Array.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/JSON-Array.svg",
-     "description": "Новое дополнение, о подробностях сообщат позже.",
-     "author": "SharkPool",
-     "author_link": "https://github.com/SharkPool-SP",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -9943,7 +10359,8 @@
      "author_link": "https://github.com/SharkPool-SP",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sppause"
     }
    ]
   },
@@ -9970,7 +10387,8 @@
      "author_link": "https://scratch.mit.edu/users/pinksheep2917/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "oacshaded"
     }
    ]
   },
@@ -9998,7 +10416,8 @@
      "author_link": "https://scratch.mit.edu/users/insanetaco2000/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "gpusb3"
     },
     {
      "source": "dashblocks",
@@ -10012,7 +10431,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -10039,7 +10459,8 @@
      "author_link": "https://scratch.mit.edu/users/insanetaco2000/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "pangpalgemini"
     },
     {
      "source": "dashblocks",
@@ -10053,7 +10474,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -10080,7 +10502,8 @@
      "author_link": "https://scratch.mit.edu/users/BludIsAnLemon/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lemonacdetection"
     }
    ]
   },
@@ -10107,7 +10530,8 @@
      "author_link": "https://scratch.mit.edu/users/GarboMuffin/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "helloworld"
     }
    ]
   },
@@ -10134,7 +10558,8 @@
      "author_link": "https://sillysoftware.lol",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     },
     {
      "source": "mistwarp",
@@ -10148,7 +10573,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mistiumindexeddb"
     }
    ]
   },
@@ -10176,7 +10602,8 @@
      "author_link": "https://sillysoftware.lol",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "keyboardinput"
     }
    ]
   },
@@ -10203,7 +10630,8 @@
      "author_link": "https://sillikubi.github.io/ExtensionPage/Projectspage.html?ref=mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "modio"
     }
    ]
   },
@@ -10230,7 +10658,8 @@
      "author_link": "https://sillikubi.github.io/ExtensionPage/Projectspage.html?ref=mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "rh"
     }
    ]
   },
@@ -10257,7 +10686,8 @@
      "author_link": "https://scratch.mit.edu/users/BludIsAnLemon/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lemonscreenshot"
     }
    ]
   },
@@ -10285,7 +10715,8 @@
      "author_link": "https://scratch.mit.edu/users/Bitter_160/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "bitter130sqlsnapfileshare"
     }
    ]
   },
@@ -10312,7 +10743,8 @@
      "author_link": "https://scratch.mit.edu/users/BludIsAnLemon/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lemonturboast"
     }
    ]
   },
@@ -10339,7 +10771,8 @@
      "author_link": "https://sillysoftware.lol",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "urlmusic"
     }
    ]
   },
@@ -10366,7 +10799,8 @@
      "author_link": "https://scratch.mit.edu/users/Dimka10/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -10393,7 +10827,8 @@
      "author_link": "https://scratch.mit.edu/users/Dimka10/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -10420,7 +10855,8 @@
      "author_link": "https://scratch.mit.edu/users/Dimka10/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "complexnumbers"
     }
    ]
   },
@@ -10448,7 +10884,8 @@
      "author_link": "https://scratch.mit.edu/users/Dimka10/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "quaternions"
     }
    ]
   },
@@ -10475,7 +10912,8 @@
      "author_link": "https://scratch.mit.edu/users/Dimka10/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "anilistapi"
     }
    ]
   },
@@ -10503,50 +10941,8 @@
      "author_link": "https://scratch.mit.edu/users/Dimka10/",
      "documentation": null,
      "deprecated": false,
-     "tags": null
-    }
-   ]
-  },
-  {
-   "name": "Pen+",
-   "description": "Extended pen section! Adds blocks for drawing triangles using textures and tints, drawing images and editing their pixels, etc.",
-   "author": "pinksheep2917",
-   "image": "https://extensions.penguinmod.com/images/ObviousAlexC/PenPlus.svg",
-   "categories": [
-    "Графика и эффекты",
-    "Математика и логика",
-    "Скрипты и данные"
-   ],
-   "sources_count": 2,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "penguinmod",
-     "source_label": "PenguinMod",
-     "source_emoji": "🐧",
-     "url": "https://extensions.penguinmod.com/extensions/ObviousAlexC/PenPlus.js",
-     "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/ObviousAlexC/PenPlus.js",
-     "image": "https://extensions.penguinmod.com/images/ObviousAlexC/PenPlus.svg",
-     "description": "Extended pen section! Adds blocks for drawing triangles using textures and tints, drawing images and editing their pixels, etc.",
-     "author": "pinksheep2917",
-     "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": null
-    },
-    {
-     "source": "dashblocks",
-     "source_label": "DashBlocks",
-     "source_emoji": "🔥",
-     "url": "https://dashblocks.org/extensions/static/extensions/ObviousAlexC/PenPlus.js",
-     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/ObviousAlexC/PenPlus.js",
-     "image": "https://dashblocks.org/extensions/static/images/ObviousAlexC/PenPlus.svg",
-     "description": "Extended pen section! Adds blocks for drawing triangles using textures and tints, drawing images and editing their pixels, etc.",
-     "author": "pinksheep2917",
-     "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "variableobfuscator"
     }
    ]
   },
@@ -10573,7 +10969,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "debuggerextensionts"
     },
     {
      "source": "dashblocks",
@@ -10587,7 +10984,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -10615,7 +11013,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "ikeleneserverstorage"
     }
    ]
   },
@@ -10642,7 +11041,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "g1nxbettererstorage"
     }
    ]
   },
@@ -10669,7 +11069,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "qoanrenderer"
     },
     {
      "source": "dashblocks",
@@ -10683,7 +11084,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -10711,7 +11113,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "g1nxiristext"
     }
    ]
   },
@@ -10738,7 +11141,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "p7boxphys"
     },
     {
      "source": "dashblocks",
@@ -10752,7 +11156,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -10779,7 +11184,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "g1nxlighting"
     }
    ]
   },
@@ -10808,7 +11214,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "obviousalexcmath3d"
     },
     {
      "source": "dashblocks",
@@ -10822,7 +11229,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -10849,7 +11257,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "beatsync"
     }
    ]
   },
@@ -10877,7 +11286,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "skyhigh173object"
     }
    ]
   },
@@ -10904,7 +11314,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "agbufferarraybuffer"
     }
    ]
   },
@@ -10932,7 +11343,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -10960,7 +11372,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "pooiod7dictation"
     }
    ]
   },
@@ -10987,7 +11400,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "imagevisionquickdraw"
     },
     {
      "source": "dashblocks",
@@ -11001,7 +11415,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -11030,7 +11445,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "puzzlinggggttsrv2"
     },
     {
      "source": "dashblocks",
@@ -11044,7 +11460,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -11056,7 +11473,7 @@
    "categories": [
     "Сеть и онлайн"
    ],
-   "sources_count": 3,
+   "sources_count": 4,
    "all_deprecated": false,
    "variants": [
     {
@@ -11071,7 +11488,23 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "cloudlink"
+    },
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Cloudlink4_Improved.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Cloudlink4_Improved.js",
+     "image": "https://extensions.mistium.com/images/Cloudlink4_Improved.png",
+     "description": "A powerful WebSocket extension for Scratch.",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "cloudlink"
     },
     {
      "source": "snail-ide",
@@ -11085,7 +11518,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "cloudlink"
     },
     {
      "source": "dashblocks",
@@ -11099,7 +11533,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -11126,7 +11561,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "e2ee"
     },
     {
      "source": "dashblocks",
@@ -11140,7 +11576,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -11167,7 +11604,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "webrtc"
     },
     {
      "source": "dashblocks",
@@ -11181,7 +11619,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -11208,7 +11647,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mubiloppenguinhook"
     }
    ]
   },
@@ -11237,7 +11677,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "numberutilities"
     },
     {
      "source": "dashblocks",
@@ -11251,7 +11692,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -11278,7 +11720,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "jwklongmathematics"
     },
     {
      "source": "dashblocks",
@@ -11292,7 +11735,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -11319,7 +11763,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "qxsckbignumber"
     },
     {
      "source": "dashblocks",
@@ -11333,7 +11778,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -11361,7 +11807,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "ddedateformatv2"
     },
     {
      "source": "dashblocks",
@@ -11375,7 +11822,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -11404,7 +11852,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "dogeiscutyetanotherstringextension"
     }
    ]
   },
@@ -11431,7 +11880,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "dogeiscutregularexpressions"
     }
    ]
   },
@@ -11458,7 +11908,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "dogeiscutset"
     }
    ]
   },
@@ -11485,7 +11936,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "diviterator"
     }
    ]
   },
@@ -11514,7 +11966,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "divalgeffects"
     }
    ]
   },
@@ -11542,7 +11995,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "divvecquat"
     }
    ]
   },
@@ -11569,7 +12023,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "faunksblobs"
     }
    ]
   },
@@ -11598,7 +12053,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "randomutils"
     },
     {
      "source": "dashblocks",
@@ -11612,7 +12068,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -11639,7 +12096,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "toastnotifs"
     },
     {
      "source": "dashblocks",
@@ -11653,7 +12111,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -11681,7 +12140,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lordcatprojectinterfaces"
     },
     {
      "source": "dashblocks",
@@ -11695,7 +12155,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -11724,7 +12185,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "gitpenguin"
     },
     {
      "source": "dashblocks",
@@ -11738,7 +12200,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -11765,7 +12228,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "sammerpenguinapi"
     }
    ]
   },
@@ -11792,7 +12256,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "turboweather"
     },
     {
      "source": "dashblocks",
@@ -11806,7 +12271,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -11833,7 +12299,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "bpixelcockatiel"
     },
     {
      "source": "dashblocks",
@@ -11847,7 +12314,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -11874,7 +12342,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "nkcorsproxy"
     },
     {
      "source": "dashblocks",
@@ -11888,7 +12357,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -11915,7 +12385,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "embintranslation"
     },
     {
      "source": "dashblocks",
@@ -11929,7 +12400,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -11956,7 +12428,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "jodieextexp"
     },
     {
      "source": "dashblocks",
@@ -11970,7 +12443,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -11997,7 +12471,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "dogeiscutbeepboxplayer"
     },
     {
      "source": "dashblocks",
@@ -12011,7 +12486,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -12040,7 +12516,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "acatupdatefile"
     },
     {
      "source": "dashblocks",
@@ -12054,7 +12531,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -12082,7 +12560,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "yeetyourfiles"
     },
     {
      "source": "dashblocks",
@@ -12096,7 +12575,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -12124,7 +12604,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "cfupload"
     },
     {
      "source": "dashblocks",
@@ -12138,7 +12619,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -12165,7 +12647,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "gaimeridevicemotionextension"
     },
     {
      "source": "dashblocks",
@@ -12179,7 +12662,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -12207,7 +12691,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "p7videosharing"
     },
     {
      "source": "dashblocks",
@@ -12221,7 +12706,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -12248,7 +12734,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "p7windowhash"
     },
     {
      "source": "dashblocks",
@@ -12262,7 +12749,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -12289,7 +12777,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "scratchblocks"
     },
     {
      "source": "dashblocks",
@@ -12303,7 +12792,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -12330,7 +12820,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "authpenguin"
     }
    ]
   },
@@ -12357,7 +12848,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "googleauth"
     },
     {
      "source": "dashblocks",
@@ -12371,7 +12863,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -12398,7 +12891,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "discordauth"
     },
     {
      "source": "dashblocks",
@@ -12412,7 +12906,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -12439,7 +12934,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "vgscompiledvalues"
     }
    ]
   },
@@ -12467,7 +12963,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "dogeiscutresolution"
     },
     {
      "source": "dashblocks",
@@ -12481,7 +12978,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -12508,7 +13006,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "boptwitch"
     },
     {
      "source": "dashblocks",
@@ -12522,7 +13021,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -12549,7 +13049,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "chessg1nx"
     },
     {
      "source": "dashblocks",
@@ -12563,7 +13064,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -12590,7 +13092,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "ginxilovecats"
     },
     {
      "source": "dashblocks",
@@ -12604,7 +13107,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -12631,7 +13135,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "freeservers"
     },
     {
      "source": "dashblocks",
@@ -12645,7 +13150,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -12672,7 +13178,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "onkeopetextension"
     },
     {
      "source": "dashblocks",
@@ -12686,7 +13193,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -12713,7 +13221,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "redstoniacounterplusplus"
     },
     {
      "source": "dashblocks",
@@ -12727,7 +13236,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -12755,7 +13265,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "monochromasityhml"
     },
     {
      "source": "dashblocks",
@@ -12769,7 +13280,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -12796,7 +13308,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "fruitspaintutils"
     },
     {
      "source": "dashblocks",
@@ -12810,7 +13323,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -12837,7 +13351,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -12864,7 +13379,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "stagecompanion"
     }
    ]
   },
@@ -12892,7 +13408,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "midi"
     }
    ]
   },
@@ -12919,7 +13436,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "blackmold"
     }
    ]
   },
@@ -12947,7 +13465,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "nishiowoode"
     }
    ]
   },
@@ -12974,7 +13493,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "nishiowoturbosynth"
     }
    ]
   },
@@ -13001,7 +13521,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "nishiowolibxmp"
     }
    ]
   },
@@ -13028,7 +13549,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -13055,7 +13577,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mistiumdiscordbot"
     }
    ]
   },
@@ -13082,7 +13605,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mistiumeval"
     }
    ]
   },
@@ -13092,9 +13616,10 @@
    "author": "Mistium",
    "image": "https://extensions.mistium.com/images/Github.png",
    "categories": [
-    "Прочее"
+    "Сеть и онлайн",
+    "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -13109,7 +13634,23 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "githubapi"
+    },
+    {
+     "source": "dinosaurmod",
+     "source_label": "DinosaurMod",
+     "source_emoji": "🦕",
+     "url": "https://raw.githubusercontent.com/Dinosaurmod/extensions/main/src/extensions/github-api.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Dinosaurmod/extensions/main/src/extensions/github-api.js",
+     "image": "https://gabsthecuriouskid.github.io/DinosaurModExtensions/images/githubapi.png",
+     "description": "Fetch IDs, Description, etc. from Repositories, Users and Organizations.",
+     "author": "MrIncredibleMaker",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "githubapi"
     }
    ]
   },
@@ -13136,7 +13677,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "htmlinputs"
     }
    ]
   },
@@ -13148,7 +13690,7 @@
    "categories": [
     "Прочее"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -13163,7 +13705,23 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mistkeyhistoryextension"
+    },
+    {
+     "source": "mistwarp",
+     "source_label": "MistWarp",
+     "source_emoji": "🌫️",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/KeyHistory%20Legacy.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/KeyHistory%20Legacy.js",
+     "image": "https://extensions.mistium.com/images/KeyHistory%20Legacy.png",
+     "description": "Manage previous keys simply",
+     "author": "Mistium",
+     "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "mistkeyhistoryextension"
     }
    ]
   },
@@ -13190,7 +13748,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mistiummediautils"
     }
    ]
   },
@@ -13217,7 +13776,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mistsutils"
     }
    ]
   },
@@ -13245,7 +13805,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mistfetch"
     }
    ]
   },
@@ -13272,7 +13833,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "oasm"
     }
    ]
   },
@@ -13299,7 +13861,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -13327,7 +13890,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "indexeddbvfs"
     }
    ]
   },
@@ -13354,7 +13918,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mistiumpython"
     },
     {
      "source": "dinosaurmod",
@@ -13368,7 +13933,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "python"
     }
    ]
   },
@@ -13395,7 +13961,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "rdf"
     }
    ]
   },
@@ -13422,7 +13989,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "0iftreturntsubstring6emparsefingerprintfunctionelettesubstring14split"
     }
    ]
   },
@@ -13449,7 +14017,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mistiumshaders"
     }
    ]
   },
@@ -13477,7 +14046,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mistiumtiming"
     }
    ]
   },
@@ -13504,7 +14074,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "vfs"
     }
    ]
   },
@@ -13531,17 +14102,18 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "websocketplus"
     }
    ]
   },
   {
-   "name": "Cloudlink4_Improved",
-   "description": "A powerful WebSocket extension for Scratch.",
+   "name": "Camera",
+   "description": "Use the camera :P",
    "author": "Mistium",
-   "image": "https://extensions.mistium.com/images/Cloudlink4_Improved.png",
+   "image": "https://extensions.mistium.com/images/Camera.png",
    "categories": [
-    "Сеть и онлайн"
+    "Устройство и датчики"
    ],
    "sources_count": 1,
    "all_deprecated": false,
@@ -13550,15 +14122,16 @@
      "source": "mistwarp",
      "source_label": "MistWarp",
      "source_emoji": "🌫️",
-     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Cloudlink4_Improved.js",
-     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Cloudlink4_Improved.js",
-     "image": "https://extensions.mistium.com/images/Cloudlink4_Improved.png",
-     "description": "A powerful WebSocket extension for Scratch.",
+     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Camera.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/Camera.js",
+     "image": "https://extensions.mistium.com/images/Camera.png",
+     "description": "Use the camera :P",
      "author": "Mistium",
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "cameraextension"
     }
    ]
   },
@@ -13585,7 +14158,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mistiumcomments"
     }
    ]
   },
@@ -13613,7 +14187,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "exportsprite"
     }
    ]
   },
@@ -13641,7 +14216,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "setlistmist"
     }
    ]
   },
@@ -13651,9 +14227,9 @@
    "author": "Mistium",
    "image": "https://extensions.mistium.com/images/Faster%20Blur%20Uri.png",
    "categories": [
-    "Прочее"
+    "Графика и эффекты"
    ],
-   "sources_count": 1,
+   "sources_count": 3,
    "all_deprecated": false,
    "variants": [
     {
@@ -13668,21 +14244,9 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
-    }
-   ]
-  },
-  {
-   "name": "Faster Blur Uri Legacy",
-   "description": "Legacy canvas-based image blur from URLs and data URIs.",
-   "author": "Mistium",
-   "image": "https://extensions.mistium.com/images/Faster%20Blur%20Uri%20Legacy.png",
-   "categories": [
-    "Графика и эффекты"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
+     "tags": null,
+     "ext_id": "blurimage"
+    },
     {
      "source": "mistwarp",
      "source_label": "MistWarp",
@@ -13695,21 +14259,9 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
-    }
-   ]
-  },
-  {
-   "name": "Faster Blur Uri Legacy 2",
-   "description": "A simple extension that just blurs images from urls and data uris as fast as i could make it blur them!!!!",
-   "author": "Mistium",
-   "image": "https://extensions.mistium.com/images/Faster%20Blur%20Uri%20Legacy%202.png",
-   "categories": [
-    "Прочее"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
+     "tags": null,
+     "ext_id": "blurimage"
+    },
     {
      "source": "mistwarp",
      "source_label": "MistWarp",
@@ -13722,7 +14274,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "blurimage"
     }
    ]
   },
@@ -13749,7 +14302,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "fastobject"
     }
    ]
   },
@@ -13777,34 +14331,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
-    }
-   ]
-  },
-  {
-   "name": "KeyHistory Legacy",
-   "description": "Manage previous keys simply",
-   "author": "Mistium",
-   "image": "https://extensions.mistium.com/images/KeyHistory%20Legacy.png",
-   "categories": [
-    "Прочее"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "mistwarp",
-     "source_label": "MistWarp",
-     "source_emoji": "🌫️",
-     "url": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/KeyHistory%20Legacy.js",
-     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Mistium/extensions.mistium/main/files/KeyHistory%20Legacy.js",
-     "image": "https://extensions.mistium.com/images/KeyHistory%20Legacy.png",
-     "description": "Manage previous keys simply",
-     "author": "Mistium",
-     "author_link": "https://github.com/Mistium",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "inputmanager"
     }
    ]
   },
@@ -13832,7 +14360,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mistiumlowlevelskins"
     }
    ]
   },
@@ -13859,7 +14388,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mistiummicrophonestream"
     }
    ]
   },
@@ -13886,7 +14416,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "originosl"
     }
    ]
   },
@@ -13914,7 +14445,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mistiumrandom"
     }
    ]
   },
@@ -13941,7 +14473,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "callidcallergaveupbeforeweansweredincomingcallon"
     }
    ]
   },
@@ -13968,7 +14501,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "soundutils"
     }
    ]
   },
@@ -13995,7 +14529,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mistytables"
     }
    ]
   },
@@ -14022,7 +14557,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "tabcontrol"
     }
    ]
   },
@@ -14051,7 +14587,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "uriutilities"
     }
    ]
   },
@@ -14079,7 +14616,8 @@
      "author_link": "https://github.com/Mistium",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mistusb"
     }
    ]
   },
@@ -14106,7 +14644,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "webextension"
     }
    ]
   },
@@ -14133,35 +14672,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
-    }
-   ]
-  },
-  {
-   "name": "GitHub API",
-   "description": "Fetch IDs, Description, etc. from Repositories, Users and Organizations.",
-   "author": "MrIncredibleMaker",
-   "image": "https://gabsthecuriouskid.github.io/DinosaurModExtensions/images/githubapi.png",
-   "categories": [
-    "Сеть и онлайн",
-    "Скрипты и данные"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dinosaurmod",
-     "source_label": "DinosaurMod",
-     "source_emoji": "🦕",
-     "url": "https://raw.githubusercontent.com/Dinosaurmod/extensions/main/src/extensions/github-api.js",
-     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Dinosaurmod/extensions/main/src/extensions/github-api.js",
-     "image": "https://gabsthecuriouskid.github.io/DinosaurModExtensions/images/githubapi.png",
-     "description": "Fetch IDs, Description, etc. from Repositories, Users and Organizations.",
-     "author": "MrIncredibleMaker",
-     "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "keysplus"
     }
    ]
   },
@@ -14188,7 +14700,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "lua"
     }
    ]
   },
@@ -14215,7 +14728,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "tab"
     }
    ]
   },
@@ -14242,7 +14756,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -14269,7 +14784,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "ilikebothcatsanddogs"
     }
    ]
   },
@@ -14296,91 +14812,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
-    }
-   ]
-  },
-  {
-   "name": "Pen Plus",
-   "description": "Advanced rendering capabilities. Created by ObviousAlexC.",
-   "author": null,
-   "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/penplus.svg",
-   "categories": [
-    "Графика и эффекты"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "snail-ide",
-     "source_label": "Snail IDE",
-     "source_emoji": "🐌",
-     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/penplus.js",
-     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/penplus.js",
-     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/penplus.svg",
-     "description": "Advanced rendering capabilities. Created by ObviousAlexC.",
-     "author": null,
-     "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": null
-    }
-   ]
-  },
-  {
-   "name": "Numerical Encoding",
-   "description": "Encode strings as numbers for cloud variables. Created by cs2627883.",
-   "author": "cs2627883",
-   "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/cs2627883/numericalencoding.svg",
-   "categories": [
-    "Сеть и онлайн",
-    "Текст и шрифты",
-    "Математика и логика"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "snail-ide",
-     "source_label": "Snail IDE",
-     "source_emoji": "🐌",
-     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/cs2627883/numericalencoding.js",
-     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/cs2627883/numericalencoding.js",
-     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/cs2627883/numericalencoding.svg",
-     "description": "Encode strings as numbers for cloud variables. Created by cs2627883.",
-     "author": "cs2627883",
-     "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": null
-    }
-   ]
-  },
-  {
-   "name": "Camera Controls (Very Buggy)",
-   "description": "Move the visible part of the stage. Created by DT.",
-   "author": "DT",
-   "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/DT/cameracontrols.svg",
-   "categories": [
-    "Устройство и датчики",
-    "Окно и интерфейс"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "snail-ide",
-     "source_label": "Snail IDE",
-     "source_emoji": "🐌",
-     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/DT/cameracontrols.js",
-     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/DT/cameracontrols.js",
-     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/DT/cameracontrols.svg",
-     "description": "Move the visible part of the stage. Created by DT.",
-     "author": "DT",
-     "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "notsound"
     }
    ]
   },
@@ -14407,7 +14840,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "cubesterturbohook"
     }
    ]
   },
@@ -14434,7 +14868,8 @@
      "author_link": "https://github.com/Playgama",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -14461,7 +14896,8 @@
      "author_link": "https://github.com/DDen4ik-12",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "yagames"
     }
    ]
   },
@@ -14489,7 +14925,8 @@
      "author_link": "https://github.com/DDen4ik-12",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "telegrambotapi"
     }
    ]
   },
@@ -14517,7 +14954,8 @@
      "author_link": "https://github.com/DBDev-IT",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "dbdevdiscordwebhookapi"
     }
    ]
   },
@@ -14544,7 +14982,8 @@
      "author_link": "https://github.com/DDen4ik-12",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "den4ik12pathfinding"
     }
    ]
   },
@@ -14572,7 +15011,8 @@
      "author_link": "https://github.com/DDen4ik-12",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "den4ik12wheelscroll"
     }
    ]
   },
@@ -14599,7 +15039,8 @@
      "author_link": "https://github.com/DDen4ik-12",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -14626,7 +15067,8 @@
      "author_link": "https://github.com/DDen4ik-12",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -14653,7 +15095,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "scratchcraft2alert"
     }
    ]
   },
@@ -14680,7 +15123,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "mediarecord"
     }
    ]
   },
@@ -14707,7 +15151,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "arduinoultimate"
     }
    ]
   },
@@ -14734,7 +15179,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "notification"
     }
    ]
   },
@@ -14761,7 +15207,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "ultimateblockcleaner"
     }
    ]
   },
@@ -14788,7 +15235,8 @@
      "author_link": "https://github.com/DBDev-IT",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "shaman2016javascriptrunner"
     }
    ]
   },
@@ -14816,7 +15264,8 @@
      "author_link": "https://github.com/DBDev-IT",
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "polzovatel8787dashapi"
     }
    ]
   },
@@ -14843,7 +15292,38 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": "qbacksautosave"
+    }
+   ]
+  },
+  {
+   "name": "Pen+",
+   "description": "Extended pen section! Adds blocks for drawing triangles using textures and tints, drawing images and editing their pixels, etc.",
+   "author": "pinksheep2917",
+   "image": "https://dashblocks.org/extensions/static/images/ObviousAlexC/PenPlus.svg",
+   "categories": [
+    "Графика и эффекты",
+    "Математика и логика",
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/ObviousAlexC/PenPlus.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/ObviousAlexC/PenPlus.js",
+     "image": "https://dashblocks.org/extensions/static/images/ObviousAlexC/PenPlus.svg",
+     "description": "Extended pen section! Adds blocks for drawing triangles using textures and tints, drawing images and editing their pixels, etc.",
+     "author": "pinksheep2917",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -14870,7 +15350,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -14897,7 +15378,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -14924,7 +15406,8 @@
      "author_link": null,
      "documentation": null,
      "deprecated": false,
-     "tags": null
+     "tags": null,
+     "ext_id": null
     }
    ]
   }

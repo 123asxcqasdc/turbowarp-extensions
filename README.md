@@ -21,6 +21,6 @@
 | 🔥 DashBlocks | https://dashblocks.org/extensions/ |
 | 🐌 Snail IDE | https://snail-ide.js.org/community-extensions/ |
 
-Данные лежат в [`extensions.json`](extensions.json) — 655 расширений из 10 источников, уникальные после объединения дублей (с названием, описанием, ссылкой на `.js` и картинкой, где есть).
+Данные лежат в [`extensions.json`](extensions.json) — 655 расширений из 10 источников, 402 уникальных после объединения дублей по id расширения (а не по имени).
 
 Сайт: https://123asxcqasdc.github.io/turbowarp-extensions/
