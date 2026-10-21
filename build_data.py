@@ -13,11 +13,15 @@ SOURCE_LABELS = {
     "bluedome77": "BlueDome77",
     "penguinmod": "PenguinMod",
     "mistwarp": "MistWarp",
+    "dinosaurmod": "DinosaurMod",
+    "snail-ide": "Snail IDE",
+    "dashblocks": "DashBlocks",
 }
 SOURCE_EMOJI = {
     "official": "✅", "sharkpool": "🦈", "dimka-10": "🔟",
     "turbowarp-cn": "🀄", "bluedome77": "🩵", "penguinmod": "🐧",
-    "mistwarp": "🌫️",
+    "mistwarp": "🌫️", "dinosaurmod": "🦕", "snail-ide": "🐌",
+    "dashblocks": "🔥",
 }
 
 # ordered: first matches win priority (we collect up to 3)

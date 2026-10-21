@@ -1,7 +1,7 @@
 {
  "generated_at": "2026-10-18",
- "total_raw": 499,
- "total_merged": 383,
+ "total_raw": 655,
+ "total_merged": 414,
  "categories": [
   "3D и физика",
   "Время и таймеры",
@@ -28,7 +28,7 @@
     "Текст и шрифты",
     "Утилиты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -39,6 +39,20 @@
      "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/lab/text.js",
      "image": "https://extensions.turbowarp.org/images/lab/text.svg",
      "description": "An easy way to display and animate text. Compatible with Scratch Lab's Animated Text experiment. Created by LilyMakesThings and GarboMuffin.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/lab/text.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/lab/text.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/lab/text.svg",
+     "description": "An easy way to display and animate text. Compatible with Scratch Lab's Animated Text experiment.",
      "author": null,
      "author_link": null,
      "documentation": null,
@@ -110,7 +124,7 @@
    "categories": [
     "Прочее"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -121,6 +135,20 @@
      "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/stretch.js",
      "image": "https://extensions.turbowarp.org/images/stretch.svg",
      "description": "Stretch sprites horizontally or vertically. Created by GarboMuffin and TheStarWorld.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/stretch.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/stretch.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/stretch.svg",
+     "description": "Stretch sprites horizontally or vertically.",
      "author": null,
      "author_link": null,
      "documentation": null,
@@ -137,7 +165,7 @@
    "categories": [
     "Устройство и датчики"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -148,6 +176,20 @@
      "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/gamepad.js",
      "image": "https://extensions.turbowarp.org/images/gamepad.svg",
      "description": "Directly access gamepads instead of just mapping buttons to keys. Created by GarboMuffin.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/gamepad.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/gamepad.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/gamepad.svg",
+     "description": "Directly access gamepads instead of just mapping buttons to keys.",
      "author": null,
      "author_link": null,
      "documentation": null,
@@ -164,7 +206,7 @@
    "categories": [
     "3D и физика"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -180,6 +222,20 @@
      "documentation": "https://extensions.turbowarp.org/box2d",
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/box2d.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/box2d.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/box2d.svg",
+     "description": "Two dimensional physics. Originally created by griffpatch.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
@@ -191,7 +247,7 @@
    "categories": [
     "Файлы и хранилище"
    ],
-   "sources_count": 2,
+   "sources_count": 3,
    "all_deprecated": false,
    "variants": [
     {
@@ -221,6 +277,20 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/files.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/files.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/files.svg",
+     "description": "Read and download files.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
@@ -234,7 +304,7 @@
     "Математика и логика",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -245,6 +315,20 @@
      "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/pointerlock.js",
      "image": "https://extensions.turbowarp.org/images/pointerlock.png",
      "description": "Adds blocks for mouse locking. Mouse x & y blocks will report the change since the previous frame while the pointer is locked. Replaces the pointerlock experiment. Created by GarboMuffin.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/pointerlock.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/pointerlock.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/pointerlock.png",
+     "description": "Adds blocks for mouse locking. Mouse x & y blocks will report the change since the previous frame while the pointer is locked. Replaces the pointerlock experiment.",
      "author": null,
      "author_link": null,
      "documentation": null,
@@ -263,7 +347,7 @@
     "Устройство и датчики",
     "Математика и логика"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -274,6 +358,20 @@
      "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/cursor.js",
      "image": "https://extensions.turbowarp.org/images/cursor.png",
      "description": "Use custom cursors or hide the cursor. Also allows replacing the cursor with any costume image. Created by Samq64 and GarboMuffin.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/cursor.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/cursor.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/cursor.png",
+     "description": "Use custom cursors or hide the cursor. Also allows replacing the cursor with any costume image.",
      "author": null,
      "author_link": null,
      "documentation": null,
@@ -291,7 +389,7 @@
     "Окно и интерфейс",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -302,6 +400,20 @@
      "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/runtime-options.js",
      "image": "https://extensions.turbowarp.org/images/runtime-options.svg",
      "description": "Get and modify turbo mode, framerate, interpolation, clone limit, stage size, and more. Created by GarboMuffin.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/runtime-options.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/runtime-options.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/runtime-options.svg",
+     "description": "Get and modify turbo mode, framerate, interpolation, clone limit, stage size, and more.",
      "author": null,
      "author_link": null,
      "documentation": null,
@@ -318,7 +430,7 @@
    "categories": [
     "Сеть и онлайн"
    ],
-   "sources_count": 2,
+   "sources_count": 3,
    "all_deprecated": false,
    "variants": [
     {
@@ -348,6 +460,20 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/fetch.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/fetch.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/fetch.svg",
+     "description": "Make requests to the broader internet.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
@@ -359,7 +485,7 @@
    "categories": [
     "Текст и шрифты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -370,6 +496,20 @@
      "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/text.js",
      "image": "https://extensions.turbowarp.org/images/text.svg",
      "description": "Manipulate characters and text. Created by CST1229, BludIsAnLemon, and Man-o-Valor.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/text.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/text.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/text.svg",
+     "description": "Manipulate characters and text. Originally created by CST1229.",
      "author": null,
      "author_link": null,
      "documentation": null,
@@ -386,7 +526,7 @@
    "categories": [
     "Файлы и хранилище"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -402,18 +542,32 @@
      "documentation": "https://extensions.turbowarp.org/local-storage",
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/local-storage.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/local-storage.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/local-storage.svg",
+     "description": "Store data persistently. Like cookies, but better.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Base",
    "description": "Convert numbers between bases. Created by TrueFantom.",
-   "author": null,
+   "author": "true-fantom",
    "image": "https://extensions.turbowarp.org/images/true-fantom/base.svg",
    "categories": [
     "Математика и логика"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -425,6 +579,20 @@
      "image": "https://extensions.turbowarp.org/images/true-fantom/base.svg",
      "description": "Convert numbers between bases. Created by TrueFantom.",
      "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/true-fantom/base.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/true-fantom/base.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/true-fantom/base.svg",
+     "description": "Convert numbers between bases. Created by TrueFantom.",
+     "author": "true-fantom",
      "author_link": null,
      "documentation": null,
      "deprecated": false,
@@ -441,7 +609,7 @@
     "Математика и логика",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -457,19 +625,33 @@
      "documentation": "https://extensions.turbowarp.org/bitwise",
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/bitwise.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/bitwise.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/bitwise.svg",
+     "description": "Blocks that operate on the binary representation of numbers in computers. Created by TrueFantom.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "BigInt",
    "description": "Math blocks that work on infinitely large integers (no decimals). Created by Skyhigh173.",
-   "author": null,
+   "author": "Skyhigh173",
    "image": "https://extensions.turbowarp.org/images/Skyhigh173/bigint.svg",
    "categories": [
     "Математика и логика",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -481,6 +663,20 @@
      "image": "https://extensions.turbowarp.org/images/Skyhigh173/bigint.svg",
      "description": "Math blocks that work on infinitely large integers (no decimals). Created by Skyhigh173.",
      "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Skyhigh173/bigint.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Skyhigh173/bigint.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/Skyhigh173/bigint.svg",
+     "description": "Math blocks that work on infinitely large integers (no decimals). Created by Skyhigh173.",
+     "author": "Skyhigh173",
      "author_link": null,
      "documentation": null,
      "deprecated": false,
@@ -497,7 +693,7 @@
     "Скрипты и данные",
     "Утилиты"
    ],
-   "sources_count": 3,
+   "sources_count": 4,
    "all_deprecated": false,
    "variants": [
     {
@@ -541,19 +737,33 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/utilities.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/utilities.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/utilities.svg",
+     "description": "A bunch of interesting blocks. Originally created by Sheep_maker.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Video",
    "description": "Play videos from URLs. Created by LilyMakesThings, SharkPool, and Fath11.",
-   "author": null,
+   "author": "Lily",
    "image": "https://extensions.turbowarp.org/images/Lily/Video.svg",
    "categories": [
     "Звук и видео",
     "Утилиты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -569,6 +779,20 @@
      "documentation": "https://extensions.turbowarp.org/Lily/Video",
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/Video.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/Video.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/Lily/Video.svg",
+     "description": "Play videos from URLs. Created by LilyMakesThings.",
+     "author": "Lily",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
@@ -580,7 +804,7 @@
    "categories": [
     "Прочее"
    ],
-   "sources_count": 3,
+   "sources_count": 5,
    "all_deprecated": false,
    "variants": [
     {
@@ -624,6 +848,34 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/iframe.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/iframe.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/iframe.svg",
+     "description": "Display webpages or HTML over the stage.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://extensions.mistium.com/featured/Iframe+.js",
+     "open": "https://turbowarp.org/editor?extension=https://extensions.mistium.com/featured/Iframe+.js",
+     "image": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/images/Iframe+.png",
+     "description": "Have many iframes at once",
+     "author": "Mistium",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
@@ -657,12 +909,12 @@
   {
    "name": "Clipping & Blending",
    "description": "Clipping outside of a specified rectangular area and different color blending modes. Created by Vadik1.",
-   "author": null,
+   "author": "Xeltalliv",
    "image": "https://extensions.turbowarp.org/images/Xeltalliv/clippingblending.svg",
    "categories": [
     "Графика и эффекты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -674,6 +926,20 @@
      "image": "https://extensions.turbowarp.org/images/Xeltalliv/clippingblending.svg",
      "description": "Clipping outside of a specified rectangular area and different color blending modes. Created by Vadik1.",
      "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Xeltalliv/clippingblending.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Xeltalliv/clippingblending.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/Xeltalliv/clippingblending.svg",
+     "description": "Clipping outside of a specified rectangular area and different color blending modes. Created by Vadik1.",
+     "author": "Xeltalliv",
      "author_link": null,
      "documentation": null,
      "deprecated": false,
@@ -691,7 +957,7 @@
     "Файлы и хранилище",
     "Текст и шрифты"
    ],
-   "sources_count": 2,
+   "sources_count": 3,
    "all_deprecated": false,
    "variants": [
     {
@@ -718,6 +984,20 @@
      "description": "Позволяет взаимодействовать с буфером обмена: копировать, вставлять текст и файлы, а также отслеживать историю операций.",
      "author": "0znzw",
      "author_link": "https://scratch.mit.edu/users/0znzw/",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/clipboard.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/clipboard.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/clipboard.svg",
+     "description": "Read and write from the system clipboard.",
+     "author": null,
+     "author_link": null,
      "documentation": null,
      "deprecated": false,
      "tags": null
@@ -822,14 +1102,14 @@
   {
    "name": "Skins",
    "description": "Have your sprites render as other images or costumes. Created by LilyMakesThings.",
-   "author": null,
+   "author": "Lily",
    "image": "https://extensions.turbowarp.org/images/Lily/Skins.svg",
    "categories": [
     "Костюмы и скины",
     "Графика и эффекты",
     "Математика и логика"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -845,18 +1125,32 @@
      "documentation": "https://extensions.turbowarp.org/Lily/Skins",
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/Skins.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/Skins.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/Lily/Skins.svg",
+     "description": "Have your sprites render as other images or costumes. Created by LilyMakesThings.",
+     "author": "Lily",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Sensing Plus",
    "description": "An extension to the sensing category. Created by ObviousAlexC.",
-   "author": null,
+   "author": "obviousAlexC",
    "image": "https://extensions.turbowarp.org/images/obviousAlexC/SensingPlus.svg",
    "categories": [
     "Математика и логика"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -868,6 +1162,20 @@
      "image": "https://extensions.turbowarp.org/images/obviousAlexC/SensingPlus.svg",
      "description": "An extension to the sensing category. Created by ObviousAlexC.",
      "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/obviousAlexC/SensingPlus.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/obviousAlexC/SensingPlus.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/obviousAlexC/SensingPlus.svg",
+     "description": "An extension to the sensing category. Created by ObviousAlexC.",
+     "author": "obviousAlexC",
      "author_link": null,
      "documentation": null,
      "deprecated": false,
@@ -905,13 +1213,13 @@
   {
    "name": "Clones Plus",
    "description": "Expansion of Scratch's clone features. Created by LilyMakesThings.",
-   "author": null,
+   "author": "Lily",
    "image": "https://extensions.turbowarp.org/images/Lily/ClonesPlus.svg",
    "categories": [
     "Скрипты и данные",
     "Утилиты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -927,20 +1235,34 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/ClonesPlus.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/ClonesPlus.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/Lily/ClonesPlus.svg",
+     "description": "Expansion of Scratch's clone features. Created by LilyMakesThings.",
+     "author": "Lily",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Looks Plus",
    "description": "Expands upon the looks category, allowing you to show/hide, get costume data and edit SVG skins on sprites. Created by LilyMakesThings.",
-   "author": null,
+   "author": "Lily",
    "image": "https://extensions.turbowarp.org/images/Lily/LooksPlus.svg",
    "categories": [
     "Костюмы и скины",
     "Математика и логика",
     "Утилиты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -956,19 +1278,33 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/LooksPlus.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/LooksPlus.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/Lily/LooksPlus.svg",
+     "description": "Expands upon the looks category, allowing you to show/hide, get costume data and edit SVG skins on sprites. Created by LilyMakesThings.",
+     "author": "Lily",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "More Events",
    "description": "Start your scripts in new ways. Created by LilyMakesThings.",
-   "author": null,
+   "author": "Lily",
    "image": "https://extensions.turbowarp.org/images/Lily/MoreEvents.svg",
    "categories": [
     "Скрипты и данные",
     "Утилиты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -980,6 +1316,20 @@
      "image": "https://extensions.turbowarp.org/images/Lily/MoreEvents.svg",
      "description": "Start your scripts in new ways. Created by LilyMakesThings.",
      "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/MoreEvents.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/MoreEvents.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/Lily/MoreEvents.svg",
+     "description": "Start your scripts in new ways. Created by LilyMakesThings.",
+     "author": "Lily",
      "author_link": null,
      "documentation": null,
      "deprecated": false,
@@ -1072,12 +1422,12 @@
   {
    "name": "More Motion",
    "description": "More motion-related blocks. Created by NamelessCat.",
-   "author": null,
+   "author": "NexusKitten",
    "image": "https://extensions.turbowarp.org/images/NexusKitten/moremotion.svg",
    "categories": [
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1093,19 +1443,33 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/NexusKitten/moremotion.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/NexusKitten/moremotion.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/NexusKitten/moremotion.svg",
+     "description": "More motion-related blocks. Created by NamelessCat.",
+     "author": "NexusKitten",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Window Controls",
    "description": "Move, resize, rename the window, enter fullscreen, get screen size, and more. Created by BlueDome77. Updated by CubesterYT.",
-   "author": null,
+   "author": "CubesterYT",
    "image": "https://extensions.turbowarp.org/images/CubesterYT/WindowControls.svg",
    "categories": [
     "Окно и интерфейс",
     "Время и таймеры"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1121,18 +1485,32 @@
      "documentation": "https://extensions.turbowarp.org/CubesterYT/WindowControls",
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/CubesterYT/WindowControls.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/CubesterYT/WindowControls.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/CubesterYT/WindowControls.svg",
+     "description": "Move, resize, rename the window, enter fullscreen, get screen size, and more. Created by CubesterYT. Originally created by BlueDome77.",
+     "author": "CubesterYT",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Browser Fullscreen",
    "description": "Enter and exit fullscreen mode. Created by Veggiecan0419.",
-   "author": null,
+   "author": "veggiecan",
    "image": "https://extensions.turbowarp.org/images/veggiecan/browserfullscreen.svg",
    "categories": [
     "Окно и интерфейс"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1148,18 +1526,32 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/veggiecan/browserfullscreen.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/veggiecan/browserfullscreen.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/veggiecan/browserfullscreen.png",
+     "description": "Enter and exit fullscreen mode. Created by Veggiecan0419.",
+     "author": "veggiecan",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Screen Resolution",
    "description": "Get the resolution of the primary screen. Created by shreder95ua.",
-   "author": null,
+   "author": "shreder95ua",
    "image": "https://extensions.turbowarp.org/images/shreder95ua/resolution.svg",
    "categories": [
     "Устройство и датчики"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1171,6 +1563,20 @@
      "image": "https://extensions.turbowarp.org/images/shreder95ua/resolution.svg",
      "description": "Get the resolution of the primary screen. Created by shreder95ua.",
      "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/shreder95ua/resolution.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/shreder95ua/resolution.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/shreder95ua/resolution.svg",
+     "description": "Get the resolution of the primary screen. Created by shreder95ua.",
+     "author": "shreder95ua",
      "author_link": null,
      "documentation": null,
      "deprecated": false,
@@ -1214,7 +1620,7 @@
    "categories": [
     "Окно и интерфейс"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1225,6 +1631,20 @@
      "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/navigator.js",
      "image": "https://extensions.turbowarp.org/images/navigator.svg",
      "description": "Details about the user's browser and operating system. Created by GarboMuffin.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/navigator.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/navigator.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/navigator.svg",
+     "description": "Details about the user's browser and operating system.",
      "author": null,
      "author_link": null,
      "documentation": null,
@@ -1242,7 +1662,7 @@
     "Устройство и датчики",
     "Окно и интерфейс"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1253,6 +1673,20 @@
      "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/battery.js",
      "image": "https://extensions.turbowarp.org/images/battery.svg",
      "description": "Access information about the battery of phones or laptops. May not work on all devices and browsers. Created by GarboMuffin.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/battery.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/battery.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/battery.svg",
+     "description": "Access information about the battery of phones or laptops. May not work on all devices and browsers.",
      "author": null,
      "author_link": null,
      "documentation": null,
@@ -1292,14 +1726,14 @@
   {
    "name": "Custom Styles",
    "description": "Customize the appearance of variable monitors and prompts in your project. Created by TheShovel.",
-   "author": null,
+   "author": "TheShovel",
    "image": "https://extensions.turbowarp.org/images/TheShovel/CustomStyles.svg",
    "categories": [
     "Костюмы и скины",
     "Окно и интерфейс",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1315,19 +1749,33 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/TheShovel/CustomStyles.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/TheShovel/CustomStyles.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/TheShovel/CustomStyles.svg",
+     "description": "Customize the appearance of variable monitors and prompts in your project. Created by TheShovel.",
+     "author": "TheShovel",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Color Picker",
    "description": "Access your system's color picker. Created by TheShovel.",
-   "author": null,
+   "author": "TheShovel",
    "image": "https://extensions.turbowarp.org/images/TheShovel/ColorPicker.svg",
    "categories": [
     "Графика и эффекты",
     "Утилиты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1343,18 +1791,32 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/TheShovel/ColorPicker.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/TheShovel/ColorPicker.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/TheShovel/ColorPicker.svg",
+     "description": "Access your system's color picker. Created by TheShovel.",
+     "author": "TheShovel",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Control Controls",
    "description": "Show and hide the project's controls. Created by NamelessCat.",
-   "author": null,
+   "author": "NexusKitten",
    "image": "https://extensions.turbowarp.org/images/NexusKitten/controlcontrols.svg",
    "categories": [
     "Окно и интерфейс"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1370,18 +1832,32 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/NexusKitten/controlcontrols.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/NexusKitten/controlcontrols.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/NexusKitten/controlcontrols.svg",
+     "description": "Show and hide the project's controls. Created by NamelessCat.",
+     "author": "NexusKitten",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Notifications",
    "description": "Display notifications. Created by mdwalters.",
-   "author": null,
+   "author": "mdwalters",
    "image": "https://extensions.turbowarp.org/images/mdwalters/notifications.svg",
    "categories": [
     "Окно и интерфейс"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1397,19 +1873,33 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/mdwalters/notifications.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/mdwalters/notifications.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/mdwalters/notifications.svg",
+     "description": "Display notifications.",
+     "author": "mdwalters",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Delta Time",
    "description": "Precise delta timing blocks. Created by XeroName.",
-   "author": null,
+   "author": "XeroName",
    "image": "https://extensions.turbowarp.org/images/XeroName/Deltatime.svg",
    "categories": [
     "Время и таймеры",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1421,6 +1911,20 @@
      "image": "https://extensions.turbowarp.org/images/XeroName/Deltatime.svg",
      "description": "Precise delta timing blocks. Created by XeroName.",
      "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/XeroName/Deltatime.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/XeroName/Deltatime.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/XeroName/Deltatime.svg",
+     "description": "Precise delta timing blocks. Created by XeroName.",
+     "author": "XeroName",
      "author_link": null,
      "documentation": null,
      "deprecated": false,
@@ -1437,7 +1941,7 @@
     "3D и физика",
     "Устройство и датчики"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1453,6 +1957,20 @@
      "documentation": "https://extensions.turbowarp.org/ar",
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/ar.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/ar.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/ar.svg",
+     "description": "Shows image from camera and performs motion tracking, allowing 3D projects to correctly overlay virtual objects on real world. Created by Vadik1.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
@@ -1465,7 +1983,7 @@
     "Текст и шрифты",
     "Математика и логика"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1475,6 +1993,20 @@
      "url": "https://extensions.turbowarp.org/encoding.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/encoding.js",
      "image": "https://extensions.turbowarp.org/images/encoding.svg",
+     "description": "Encode and decode strings into their unicode numbers, base 64, or URLs. Created by -SIPC-.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/encoding.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/encoding.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/encoding.svg",
      "description": "Encode and decode strings into their unicode numbers, base 64, or URLs. Created by -SIPC-.",
      "author": null,
      "author_link": null,
@@ -1548,14 +2080,14 @@
   {
    "name": "Sound Expanded",
    "description": "Adds more sound-related blocks. Created by LilyMakesThings.",
-   "author": null,
+   "author": "Lily",
    "image": "https://extensions.turbowarp.org/images/Lily/SoundExpanded.svg",
    "categories": [
     "Звук и видео",
     "Скрипты и данные",
     "Утилиты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1567,6 +2099,20 @@
      "image": "https://extensions.turbowarp.org/images/Lily/SoundExpanded.svg",
      "description": "Adds more sound-related blocks. Created by LilyMakesThings.",
      "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/SoundExpanded.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/SoundExpanded.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/Lily/SoundExpanded.svg",
+     "description": "Adds more sound-related blocks. Created by LilyMakesThings.",
+     "author": "Lily",
      "author_link": null,
      "documentation": null,
      "deprecated": false,
@@ -1583,7 +2129,7 @@
     "Скрипты и данные",
     "Утилиты"
    ],
-   "sources_count": 3,
+   "sources_count": 4,
    "all_deprecated": false,
    "variants": [
     {
@@ -1630,20 +2176,34 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/TempVariables2.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/TempVariables2.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/Lily/TempVariables2.svg",
+     "description": "Create disposable runtime or thread variables. Created by LilyMakesThings.",
+     "author": "Lily",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "More Timers",
    "description": "Control several timers at once. Created by LilyMakesThings.",
-   "author": null,
+   "author": "Lily",
    "image": "https://extensions.turbowarp.org/images/Lily/MoreTimers.svg",
    "categories": [
     "Окно и интерфейс",
     "Время и таймеры",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1655,6 +2215,20 @@
      "image": "https://extensions.turbowarp.org/images/Lily/MoreTimers.svg",
      "description": "Control several timers at once. Created by LilyMakesThings.",
      "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/MoreTimers.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/MoreTimers.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/Lily/MoreTimers.svg",
+     "description": "Control several timers at once. Created by LilyMakesThings.",
+     "author": "Lily",
      "author_link": null,
      "documentation": null,
      "deprecated": false,
@@ -1672,7 +2246,7 @@
     "Время и таймеры",
     "Математика и логика"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1683,6 +2257,20 @@
      "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/clouddata-ping.js",
      "image": "https://extensions.turbowarp.org/images/clouddata-ping.svg",
      "description": "Determine whether a cloud variable server is probably up. Created by TheShovel. Updated by GarboMuffin.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/clouddata-ping.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/clouddata-ping.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/clouddata-ping.svg",
+     "description": "Determine whether a cloud variable server is probably up. Originally created by TheShovel.",
      "author": null,
      "author_link": null,
      "documentation": null,
@@ -1721,13 +2309,13 @@
   {
    "name": "Network",
    "description": "Various blocks for interacting with the network. Created by TrueFantom.",
-   "author": null,
+   "author": "true-fantom",
    "image": "https://extensions.turbowarp.org/images/true-fantom/network.svg",
    "categories": [
     "Сеть и онлайн",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1743,19 +2331,33 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/true-fantom/network.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/true-fantom/network.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/true-fantom/network.svg",
+     "description": "Various blocks for interacting with the network. Created by TrueFantom.",
+     "author": "true-fantom",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Math",
    "description": "A lot of operators blocks, from exponentiation to trigonometric functions. Created by TrueFantom.",
-   "author": null,
+   "author": "true-fantom",
    "image": "https://extensions.turbowarp.org/images/true-fantom/math.svg",
    "categories": [
     "Математика и логика",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1771,19 +2373,33 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/true-fantom/math.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/true-fantom/math.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/true-fantom/math.svg",
+     "description": "A lot of operators blocks, from exponentiation to trigonometric functions. Created by TrueFantom.",
+     "author": "true-fantom",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "RegExp",
    "description": "Full interface for working with Regular Expressions. Created by TrueFantom.",
-   "author": null,
+   "author": "true-fantom",
    "image": "https://extensions.turbowarp.org/images/true-fantom/regexp.svg",
    "categories": [
     "Устройство и датчики",
     "Текст и шрифты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1799,18 +2415,32 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/true-fantom/regexp.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/true-fantom/regexp.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/true-fantom/regexp.svg",
+     "description": "Full interface for working with Regular Expressions. Created by TrueFantom.",
+     "author": "true-fantom",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Couplers",
    "description": "A few adapter blocks. Created by TrueFantom.",
-   "author": null,
+   "author": "true-fantom",
    "image": "https://extensions.turbowarp.org/images/true-fantom/couplers.svg",
    "categories": [
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1822,6 +2452,20 @@
      "image": "https://extensions.turbowarp.org/images/true-fantom/couplers.svg",
      "description": "A few adapter blocks. Created by TrueFantom.",
      "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/true-fantom/couplers.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/true-fantom/couplers.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/true-fantom/couplers.svg",
+     "description": "A few adapter blocks. Created by TrueFantom.",
+     "author": "true-fantom",
      "author_link": null,
      "documentation": null,
      "deprecated": false,
@@ -1929,7 +2573,7 @@
     "Скрипты и данные",
     "Утилиты"
    ],
-   "sources_count": 2,
+   "sources_count": 3,
    "all_deprecated": false,
    "variants": [
     {
@@ -1959,19 +2603,33 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/AllMenus.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/AllMenus.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/Lily/AllMenus.svg",
+     "description": "Special category with every menu from every Scratch category and extensions. Created by LilyMakesThings.",
+     "author": "Lily",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Hidden Block Collection",
    "description": "Various \"hacked blocks\" that work in Scratch but are not visible in the palette. Created by LilyMakesThings and pumpkinhasapatch.",
-   "author": null,
+   "author": "Lily",
    "image": "https://extensions.turbowarp.org/images/Lily/HackedBlocks.svg",
    "categories": [
     "Скрипты и данные",
     "Утилиты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -1987,19 +2645,33 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/HackedBlocks.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/HackedBlocks.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/Lily/HackedBlocks.png",
+     "description": "Various &#34;hacked blocks&#34; that work in Scratch but are not visible in the palette. Created by LilyMakesThings and pumpkinhasapatch.",
+     "author": "Lily",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Cast",
    "description": "Convert values between types. Created by LilyMakesThings.",
-   "author": null,
+   "author": "Lily",
    "image": "https://extensions.turbowarp.org/images/Lily/Cast.svg",
    "categories": [
     "Скрипты и данные",
     "Утилиты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -2015,19 +2687,34 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/Cast.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/Cast.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/Lily/Cast.svg",
+     "description": "Convert values between types. Created by LilyMakesThings.",
+     "author": "Lily",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Time",
    "description": "Blocks for times, dates, and time zones. Created by -SIPC- and SharkPool.",
-   "author": null,
+   "author": "-SIPC-",
    "image": "https://extensions.turbowarp.org/images/-SIPC-/time.svg",
    "categories": [
+    "Графика и эффекты",
     "Время и таймеры",
-    "Скрипты и данные"
+    "Текст и шрифты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -2043,19 +2730,33 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/-SIPC-/time.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/-SIPC-/time.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/-SIPC-/time.svg",
+     "description": "Blocks for interacting with unix timestamps and other date strings. Created by -SIPC-.",
+     "author": "-SIPC-",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Consoles",
    "description": "Blocks that interact with the JavaScript console built in to your browser's developer tools. Created by -SIPC-.",
-   "author": null,
+   "author": "-SIPC-",
    "image": "https://extensions.turbowarp.org/images/-SIPC-/consoles.svg",
    "categories": [
     "Окно и интерфейс",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -2071,18 +2772,32 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/-SIPC-/consoles.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/-SIPC-/consoles.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/-SIPC-/consoles.svg",
+     "description": "Blocks that interact the JavaScript console built in to your browser's developer tools. Created by -SIPC-.",
+     "author": "-SIPC-",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Search Params",
    "description": "Interact with URL search parameters: the part of the URL after a question mark. Created by ZXMushroom63.",
-   "author": null,
+   "author": "ZXMushroom63",
    "image": "https://extensions.turbowarp.org/images/ZXMushroom63/searchApi.svg",
    "categories": [
     "Сеть и онлайн"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -2098,19 +2813,33 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/ZXMushroom63/searchApi.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/ZXMushroom63/searchApi.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/ZXMushroom63/searchApi.svg",
+     "description": "Interact with URL search parameters: the part of the URL after a question mark. Created by ZXMushroom63.",
+     "author": "ZXMushroom63",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "ShovelUtils",
    "description": "A bunch of miscellaneous blocks. Created by TheShovel and Mio.",
-   "author": null,
+   "author": "TheShovel",
    "image": "https://extensions.turbowarp.org/images/TheShovel/ShovelUtils.png",
    "categories": [
     "Скрипты и данные",
     "Утилиты"
    ],
-   "sources_count": 2,
+   "sources_count": 3,
    "all_deprecated": false,
    "variants": [
     {
@@ -2136,6 +2865,20 @@
      "image": null,
      "description": null,
      "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/TheShovel/ShovelUtils.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/TheShovel/ShovelUtils.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/TheShovel/ShovelUtils.png",
+     "description": "A bunch of miscellaneous blocks. Created by TheShovel.",
+     "author": "TheShovel",
      "author_link": null,
      "documentation": null,
      "deprecated": false,
@@ -2236,13 +2979,13 @@
   {
    "name": "Wake Lock",
    "description": "Prevent the computer from falling asleep. Created by D-ScratchNinja.",
-   "author": null,
+   "author": "DNin",
    "image": "https://extensions.turbowarp.org/images/DNin/wake-lock.svg",
    "categories": [
     "Устройство и датчики",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -2258,19 +3001,33 @@
      "documentation": "https://extensions.turbowarp.org/DNin/wake-lock",
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/DNin/wake-lock.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/DNin/wake-lock.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/DNin/wake-lock.svg",
+     "description": "Prevent the computer from falling asleep. Created by D-ScratchNinja.",
+     "author": "DNin",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "JSON",
    "description": "Handle JSON strings and arrays. Created by Skyhigh173 and Mio.",
-   "author": null,
+   "author": "Skyhigh173",
    "image": "https://extensions.turbowarp.org/images/Skyhigh173/json.svg",
    "categories": [
     "Текст и шрифты",
     "Математика и логика"
    ],
-   "sources_count": 2,
+   "sources_count": 3,
    "all_deprecated": false,
    "variants": [
     {
@@ -2296,6 +3053,20 @@
      "image": null,
      "description": null,
      "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Skyhigh173/json.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Skyhigh173/json.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/Skyhigh173/json.svg",
+     "description": "Handle JSON strings and arrays. Created by Skyhigh173.",
+     "author": "Skyhigh173",
      "author_link": null,
      "documentation": null,
      "deprecated": false,
@@ -2459,13 +3230,13 @@
   {
    "name": "Canvas Effects",
    "description": "Apply visual effects to the entire stage. Created by TheShovel and SharkPool.",
-   "author": null,
+   "author": "TheShovel",
    "image": "https://extensions.turbowarp.org/images/TheShovel/CanvasEffects.svg",
    "categories": [
     "Графика и эффекты",
     "Утилиты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -2481,18 +3252,32 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/TheShovel/CanvasEffects.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/TheShovel/CanvasEffects.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/TheShovel/CanvasEffects.svg",
+     "description": "Apply visual effects to the entire stage. Created by TheShovel.",
+     "author": "TheShovel",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "RGB Channels",
    "description": "Only render or stamp certain RGB channels. Created by Longboost.",
-   "author": null,
+   "author": "Longboost",
    "image": "https://extensions.turbowarp.org/images/Longboost/color_channels.svg",
    "categories": [
     "Графика и эффекты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -2508,18 +3293,32 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Longboost/color_channels.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Longboost/color_channels.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/Longboost/color_channels.svg",
+     "description": "Only render or stamp certain RGB channels.",
+     "author": "Longboost",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Zip",
    "description": "Create and edit .zip format files, including .sb3 files. Created by CST1229.",
-   "author": null,
+   "author": "CST1229",
    "image": "https://extensions.turbowarp.org/images/CST1229/zip.svg",
    "categories": [
     "Файлы и хранилище"
    ],
-   "sources_count": 2,
+   "sources_count": 3,
    "all_deprecated": false,
    "variants": [
     {
@@ -2545,6 +3344,20 @@
      "image": null,
      "description": null,
      "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/CST1229/zip.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/CST1229/zip.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/CST1229/zip.svg",
+     "description": "Create and edit .zip format files, including .sb3 files. Created by CST1229.",
+     "author": "CST1229",
      "author_link": null,
      "documentation": null,
      "deprecated": false,
@@ -2596,14 +3409,14 @@
   {
    "name": "LZ Compress",
    "description": "Compress and decompress text using lz-string. Created by TheShovel.",
-   "author": null,
+   "author": "TheShovel",
    "image": "https://extensions.turbowarp.org/images/TheShovel/LZ-String.svg",
    "categories": [
     "Текст и шрифты",
     "Математика и логика",
     "Утилиты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -2619,19 +3432,33 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/TheShovel/LZ-String.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/TheShovel/LZ-String.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/TheShovel/LZ-String.svg",
+     "description": "Compress and decompress text using lz-string.",
+     "author": "TheShovel",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "rxFS",
    "description": "Blocks for interacting with a virtual in-memory filesystem. Created by 0832.",
-   "author": null,
+   "author": "0832",
    "image": "https://extensions.turbowarp.org/images/0832/rxFS2.svg",
    "categories": [
     "Файлы и хранилище",
     "Скрипты и данные"
    ],
-   "sources_count": 3,
+   "sources_count": 4,
    "all_deprecated": false,
    "variants": [
     {
@@ -2675,18 +3502,32 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/0832/rxFS2.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/0832/rxFS2.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/0832/rxFS2.svg",
+     "description": "Blocks for interacting with a virtual in-memory filesystem. Created by 0832.",
+     "author": "0832",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "S-Grab",
    "description": "Get information about Scratch projects and Scratch users. Created by NamelessCat.",
-   "author": null,
+   "author": "NexusKitten",
    "image": "https://extensions.turbowarp.org/images/NexusKitten/sgrab.svg",
    "categories": [
     "Прочее"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -2702,19 +3543,33 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/NexusKitten/sgrab.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/NexusKitten/sgrab.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/NexusKitten/sgrab.svg",
+     "description": "Get information about Scratch projects and Scratch users. Created by NamelessCat.",
+     "author": "NexusKitten",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Graphics 2D",
    "description": "Blocks to compute lengths, angles, and areas in two dimensions. Created by NOname-awa.",
-   "author": null,
+   "author": "NOname-awa",
    "image": "https://extensions.turbowarp.org/images/NOname-awa/graphics2d.svg",
    "categories": [
     "Графика и эффекты",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -2730,19 +3585,33 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/NOname-awa/graphics2d.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/NOname-awa/graphics2d.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/NOname-awa/graphics2d.svg",
+     "description": "Blocks to compute lengths, angles, and areas in two dimensions. Created by NOname-awa.",
+     "author": "NOname-awa",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "More Comparisons",
    "description": "More comparison blocks. Created by NOname-awa.",
-   "author": null,
+   "author": "NOname-awa",
    "image": "https://extensions.turbowarp.org/images/NOname-awa/more-comparisons.svg",
    "categories": [
     "Математика и логика",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -2758,18 +3627,32 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/NOname-awa/more-comparisons.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/NOname-awa/more-comparisons.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/NOname-awa/more-comparisons.svg",
+     "description": "More comparison blocks. Created by NOname-awa.",
+     "author": "NOname-awa",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Tween",
    "description": "Easing methods for smooth animations. Created by JeremyGamer13 and Fath11.",
-   "author": null,
+   "author": "JeremyGamer13",
    "image": "https://extensions.turbowarp.org/images/JeremyGamer13/tween.svg",
    "categories": [
     "Математика и логика"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -2781,6 +3664,20 @@
      "image": "https://extensions.turbowarp.org/images/JeremyGamer13/tween.svg",
      "description": "Easing methods for smooth animations. Created by JeremyGamer13 and Fath11.",
      "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/JeremyGamer13/tween.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/JeremyGamer13/tween.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/JeremyGamer13/tween.svg",
+     "description": "Easing methods for smooth animations. Created by JeremyGamer13.",
+     "author": "JeremyGamer13",
      "author_link": null,
      "documentation": null,
      "deprecated": false,
@@ -2797,7 +3694,7 @@
     "Скрипты и данные",
     "Утилиты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -2813,18 +3710,32 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/rixxyx.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/rixxyx.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/rixxyx.svg",
+     "description": "Various utility blocks. Created by RixTheTyrunt.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Lily's Toolbox",
    "description": "Previously called LMS Utilities. Created by LilyMakesThings.",
-   "author": null,
+   "author": "Lily",
    "image": "https://extensions.turbowarp.org/images/Lily/lmsutils.svg",
    "categories": [
     "Утилиты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -2840,19 +3751,33 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/lmsutils.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/lmsutils.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/Lily/lmsutils.svg",
+     "description": "Previously called LMS Utilities. Created by LilyMakesThings.",
+     "author": "Lily",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Data Analysis",
    "description": "Blocks to compute means, medians, maximums, minimums, variances, and modes. Created by qxsck.",
-   "author": null,
+   "author": "qxsck",
    "image": "https://extensions.turbowarp.org/images/qxsck/data-analysis.svg",
    "categories": [
     "Математика и логика",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -2868,18 +3793,32 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/qxsck/data-analysis.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/qxsck/data-analysis.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/qxsck/data-analysis.svg",
+     "description": "Blocks to compute means, medians, maximums, minimums, variances, and modes. Created by qxsck.",
+     "author": "qxsck",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Variable and list",
    "description": "More blocks related to variables and lists. Created by qxsck.",
-   "author": null,
+   "author": "qxsck",
    "image": "https://extensions.turbowarp.org/images/qxsck/var-and-list.svg",
    "categories": [
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -2895,18 +3834,32 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/qxsck/var-and-list.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/qxsck/var-and-list.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/qxsck/var-and-list.svg",
+     "description": "More blocks related to variables and lists. Created by qxsck.",
+     "author": "qxsck",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Dictionaries",
    "description": "Use the power of dictionaries in your project. Created by Vercte.",
-   "author": null,
+   "author": "vercte",
    "image": "https://extensions.turbowarp.org/images/vercte/dictionaries.svg",
    "categories": [
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -2922,18 +3875,32 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/vercte/dictionaries.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/vercte/dictionaries.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/vercte/dictionaries.svg",
+     "description": "Use the power of dictionaries in your project. Created by Vercte.",
+     "author": "vercte",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "HTTP",
    "description": "Comprehensive extension for interacting with external websites. Created by RedMan13.",
-   "author": null,
+   "author": "godslayerakp",
    "image": "https://extensions.turbowarp.org/images/godslayerakp/http.svg",
    "categories": [
     "Сеть и онлайн"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -2945,6 +3912,20 @@
      "image": "https://extensions.turbowarp.org/images/godslayerakp/http.svg",
      "description": "Comprehensive extension for interacting with external websites. Created by RedMan13.",
      "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/godslayerakp/http.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/godslayerakp/http.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/godslayerakp/http.svg",
+     "description": "Comprehensive extension for interacting with external websites. Created by RedMan13.",
+     "author": "godslayerakp",
      "author_link": null,
      "documentation": null,
      "deprecated": false,
@@ -3009,13 +3990,13 @@
   {
    "name": "Comment Blocks",
    "description": "Annotate your scripts. Created by LilyMakesThings.",
-   "author": null,
+   "author": "Lily",
    "image": "https://extensions.turbowarp.org/images/Lily/CommentBlocks.svg",
    "categories": [
     "Скрипты и данные",
     "Утилиты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -3031,19 +4012,33 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/CommentBlocks.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/CommentBlocks.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/Lily/CommentBlocks.svg",
+     "description": "Annotate your scripts. Created by LilyMakesThings.",
+     "author": "Lily",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Longman Dictionary",
    "description": "Get the definitions of words from the Longman Dictionary in your projects. Created by veggiecan0419.",
-   "author": null,
+   "author": "veggiecan",
    "image": "https://extensions.turbowarp.org/images/veggiecan/LongmanDictionary.svg",
    "categories": [
     "Сеть и онлайн",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -3059,18 +4054,32 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/veggiecan/LongmanDictionary.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/veggiecan/LongmanDictionary.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/veggiecan/LongmanDictionary.png",
+     "description": "Get the definitions of words from the Longman Dictionary in your projects. Created by veggiecan0419.",
+     "author": "veggiecan",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "NFCWarp",
    "description": "Allows reading data from NFC (NDEF) devices. Only works in Chrome on Android. Created by Alestore Games.",
-   "author": null,
+   "author": "Alestore",
    "image": "https://extensions.turbowarp.org/images/Alestore/nfcwarp.svg",
    "categories": [
     "Сеть и онлайн"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -3082,6 +4091,20 @@
      "image": "https://extensions.turbowarp.org/images/Alestore/nfcwarp.svg",
      "description": "Allows reading data from NFC (NDEF) devices. Only works in Chrome on Android. Created by Alestore Games.",
      "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Alestore/nfcwarp.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Alestore/nfcwarp.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/Alestore/nfcwarp.svg",
+     "description": "Allows reading data from NFC (NDEF) devices. Only works in Chrome on Android. Created by Alestore Games.",
+     "author": "Alestore",
      "author_link": null,
      "documentation": null,
      "deprecated": false,
@@ -3153,7 +4176,7 @@
     "Сеть и онлайн",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -3163,6 +4186,20 @@
      "url": "https://extensions.turbowarp.org/itchio.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/itchio.js",
      "image": "https://extensions.turbowarp.org/images/itchio.svg",
+     "description": "Blocks that interact with the itch.io website. Unofficial. Created by softed.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/itchio.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/itchio.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/itchio.svg",
      "description": "Blocks that interact with the itch.io website. Unofficial. Created by softed.",
      "author": null,
      "author_link": null,
@@ -3181,7 +4218,7 @@
     "Сеть и онлайн",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -3197,20 +4234,34 @@
      "documentation": "https://extensions.turbowarp.org/gamejolt",
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/gamejolt.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/gamejolt.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/gamejolt.png",
+     "description": "Blocks that allow games to interact with the GameJolt API. Unofficial. Created by softed.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "Newgrounds",
    "description": "Blocks that allow games to interact with the Newgrounds API. Unofficial. Created by ObviousAlexC.",
-   "author": null,
+   "author": "obviousAlexC",
    "image": "https://extensions.turbowarp.org/images/obviousAlexC/newgroundsIO.svg",
    "categories": [
     "Сеть и онлайн",
     "Математика и логика",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -3226,18 +4277,32 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/obviousAlexC/newgroundsIO.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/obviousAlexC/newgroundsIO.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/obviousAlexC/newgroundsIO.svg",
+     "description": "Blocks that allow games to interact with the Newgrounds API. Unofficial. Created by ObviousAlexC.",
+     "author": "obviousAlexC",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
   {
    "name": "McUtils",
    "description": "Helpful utilities for any fast food employee. Created by LilyMakesThings.",
-   "author": null,
+   "author": "Lily",
    "image": "https://extensions.turbowarp.org/images/Lily/McUtils.png",
    "categories": [
     "Утилиты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -3249,6 +4314,20 @@
      "image": "https://extensions.turbowarp.org/images/Lily/McUtils.png",
      "description": "Helpful utilities for any fast food employee. Created by LilyMakesThings.",
      "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/McUtils.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/Lily/McUtils.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/Lily/McUtils.png",
+     "description": "Helpful utilities for any fast food employee. Created by LilyMakesThings.",
+     "author": "Lily",
      "author_link": null,
      "documentation": null,
      "deprecated": false,
@@ -8120,7 +9199,7 @@
    "categories": [
     "Математика и логика"
    ],
-   "sources_count": 2,
+   "sources_count": 3,
    "all_deprecated": false,
    "variants": [
     {
@@ -8144,6 +9223,20 @@
      "url": "https://extensions.penguinmod.com/extensions/gaimerI17/crypto.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/gaimerI17/crypto.js",
      "image": "https://extensions.penguinmod.com/images/gaimerI17/crypto.avif",
+     "description": "Hash, encrypt and verify values using various algorithms. Actual security not guaranteed",
+     "author": "gaimerI",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/gaimerI17/crypto.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/gaimerI17/crypto.js",
+     "image": "https://dashblocks.org/extensions/static/images/gaimerI17/crypto.avif",
      "description": "Hash, encrypt and verify values using various algorithms. Actual security not guaranteed",
      "author": "gaimerI",
      "author_link": null,
@@ -8325,7 +9418,7 @@
     "Файлы и хранилище",
     "Текст и шрифты"
    ],
-   "sources_count": 2,
+   "sources_count": 3,
    "all_deprecated": false,
    "variants": [
     {
@@ -8349,6 +9442,20 @@
      "url": "https://extensions.penguinmod.com/extensions/Ashime/MoreFields.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/Ashime/MoreFields.js",
      "image": "https://extensions.penguinmod.com/images/0znzw/MoreFields.avif",
+     "description": "Custom Field Types",
+     "author": "yuri-kiss",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/Ashime/MoreFields.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/Ashime/MoreFields.js",
+     "image": "https://dashblocks.org/extensions/static/images/0znzw/MoreFields.png",
      "description": "Custom Field Types",
      "author": "yuri-kiss",
      "author_link": null,
@@ -8876,7 +9983,7 @@
     "Графика и эффекты",
     "Математика и логика"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -8892,6 +9999,20 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/derpygamer2142/gpusb3.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/derpygamer2142/gpusb3.js",
+     "image": "https://dashblocks.org/extensions/static/images/derpygamer2142/gpusb3.svg",
+     "description": "Use WebGPU compute shaders to accelerate your projects.",
+     "author": "insanetaco2000",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
@@ -8903,7 +10024,7 @@
    "categories": [
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -8916,6 +10037,20 @@
      "description": "Чат-бот на базе искусственного интеллекта, который поможет вам писать код в ваших проектах.",
      "author": "derpygamer2142",
      "author_link": "https://scratch.mit.edu/users/insanetaco2000/",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/TheShovel/blockAI.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/TheShovel/blockAI.js",
+     "image": "https://dashblocks.org/extensions/static/images/TheShovel/thumbnail-blockAI.png",
+     "description": "An AI powered chat bot to help you code in your projects.",
+     "author": "TheShovel",
+     "author_link": null,
      "documentation": null,
      "deprecated": false,
      "tags": null
@@ -9382,7 +10517,7 @@
     "Математика и логика",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -9392,6 +10527,20 @@
      "url": "https://extensions.penguinmod.com/extensions/ObviousAlexC/PenPlus.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/ObviousAlexC/PenPlus.js",
      "image": "https://extensions.penguinmod.com/images/ObviousAlexC/PenPlus.svg",
+     "description": "Extended pen section! Adds blocks for drawing triangles using textures and tints, drawing images and editing their pixels, etc.",
+     "author": "pinksheep2917",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/ObviousAlexC/PenPlus.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/ObviousAlexC/PenPlus.js",
+     "image": "https://dashblocks.org/extensions/static/images/ObviousAlexC/PenPlus.svg",
      "description": "Extended pen section! Adds blocks for drawing triangles using textures and tints, drawing images and editing their pixels, etc.",
      "author": "pinksheep2917",
      "author_link": null,
@@ -9409,7 +10558,7 @@
    "categories": [
     "Утилиты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -9419,6 +10568,20 @@
      "url": "https://extensions.penguinmod.com/extensions/TheShovel/shoveldebugger.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/TheShovel/shoveldebugger.js",
      "image": "https://extensions.penguinmod.com/images/TheShovel/thumbnail-shoveldebugger.avif",
+     "description": "Shovel's improved and feature rich debugger!",
+     "author": "TheShovel",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/TheShovel/shoveldebugger.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/TheShovel/shoveldebugger.js",
+     "image": "https://dashblocks.org/extensions/static/images/TheShovel/thumbnail-shoveldebugger.avif",
      "description": "Shovel's improved and feature rich debugger!",
      "author": "TheShovel",
      "author_link": null,
@@ -9491,7 +10654,7 @@
    "categories": [
     "Математика и логика"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -9501,6 +10664,20 @@
      "url": "https://extensions.penguinmod.com/extensions/TheShovel/qoan-renderer.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/TheShovel/qoan-renderer.js",
      "image": "https://extensions.penguinmod.com/images/TheShovel/thumbnail-motionsprite.avif",
+     "description": "An advanced math-based animation system",
+     "author": "TheShovel",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/TheShovel/qoan-renderer.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/TheShovel/qoan-renderer.js",
+     "image": "https://dashblocks.org/extensions/static/images/TheShovel/thumbnail-motionsprite.avif",
      "description": "An advanced math-based animation system",
      "author": "TheShovel",
      "author_link": null,
@@ -9546,7 +10723,7 @@
    "categories": [
     "3D и физика"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -9557,6 +10734,20 @@
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/pooiod/Box2D.js",
      "image": "https://extensions.penguinmod.com/images/pooiod/B2Dimg.svg",
      "description": "Implements the Box2D physics engine into PenguinMod, adding joints, springs, etc. This is different from TurboWarp's implementation.",
+     "author": "pooiod7",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/pooiod/Box2D.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/pooiod/Box2D.js",
+     "image": "https://dashblocks.org/extensions/static/images/pooiod/B2Dimg.svg",
+     "description": "Implements the Box2D physics engine, adding joints, springs, etc. This is different from TurboWarp's implementation.",
      "author": "pooiod7",
      "author_link": null,
      "documentation": null,
@@ -9602,7 +10793,7 @@
     "Математика и логика",
     "Утилиты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -9612,6 +10803,20 @@
      "url": "https://extensions.penguinmod.com/extensions/ObviousAlexC/3DMath.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/ObviousAlexC/3DMath.js",
      "image": "https://extensions.penguinmod.com/images/ObviousAlexC/3DMath.svg",
+     "description": "A handful of utilities for making your own sprite-based 3D engine.",
+     "author": "pinksheep2917",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/ObviousAlexC/3DMath.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/ObviousAlexC/3DMath.js",
+     "image": "https://dashblocks.org/extensions/static/images/ObviousAlexC/3DMath.svg",
      "description": "A handful of utilities for making your own sprite-based 3D engine.",
      "author": "pinksheep2917",
      "author_link": null,
@@ -9767,7 +10972,7 @@
    "categories": [
     "Графика и эффекты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -9777,6 +10982,20 @@
      "url": "https://extensions.penguinmod.com/extensions/TheShovel/doodlerec.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/TheShovel/doodlerec.js",
      "image": "https://extensions.penguinmod.com/images/TheShovel/thumbnail-doodlerec.avif",
+     "description": "A implementation of Google's Quick Draw image vision model",
+     "author": "TheShovel",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/TheShovel/doodlerec.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/TheShovel/doodlerec.js",
+     "image": "https://dashblocks.org/extensions/static/images/TheShovel/thumbnail-doodlerec.png",
      "description": "A implementation of Google's Quick Draw image vision model",
      "author": "TheShovel",
      "author_link": null,
@@ -9796,7 +11015,7 @@
     "Текст и шрифты",
     "Математика и логика"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -9806,6 +11025,20 @@
      "url": "https://extensions.penguinmod.com/extensions/PuzzlingGGG/ttsrV2.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/PuzzlingGGG/ttsrV2.js",
      "image": "https://extensions.penguinmod.com/images/PuzzlingGGG/tts.avif",
+     "description": "A better alternitive to the base text to speech extension. Powered by the TTStool API",
+     "author": "PuzzlingGGG",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/PuzzlingGGG/ttsr.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/PuzzlingGGG/ttsr.js",
+     "image": "https://dashblocks.org/extensions/static/images/PuzzlingGGG/TTSR.png",
      "description": "A better alternitive to the base text to speech extension. Powered by the TTStool API",
      "author": "PuzzlingGGG",
      "author_link": null,
@@ -9823,7 +11056,7 @@
    "categories": [
     "Сеть и онлайн"
    ],
-   "sources_count": 1,
+   "sources_count": 3,
    "all_deprecated": false,
    "variants": [
     {
@@ -9833,6 +11066,34 @@
      "url": "https://extensions.penguinmod.com/extensions/MikeDev101/cloudlink.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/MikeDev101/cloudlink.js",
      "image": "https://extensions.penguinmod.com/images/MikeDev101/cloudlink.svg",
+     "description": "A powerful WebSocket extension for Scratch. Allows for online connectivity to servers for things like multiplayer.",
+     "author": "MikeDev101",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/cloudlink.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/cloudlink.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/cloudlink.svg",
+     "description": "Powerful WebSocket extension for Scratch 3. Created by MikeDEV.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/MikeDev101/cloudlink.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/MikeDev101/cloudlink.js",
+     "image": "https://dashblocks.org/extensions/static/images/MikeDev101/cloudlink.svg",
      "description": "A powerful WebSocket extension for Scratch. Allows for online connectivity to servers for things like multiplayer.",
      "author": "MikeDev101",
      "author_link": null,
@@ -9850,7 +11111,7 @@
    "categories": [
     "Прочее"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -9860,6 +11121,20 @@
      "url": "https://extensions.penguinmod.com/extensions/MikeDev101/e2ee.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/MikeDev101/e2ee.js",
      "image": "https://extensions.penguinmod.com/images/MikeDev101/e2ee.svg",
+     "description": "A general-purpose E2EE (End-to-End Encryption) extension for Scratch.",
+     "author": "MikeDev101",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/MikeDev101/e2ee.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/MikeDev101/e2ee.js",
+     "image": "https://dashblocks.org/extensions/static/images/MikeDev101/e2ee.svg",
      "description": "A general-purpose E2EE (End-to-End Encryption) extension for Scratch.",
      "author": "MikeDev101",
      "author_link": null,
@@ -9877,7 +11152,7 @@
    "categories": [
     "Прочее"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -9887,6 +11162,20 @@
      "url": "https://extensions.penguinmod.com/extensions/MikeDev101/webrtc.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/MikeDev101/webrtc.js",
      "image": "https://extensions.penguinmod.com/images/MikeDev101/webrtc.svg",
+     "description": "A barebones WebRTC implementation.",
+     "author": "MikeDev101",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/MikeDev101/webrtc.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/MikeDev101/webrtc.js",
+     "image": "https://dashblocks.org/extensions/static/images/MikeDev101/webrtc.svg",
      "description": "A barebones WebRTC implementation.",
      "author": "MikeDev101",
      "author_link": null,
@@ -9933,7 +11222,7 @@
     "Скрипты и данные",
     "Утилиты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -9943,6 +11232,20 @@
      "url": "https://extensions.penguinmod.com/extensions/MubiLop/numutils.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/MubiLop/numutils.js",
      "image": "https://extensions.penguinmod.com/images/MubiLop/numutils.avif",
+     "description": "Adds blocks for number formatting and manipulation.",
+     "author": "cicerorph",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/MubiLop/numutils.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/MubiLop/numutils.js",
+     "image": "https://dashblocks.org/extensions/static/images/MubiLop/numutils.png",
      "description": "Adds blocks for number formatting and manipulation.",
      "author": "cicerorph",
      "author_link": null,
@@ -9960,7 +11263,7 @@
    "categories": [
     "Математика и логика"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -9970,6 +11273,20 @@
      "url": "https://extensions.penguinmod.com/extensions/jwklong/mathematics.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/jwklong/mathematics.js",
      "image": "https://extensions.penguinmod.com/images/jwklong/mathematics.avif",
+     "description": "Complicated maths extension for nerds.",
+     "author": "jwklong",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/jwklong/mathematics.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/jwklong/mathematics.js",
+     "image": "https://dashblocks.org/extensions/static/images/jwklong/mathematics.png",
      "description": "Complicated maths extension for nerds.",
      "author": "jwklong",
      "author_link": null,
@@ -9987,7 +11304,7 @@
    "categories": [
     "Прочее"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -9997,6 +11314,20 @@
      "url": "https://extensions.penguinmod.com/extensions/qxsck/big-decimal.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/qxsck/big-decimal.js",
      "image": "https://extensions.penguinmod.com/images/qxsck/big-decimal.svg",
+     "description": "High precision operations. (Support decimals)",
+     "author": "qxsck",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/qxsck/big-decimal.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/qxsck/big-decimal.js",
+     "image": "https://dashblocks.org/extensions/static/images/qxsck/big-decimal.svg",
      "description": "High precision operations. (Support decimals)",
      "author": "qxsck",
      "author_link": null,
@@ -10015,7 +11346,7 @@
     "Время и таймеры",
     "Математика и логика"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10025,6 +11356,20 @@
      "url": "https://extensions.penguinmod.com/extensions/ddededodediamante/dateFormatV2.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/ddededodediamante/dateFormatV2.js",
      "image": "https://extensions.penguinmod.com/images/ddededodediamante/dateFormat.svg",
+     "description": "Manage, format and compare dates.",
+     "author": "ddededodediamante",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/ddededodediamante/dateFormatV2.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/ddededodediamante/dateFormatV2.js",
+     "image": "https://dashblocks.org/extensions/static/images/ddededodediamante/dateFormat.svg",
      "description": "Manage, format and compare dates.",
      "author": "ddededodediamante",
      "author_link": null,
@@ -10238,7 +11583,7 @@
     "Математика и логика",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10254,6 +11599,20 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/Gen1x/random_utils.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/Gen1x/random_utils.js",
+     "image": "https://dashblocks.org/extensions/static/images/Gen1x/randomutils.png",
+     "description": "Many blocks related to generating random values, including seed-based number generation, true number generation, UUID's, random strings, etc.",
+     "author": "G1nX",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
@@ -10265,7 +11624,7 @@
    "categories": [
     "Окно и интерфейс"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10275,6 +11634,20 @@
      "url": "https://extensions.penguinmod.com/extensions/MubiLop/toastnotifs.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/MubiLop/toastnotifs.js",
      "image": "https://extensions.penguinmod.com/images/MubiLop/toastnotifs.avif",
+     "description": "Did you want alerts? Notifications that are easily customizable? This is the only and best notification extension!",
+     "author": "cicerorph",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/MubiLop/toastnotifs.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/MubiLop/toastnotifs.js",
+     "image": "https://dashblocks.org/extensions/static/images/MubiLop/toastnotifs.png",
      "description": "Did you want alerts? Notifications that are easily customizable? This is the only and best notification extension!",
      "author": "cicerorph",
      "author_link": null,
@@ -10293,7 +11666,7 @@
     "Графика и эффекты",
     "Устройство и датчики"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10303,6 +11676,20 @@
      "url": "https://extensions.penguinmod.com/extensions/LordCat0/ProjectInterfaces.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/LordCat0/ProjectInterfaces.js",
      "image": "https://extensions.penguinmod.com/images/LordCat0/ProjectInterfaces.avif",
+     "description": "Effortlessly create intuitive graphical user interfaces in your projects.",
+     "author": "LordCat0",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/LordCat0/ProjectInterfaces.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/LordCat0/ProjectInterfaces.js",
+     "image": "https://dashblocks.org/extensions/static/images/LordCat0/ProjectInterfaces.png",
      "description": "Effortlessly create intuitive graphical user interfaces in your projects.",
      "author": "LordCat0",
      "author_link": null,
@@ -10322,7 +11709,7 @@
     "Файлы и хранилище",
     "Окно и интерфейс"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10332,6 +11719,20 @@
      "url": "https://extensions.penguinmod.com/extensions/justablock/gitpenguin.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/justablock/gitpenguin.js",
      "image": "https://extensions.penguinmod.com/images/justablock/gitpenguin.avif",
+     "description": "Make requests and control the files for your GitHub repository.",
+     "author": "justablock",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/justablock/gitpenguin.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/justablock/gitpenguin.js",
+     "image": "https://dashblocks.org/extensions/static/images/justablock/gitpenguin.png",
      "description": "Make requests and control the files for your GitHub repository.",
      "author": "justablock",
      "author_link": null,
@@ -10376,7 +11777,7 @@
    "categories": [
     "Прочее"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10387,6 +11788,20 @@
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/RubyDevs/turboweather.js",
      "image": "https://extensions.penguinmod.com/images/RubyDevs/turboweather.avif",
      "description": "Show weather and location data for any place in our world. Data that could be used for doxxing is deleted from results.",
+     "author": "RubyDevs",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/RubyDevs/turboweather.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/RubyDevs/turboweather.js",
+     "image": "https://dashblocks.org/extensions/static/images/RubyDevs/turboweather.webp",
+     "description": "Show weather and location data for any place in our world.",
      "author": "RubyDevs",
      "author_link": null,
      "documentation": null,
@@ -10403,7 +11818,7 @@
    "categories": [
     "Сеть и онлайн"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10413,6 +11828,20 @@
      "url": "https://extensions.penguinmod.com/extensions/bruhbeast-pixel/CockatielLocation.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/bruhbeast-pixel/CockatielLocation.js",
      "image": "https://extensions.penguinmod.com/images/bruhbeast-pixel/CockatielLocation.svg",
+     "description": "Fetch Users' IP Addresses and Location.",
+     "author": "bruhbeast-pixel",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/bruhbeast-pixel/CockatielLocation.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/bruhbeast-pixel/CockatielLocation.js",
+     "image": "https://dashblocks.org/extensions/static/images/bruhbeast-pixel/CockatielLocation.svg",
      "description": "Fetch Users' IP Addresses and Location.",
      "author": "bruhbeast-pixel",
      "author_link": null,
@@ -10430,7 +11859,7 @@
    "categories": [
     "Сеть и онлайн"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10440,6 +11869,20 @@
      "url": "https://extensions.penguinmod.com/extensions/NamelessCat/corsproxy.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/NamelessCat/corsproxy.js",
      "image": "https://extensions.penguinmod.com/images/NamelessCat/corsproxy.avif",
+     "description": "Accessible CORS Proxies for fetching information with PenguinMod.",
+     "author": "NamelessCat",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/NamelessCat/corsproxy.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/NamelessCat/corsproxy.js",
+     "image": "https://dashblocks.org/extensions/static/images/NamelessCat/corsproxy.png",
      "description": "Accessible CORS Proxies for fetching information with PenguinMod.",
      "author": "NamelessCat",
      "author_link": null,
@@ -10457,7 +11900,7 @@
    "categories": [
     "Прочее"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10473,6 +11916,20 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/Embin/embintranslation.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/Embin/embintranslation.js",
+     "image": "https://dashblocks.org/extensions/static/images/Embin/embintranslation.avif",
+     "description": "Use translation keys in your projects for multi-language support",
+     "author": "NotEmbin",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
@@ -10484,7 +11941,7 @@
    "categories": [
     "Прочее"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10494,6 +11951,20 @@
      "url": "https://extensions.penguinmod.com/extensions/TheShovel/extexp.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/TheShovel/extexp.js",
      "image": "https://extensions.penguinmod.com/images/TheShovel/placeholder-extexp.avif",
+     "description": "Access the raw functions from other extensions.",
+     "author": "TheShovel",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/TheShovel/extexp.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/TheShovel/extexp.js",
+     "image": "https://dashblocks.org/extensions/static/images/TheShovel/placeholder-extexp.png",
      "description": "Access the raw functions from other extensions.",
      "author": "TheShovel",
      "author_link": null,
@@ -10511,7 +11982,7 @@
    "categories": [
     "Текст и шрифты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10521,6 +11992,20 @@
      "url": "https://extensions.penguinmod.com/extensions/DogeisCut/BeepBoxPlayer.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/DogeisCut/BeepBoxPlayer.js",
      "image": "https://extensions.penguinmod.com/images/DogeisCut/BeepBoxPlayer.svg",
+     "description": "Play, edit, and read songs from any BeepBox mod directly from the URL or JSON!",
+     "author": "DogeisCut",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/DogeisCut/BeepBoxPlayer.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/DogeisCut/BeepBoxPlayer.js",
+     "image": "https://dashblocks.org/extensions/static/images/DogeisCut/BeepBoxPlayer.svg",
      "description": "Play, edit, and read songs from any BeepBox mod directly from the URL or JSON!",
      "author": "DogeisCut",
      "author_link": null,
@@ -10540,7 +12025,7 @@
     "Файлы и хранилище",
     "Время и таймеры"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10550,6 +12035,20 @@
      "url": "https://extensions.penguinmod.com/extensions/Anonymous_cat1/updateFile.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/Anonymous_cat1/updateFile.js",
      "image": "https://extensions.penguinmod.com/images/Anonymous_cat1/updateFile.svg",
+     "description": "A simple extension that uses the File System Access API to update files dynamically.",
+     "author": "Anonymous-cat1",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/Anonymous_cat1/updateFile.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/Anonymous_cat1/updateFile.js",
+     "image": "https://dashblocks.org/extensions/static/images/Anonymous_cat1/updateFile.svg",
      "description": "A simple extension that uses the File System Access API to update files dynamically.",
      "author": "Anonymous-cat1",
      "author_link": null,
@@ -10568,7 +12067,7 @@
     "Сеть и онлайн",
     "Файлы и хранилище"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10578,6 +12077,20 @@
      "url": "https://extensions.penguinmod.com/extensions/MubiLop/yeetyourfiles.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/MubiLop/yeetyourfiles.js",
      "image": "https://extensions.penguinmod.com/images/MubiLop/yeetyourfiles.png",
+     "description": "Upload files to the cloud by throwing it to outer space!",
+     "author": "cicerorph",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/MubiLop/yeetyourfiles.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/MubiLop/yeetyourfiles.js",
+     "image": "https://dashblocks.org/extensions/static/images/MubiLop/yeetyourfiles.png",
      "description": "Upload files to the cloud by throwing it to outer space!",
      "author": "cicerorph",
      "author_link": null,
@@ -10596,7 +12109,7 @@
     "Сеть и онлайн",
     "Файлы и хранилище"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10606,6 +12119,20 @@
      "url": "https://extensions.penguinmod.com/extensions/Codefoxy/cfupload.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/Codefoxy/cfupload.js",
      "image": "https://extensions.penguinmod.com/images/Codefoxy/cfupload.svg",
+     "description": "Upload files to the Network, can also used with Files extension.",
+     "author": "Codefoxy",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/Codefoxy/cfupload.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/Codefoxy/cfupload.js",
+     "image": "https://dashblocks.org/extensions/static/images/Codefoxy/cfupload.svg",
      "description": "Upload files to the Network, can also used with Files extension.",
      "author": "Codefoxy",
      "author_link": null,
@@ -10623,7 +12150,7 @@
    "categories": [
     "Сеть и онлайн"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10634,6 +12161,20 @@
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/gaimerI17/DeviceMotion.js",
      "image": "https://extensions.penguinmod.com/images/gaimerI17/DeviceMotion.avif",
      "description": "Use Device Motion API to get rotation or movement of the device. Works best on mobile devices.",
+     "author": "gaimerI",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/gaimerI17/DeviceMotion.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/gaimerI17/DeviceMotion.js",
+     "image": "https://dashblocks.org/extensions/static/images/gaimerI17/DeviceMotion.avif",
+     "description": "Use Device Motion API to get rotation or movement of the device. Works best on mobile devices. \n Thumbnail by Dillon. ",
      "author": "gaimerI",
      "author_link": null,
      "documentation": null,
@@ -10651,7 +12192,7 @@
     "Звук и видео",
     "Устройство и датчики"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10667,6 +12208,20 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/pooiod/VideoSharing.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/pooiod/VideoSharing.js",
+     "image": "https://dashblocks.org/extensions/static/images/pooiod/VideoSharing.svg",
+     "description": "Share your screen or camera to your projects!",
+     "author": "pooiod",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
@@ -10678,7 +12233,7 @@
    "categories": [
     "Окно и интерфейс"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10688,6 +12243,20 @@
      "url": "https://extensions.penguinmod.com/extensions/pooiod/WindowHasher.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/pooiod/WindowHasher.js",
      "image": "https://extensions.penguinmod.com/images/pooiod/WindowHasher.avif",
+     "description": "Interact with URL hash: the part of the URL after a hashtag",
+     "author": "pooiod7",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/pooiod/WindowHasher.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/pooiod/WindowHasher.js",
+     "image": "https://dashblocks.org/extensions/static/images/pooiod/WindowHasher.png",
      "description": "Interact with URL hash: the part of the URL after a hashtag",
      "author": "pooiod7",
      "author_link": null,
@@ -10705,7 +12274,7 @@
    "categories": [
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10715,6 +12284,20 @@
      "url": "https://extensions.penguinmod.com/extensions/pooiod/Scratchblocks.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/pooiod/Scratchblocks.js",
      "image": "https://extensions.penguinmod.com/images/pooiod/Scratchblocks.svg",
+     "description": "Generate blocks in the Scratch3, or Scratch2 format.",
+     "author": "pooiod7",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/pooiod/Scratchblocks.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/pooiod/Scratchblocks.js",
+     "image": "https://dashblocks.org/extensions/static/images/pooiod/Scratchblocks.svg",
      "description": "Generate blocks in the Scratch3, or Scratch2 format.",
      "author": "pooiod7",
      "author_link": null,
@@ -10759,7 +12342,7 @@
    "categories": [
     "Прочее"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10769,6 +12352,20 @@
      "url": "https://extensions.penguinmod.com/extensions/Ikelene/googleAuthExtension.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/Ikelene/googleAuthExtension.js",
      "image": "https://extensions.penguinmod.com/images/Ikelene/ExtensionBanner.avif",
+     "description": "Login with Google to your projects. Allows getting a name, profile picture and email from the google account.",
+     "author": "ikelene",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/Ikelene/googleAuthExtension.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/Ikelene/googleAuthExtension.js",
+     "image": "https://dashblocks.org/extensions/static/images/Ikelene/ExtensionBanner.png",
      "description": "Login with Google to your projects. Allows getting a name, profile picture and email from the google account.",
      "author": "ikelene",
      "author_link": null,
@@ -10786,7 +12383,7 @@
    "categories": [
     "Сеть и онлайн"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10796,6 +12393,20 @@
      "url": "https://extensions.penguinmod.com/extensions/NotHouse/DiscordAuth.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/NotHouse/DiscordAuth.js",
      "image": "https://extensions.penguinmod.com/images/NotHouse/DiscordAuth-banner.avif",
+     "description": "Login with discord to your projects. Identify users by ID and username in a secure and easy way!",
+     "author": "enderhacker",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/NotHouse/DiscordAuth.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/NotHouse/DiscordAuth.js",
+     "image": "https://dashblocks.org/extensions/static/images/NotHouse/DiscordAuth-banner.png",
      "description": "Login with discord to your projects. Identify users by ID and username in a secure and easy way!",
      "author": "enderhacker",
      "author_link": null,
@@ -10841,7 +12452,7 @@
     "Скрипты и данные",
     "Утилиты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10851,6 +12462,20 @@
      "url": "https://extensions.penguinmod.com/extensions/DogeisCut/Resolution.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/DogeisCut/Resolution.js",
      "image": "https://extensions.penguinmod.com/images/DogeisCut/Resolution.svg",
+     "description": "Provides utility blocks that simplify the creation of projects with dynamic resolution support.",
+     "author": "DogeisCut",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/DogeisCut/Resolution.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/DogeisCut/Resolution.js",
+     "image": "https://dashblocks.org/extensions/static/images/DogeisCut/Resolution.svg",
      "description": "Provides utility blocks that simplify the creation of projects with dynamic resolution support.",
      "author": "DogeisCut",
      "author_link": null,
@@ -10868,7 +12493,7 @@
    "categories": [
     "Прочее"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10878,6 +12503,20 @@
      "url": "https://extensions.penguinmod.com/extensions/bop_tw/Twitch.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/bop_tw/Twitch.js",
      "image": "https://extensions.penguinmod.com/images/bop_tw/Twitch.avif",
+     "description": "Communicate with your Twitch Chat on PenguinMod!\n\nPenguinMod is not affiliated with Twitch.",
+     "author": "bop_tw",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/bop_tw/Twitch.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/bop_tw/Twitch.js",
+     "image": "https://dashblocks.org/extensions/static/images/bop_tw/Twitch.png",
      "description": "Communicate with your Twitch Chat on PenguinMod!\n\nPenguinMod is not affiliated with Twitch.",
      "author": "bop_tw",
      "author_link": null,
@@ -10895,7 +12534,7 @@
    "categories": [
     "Сеть и онлайн"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10911,6 +12550,20 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/Gen1x/chess-ext.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/Gen1x/chess-ext.js",
+     "image": "https://dashblocks.org/extensions/static/images/Gen1x/chess-ext.png",
+     "description": "A powerful extension about Chess. It allows to create a Chessboard, manage chess games, and use Stockfish 17 in your projects.",
+     "author": "G1nX",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
@@ -10922,7 +12575,7 @@
    "categories": [
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10938,6 +12591,20 @@
      "documentation": null,
      "deprecated": false,
      "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/Gen1x/CATS.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/Gen1x/CATS.js",
+     "image": "https://dashblocks.org/extensions/static/images/Gen1x/cats.png",
+     "description": "Blocks related to cats.",
+     "author": "G1nX",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
     }
    ]
   },
@@ -10949,7 +12616,7 @@
    "categories": [
     "Прочее"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10959,6 +12626,20 @@
      "url": "https://extensions.penguinmod.com/extensions/WAYLIVES/FreeServers.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/WAYLIVES/FreeServers.js",
      "image": "https://extensions.penguinmod.com/images/WAYLIVES/FreeServersIMG.svg",
+     "description": "Here you can find a free server for your projects. And also check whether it is working now or not.\n\nЗдесь вы можете найти бесплатный сервер для своих проектов. А также проверить, работает он сейчас или нет.",
+     "author": "WAYLIVES",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/WAYLIVES/FreeServers.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/WAYLIVES/FreeServers.js",
+     "image": "https://dashblocks.org/extensions/static/images/WAYLIVES/FreeServersIMG.svg",
      "description": "Here you can find a free server for your projects. And also check whether it is working now or not.\n\nЗдесь вы можете найти бесплатный сервер для своих проектов. А также проверить, работает он сейчас или нет.",
      "author": "WAYLIVES",
      "author_link": null,
@@ -10976,7 +12657,7 @@
    "categories": [
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -10986,6 +12667,20 @@
      "url": "https://extensions.penguinmod.com/extensions/TheShovel/oneko.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/TheShovel/oneko.js",
      "image": "https://extensions.penguinmod.com/images/TheShovel/thumbnail-oneko.avif",
+     "description": "Cute cat that follows you on the block area.",
+     "author": "TheShovel",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/TheShovel/oneko.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/TheShovel/oneko.js",
+     "image": "https://dashblocks.org/extensions/static/images/TheShovel/thumbnail-oneko.png",
      "description": "Cute cat that follows you on the block area.",
      "author": "TheShovel",
      "author_link": null,
@@ -11003,7 +12698,7 @@
    "categories": [
     "Время и таймеры"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -11013,6 +12708,20 @@
      "url": "https://extensions.penguinmod.com/extensions/MrRedstonia/counterplusplus.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/MrRedstonia/counterplusplus.js",
      "image": "https://extensions.penguinmod.com/images/MrRedstonia/counterplusplus.avif",
+     "description": "Count anything, at any time, in PenguinMod!",
+     "author": "MrRedstonia",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/MrRedstonia/counterplusplus.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/MrRedstonia/counterplusplus.js",
+     "image": "https://dashblocks.org/extensions/static/images/MrRedstonia/counterplusplus.png",
      "description": "Count anything, at any time, in PenguinMod!",
      "author": "MrRedstonia",
      "author_link": null,
@@ -11031,7 +12740,7 @@
     "Текст и шрифты",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -11041,6 +12750,20 @@
      "url": "https://extensions.penguinmod.com/extensions/Monochromasity/howmanylines.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/Monochromasity/howmanylines.js",
      "image": "https://extensions.penguinmod.com/images/Monochromasity/placeholder-howmanylines.avif",
+     "description": "Blocks to determine the amount of new lines in a piece of text.",
+     "author": "Monochromasity",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/Monochromasity/howmanylines.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/Monochromasity/howmanylines.js",
+     "image": "https://dashblocks.org/extensions/static/images/Monochromasity/placeholder-howmanylines.png",
      "description": "Blocks to determine the amount of new lines in a piece of text.",
      "author": "Monochromasity",
      "author_link": null,
@@ -11058,7 +12781,7 @@
    "categories": [
     "Графика и эффекты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -11068,6 +12791,20 @@
      "url": "https://extensions.penguinmod.com/extensions/Fruits555000/PaintUtils.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/Fruits555000/PaintUtils.js",
      "image": "https://extensions.penguinmod.com/images/Fruits555000/PaintUtils.svg",
+     "description": "A colour extension that lets you mix colours.",
+     "author": "Fruits555000",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/Fruits555000/PaintUtils.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/Fruits555000/PaintUtils.js",
+     "image": "https://dashblocks.org/extensions/static/images/Fruits555000/PaintUtils.svg",
      "description": "A colour extension that lets you mix colours.",
      "author": "Fruits555000",
      "author_link": null,
@@ -11600,9 +13337,9 @@
    "author": "Mistium",
    "image": "https://extensions.mistium.com/images/Python.png",
    "categories": [
-    "Прочее"
+    "Математика и логика"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -11615,6 +13352,20 @@
      "description": "Run python in turbowarp with piodide",
      "author": "Mistium",
      "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    },
+    {
+     "source": "dinosaurmod",
+     "source_label": "DinosaurMod",
+     "source_emoji": "🦕",
+     "url": "https://raw.githubusercontent.com/Dinosaurmod/extensions/main/src/extensions/python.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Dinosaurmod/extensions/main/src/extensions/python.js",
+     "image": null,
+     "description": "Run your own custom code written in Python using Pyodide!",
+     "author": "MrIncredibleMaker",
+     "author_link": null,
      "documentation": null,
      "deprecated": false,
      "tags": null
@@ -12326,6 +14077,851 @@
      "description": "Just some blocks for the web usb api",
      "author": "Mistium",
      "author_link": "https://github.com/Mistium",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Site Runtime",
+   "description": "A Combined version of multiple extensions: Packager Applications & AdaBrowser",
+   "author": "MrIncredibleMaker",
+   "image": "https://gabsthecuriouskid.github.io/DinosaurModExtensions/images/site-runtime.png",
+   "categories": [
+    "Окно и интерфейс"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dinosaurmod",
+     "source_label": "DinosaurMod",
+     "source_emoji": "🦕",
+     "url": "https://raw.githubusercontent.com/Dinosaurmod/extensions/main/src/extensions/webextension.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Dinosaurmod/extensions/main/src/extensions/webextension.js",
+     "image": "https://gabsthecuriouskid.github.io/DinosaurModExtensions/images/site-runtime.png",
+     "description": "A Combined version of multiple extensions: Packager Applications & AdaBrowser",
+     "author": "MrIncredibleMaker",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Keys+",
+   "description": "Detect more keys when they are pressed or hit and make certain keys typable.",
+   "author": "MrIncredibleMaker",
+   "image": null,
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dinosaurmod",
+     "source_label": "DinosaurMod",
+     "source_emoji": "🦕",
+     "url": "https://raw.githubusercontent.com/Dinosaurmod/extensions/main/src/extensions/keys-plus-extension.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Dinosaurmod/extensions/main/src/extensions/keys-plus-extension.js",
+     "image": null,
+     "description": "Detect more keys when they are pressed or hit and make certain keys typable.",
+     "author": "MrIncredibleMaker",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "GitHub API",
+   "description": "Fetch IDs, Description, etc. from Repositories, Users and Organizations.",
+   "author": "MrIncredibleMaker",
+   "image": "https://gabsthecuriouskid.github.io/DinosaurModExtensions/images/githubapi.png",
+   "categories": [
+    "Сеть и онлайн",
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dinosaurmod",
+     "source_label": "DinosaurMod",
+     "source_emoji": "🦕",
+     "url": "https://raw.githubusercontent.com/Dinosaurmod/extensions/main/src/extensions/github-api.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Dinosaurmod/extensions/main/src/extensions/github-api.js",
+     "image": "https://gabsthecuriouskid.github.io/DinosaurModExtensions/images/githubapi.png",
+     "description": "Fetch IDs, Description, etc. from Repositories, Users and Organizations.",
+     "author": "MrIncredibleMaker",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Lua",
+   "description": "Run your own custom code written in Lua using Fengari!",
+   "author": "MrIncredibleMaker",
+   "image": null,
+   "categories": [
+    "Математика и логика"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dinosaurmod",
+     "source_label": "DinosaurMod",
+     "source_emoji": "🦕",
+     "url": "https://raw.githubusercontent.com/Dinosaurmod/extensions/main/src/extensions/lua.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Dinosaurmod/extensions/main/src/extensions/lua.js",
+     "image": null,
+     "description": "Run your own custom code written in Lua using Fengari!",
+     "author": "MrIncredibleMaker",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Typable Tab Key",
+   "description": "This Extension was replaced by the Keys+ Extension. Gives the ability of typing the tab character.",
+   "author": "MrIncredibleMaker",
+   "image": null,
+   "categories": [
+    "Текст и шрифты"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dinosaurmod",
+     "source_label": "DinosaurMod",
+     "source_emoji": "🦕",
+     "url": "https://raw.githubusercontent.com/Dinosaurmod/extensions/main/src/extensions/typable-tab-character.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Dinosaurmod/extensions/main/src/extensions/typable-tab-character.js",
+     "image": null,
+     "description": "This Extension was replaced by the Keys+ Extension. Gives the ability of typing the tab character.",
+     "author": "MrIncredibleMaker",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Useless blocks",
+   "description": null,
+   "author": "Jambs / jlgri",
+   "image": "https://gabsthecuriouskid.github.io/DinosaurModExtensions/images/Useless_Blocks.png",
+   "categories": [
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dinosaurmod",
+     "source_label": "DinosaurMod",
+     "source_emoji": "🦕",
+     "url": "https://raw.githubusercontent.com/Dinosaurmod/extensions/main/src/extensions/Useless_Blocks.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Dinosaurmod/extensions/main/src/extensions/Useless_Blocks.js",
+     "image": "https://gabsthecuriouskid.github.io/DinosaurModExtensions/images/Useless_Blocks.png",
+     "description": null,
+     "author": "Jambs / jlgri",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Dogs",
+   "description": "Blocks related to dogs.",
+   "author": "MrIncredibleMaker",
+   "image": null,
+   "categories": [
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dinosaurmod",
+     "source_label": "DinosaurMod",
+     "source_emoji": "🦕",
+     "url": "https://raw.githubusercontent.com/Dinosaurmod/extensions/main/src/extensions/dogs.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Dinosaurmod/extensions/main/src/extensions/dogs.js",
+     "image": null,
+     "description": "Blocks related to dogs.",
+     "author": "MrIncredibleMaker",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Sound",
+   "description": "Play sounds from URLs.",
+   "author": null,
+   "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/sound.svg",
+   "categories": [
+    "Звук и видео"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/sound.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/sound.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/sound.svg",
+     "description": "Play sounds from URLs.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Pen Plus",
+   "description": "Advanced rendering capabilities. Created by ObviousAlexC.",
+   "author": null,
+   "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/penplus.svg",
+   "categories": [
+    "Графика и эффекты"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/penplus.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/penplus.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/penplus.svg",
+     "description": "Advanced rendering capabilities. Created by ObviousAlexC.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Numerical Encoding",
+   "description": "Encode strings as numbers for cloud variables. Created by cs2627883.",
+   "author": "cs2627883",
+   "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/cs2627883/numericalencoding.svg",
+   "categories": [
+    "Сеть и онлайн",
+    "Текст и шрифты",
+    "Математика и логика"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/cs2627883/numericalencoding.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/cs2627883/numericalencoding.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/cs2627883/numericalencoding.svg",
+     "description": "Encode strings as numbers for cloud variables. Created by cs2627883.",
+     "author": "cs2627883",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Camera Controls (Very Buggy)",
+   "description": "Move the visible part of the stage. Created by DT.",
+   "author": "DT",
+   "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/DT/cameracontrols.svg",
+   "categories": [
+    "Устройство и датчики",
+    "Окно и интерфейс"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/DT/cameracontrols.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/DT/cameracontrols.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/DT/cameracontrols.svg",
+     "description": "Move the visible part of the stage. Created by DT.",
+     "author": "DT",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "TurboHook",
+   "description": "Allows you to use webhooks. Created by CubesterYT.",
+   "author": "CubesterYT",
+   "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/CubesterYT/TurboHook.svg",
+   "categories": [
+    "Сеть и онлайн"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/CubesterYT/TurboHook.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/CubesterYT/TurboHook.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/CubesterYT/TurboHook.svg",
+     "description": "Allows you to use webhooks. Created by CubesterYT.",
+     "author": "CubesterYT",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Playgama Bridge SDK",
+   "description": "Blocks that initialize and interact with the Playgama Bridge SDK. Official.",
+   "author": "Playgama, sergei-playgama, DBDev-IT",
+   "image": null,
+   "categories": [
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://github.com/playgama/bridge-scratch/releases/latest/download/PlaygamaBridge.js",
+     "open": "https://turbowarp.org/editor?extension=https://github.com/playgama/bridge-scratch/releases/latest/download/PlaygamaBridge.js",
+     "image": null,
+     "description": "Blocks that initialize and interact with the Playgama Bridge SDK. Official.",
+     "author": "Playgama, sergei-playgama, DBDev-IT",
+     "author_link": "https://github.com/Playgama",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "YaGames SDK",
+   "description": "Blocks that initialize and interact with the Yandex Games SDK. Unofficial.",
+   "author": "timaaos, scratch_craft_2, Den4ik-12, DBDev-IT",
+   "image": "https://dashblocks.org/extensions/static/images/timaaos/YaGames.svg",
+   "categories": [
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/timaaos/YaGames.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/timaaos/YaGames.js",
+     "image": "https://dashblocks.org/extensions/static/images/timaaos/YaGames.svg",
+     "description": "Blocks that initialize and interact with the Yandex Games SDK. Unofficial.",
+     "author": "timaaos, scratch_craft_2, Den4ik-12, DBDev-IT",
+     "author_link": "https://github.com/DDen4ik-12",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Telegram Bot API",
+   "description": "Blocks that interact with the Telegram API for bots. Unofficial.",
+   "author": "DBDev-IT, scratch_craft_2, ttt999, By-ROlil-CO, AnonimKing24, Den4ik-12",
+   "image": "https://dashblocks.org/extensions/static/images/damir2809/TelegramBotAPI.svg",
+   "categories": [
+    "Сеть и онлайн",
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/damir2809/TelegramBotAPI.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/damir2809/TelegramBotAPI.js",
+     "image": "https://dashblocks.org/extensions/static/images/damir2809/TelegramBotAPI.svg",
+     "description": "Blocks that interact with the Telegram API for bots. Unofficial.",
+     "author": "DBDev-IT, scratch_craft_2, ttt999, By-ROlil-CO, AnonimKing24, Den4ik-12",
+     "author_link": "https://github.com/DDen4ik-12",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Discord Webhook API",
+   "description": "Blocks that interact with the Discord Webhook API. Unofficial.",
+   "author": "DBDev-IT",
+   "image": null,
+   "categories": [
+    "Сеть и онлайн",
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/damir2809/DiscordWebhookAPI.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/damir2809/DiscordWebhookAPI.js",
+     "image": null,
+     "description": "Blocks that interact with the Discord Webhook API. Unofficial.",
+     "author": "DBDev-IT",
+     "author_link": "https://github.com/DBDev-IT",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Pathfinding",
+   "description": "Find paths from one position to another, avoiding obstacles.",
+   "author": "Den4ik-12",
+   "image": "https://dashblocks.org/extensions/static/images/Den4ik-12/Pathfinding.svg",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/Den4ik-12/Pathfinding.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/Den4ik-12/Pathfinding.js",
+     "image": "https://dashblocks.org/extensions/static/images/Den4ik-12/Pathfinding.svg",
+     "description": "Find paths from one position to another, avoiding obstacles.",
+     "author": "Den4ik-12",
+     "author_link": "https://github.com/DDen4ik-12",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Wheel Scroll",
+   "description": "Blocks for detecting mouse wheel scrolling.",
+   "author": "Den4ik-12",
+   "image": "https://dashblocks.org/extensions/static/images/Den4ik-12/WheelScroll.svg",
+   "categories": [
+    "Устройство и датчики",
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/Den4ik-12/WheelScroll.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/Den4ik-12/WheelScroll.js",
+     "image": "https://dashblocks.org/extensions/static/images/Den4ik-12/WheelScroll.svg",
+     "description": "Blocks for detecting mouse wheel scrolling.",
+     "author": "Den4ik-12",
+     "author_link": "https://github.com/DDen4ik-12",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Maps",
+   "description": "Blocks for working with Map, which is more powerful than Object.",
+   "author": "Den4ik-12",
+   "image": "https://dashblocks.org/extensions/static/images/Den4ik-12/Maps.svg",
+   "categories": [
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/Den4ik-12/Maps.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/Den4ik-12/Maps.js",
+     "image": "https://dashblocks.org/extensions/static/images/Den4ik-12/Maps.svg",
+     "description": "Blocks for working with Map, which is more powerful than Object.",
+     "author": "Den4ik-12",
+     "author_link": "https://github.com/DDen4ik-12",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Targets",
+   "description": "Easily manage your sprites, clones, and their properties.",
+   "author": "Den4ik-12",
+   "image": "https://dashblocks.org/extensions/static/images/Den4ik-12/Targets.svg",
+   "categories": [
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/Den4ik-12/Targets.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/Den4ik-12/Targets.js",
+     "image": "https://dashblocks.org/extensions/static/images/Den4ik-12/Targets.svg",
+     "description": "Easily manage your sprites, clones, and their properties.",
+     "author": "Den4ik-12",
+     "author_link": "https://github.com/DDen4ik-12",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Modals",
+   "description": "Control classic modal windows in browsers!",
+   "author": "scratch_craft_2",
+   "image": "https://dashblocks.org/extensions/static/images/scratch_craft_2/Modals.png",
+   "categories": [
+    "Окно и интерфейс"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/scratch_craft_2/Modals.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/scratch_craft_2/Modals.js",
+     "image": "https://dashblocks.org/extensions/static/images/scratch_craft_2/Modals.png",
+     "description": "Control classic modal windows in browsers!",
+     "author": "scratch_craft_2",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "MediaRecorder",
+   "description": "Record your projects directly in Dash!",
+   "author": "scratch_craft_2",
+   "image": null,
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/scratch_craft_2/MediaRecorder.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/scratch_craft_2/MediaRecorder.js",
+     "image": null,
+     "description": "Record your projects directly in Dash!",
+     "author": "scratch_craft_2",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Arduino ULTIMATE",
+   "description": "Allows you to control Arduino directly from the browser. Supports digital/analog I/O, PWM, Servo, I2C, basic sensors and devices.",
+   "author": "scratch_craft_2",
+   "image": null,
+   "categories": [
+    "Окно и интерфейс"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/scratch_craft_2/ArduinoULTIMATE.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/scratch_craft_2/ArduinoULTIMATE.js",
+     "image": null,
+     "description": "Allows you to control Arduino directly from the browser. Supports digital/analog I/O, PWM, Servo, I2C, basic sensors and devices.",
+     "author": "scratch_craft_2",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Notification",
+   "description": "Send notifications with icons.",
+   "author": "shilenin",
+   "image": "https://dashblocks.org/extensions/static/images/shilenin/Notification.svg",
+   "categories": [
+    "Окно и интерфейс"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/shilenin/Notification.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/shilenin/Notification.js",
+     "image": "https://dashblocks.org/extensions/static/images/shilenin/Notification.svg",
+     "description": "Send notifications with icons.",
+     "author": "shilenin",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Code Cleaner",
+   "description": "Clean and optimize your code!",
+   "author": "shilenin",
+   "image": "https://raw.githubusercontent.com/Mirazstudio-offical/Dash_code_cleaner_extension/refs/heads/main/logo.svg",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/shilenin/CodeCleaner.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/shilenin/CodeCleaner.js",
+     "image": "https://raw.githubusercontent.com/Mirazstudio-offical/Dash_code_cleaner_extension/refs/heads/main/logo.svg",
+     "description": "Clean and optimize your code!",
+     "author": "shilenin",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "JavaScript Runner",
+   "description": "Run the JavaScript code!",
+   "author": "polzovatel_8787, DBDev-IT",
+   "image": "https://dashblocks.org/extensions/static/images/shaman2016/JavaScriptRunner.svg",
+   "categories": [
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/shaman2016/JavaScriptRunner.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/shaman2016/JavaScriptRunner.js",
+     "image": "https://dashblocks.org/extensions/static/images/shaman2016/JavaScriptRunner.svg",
+     "description": "Run the JavaScript code!",
+     "author": "polzovatel_8787, DBDev-IT",
+     "author_link": "https://github.com/DBDev-IT",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Dash API",
+   "description": "Blocks that interact with the Dash API. Official.",
+   "author": "polzovatel_8787, DBDev-IT",
+   "image": null,
+   "categories": [
+    "Сеть и онлайн",
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/shaman2016/DashAPI.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/shaman2016/DashAPI.js",
+     "image": null,
+     "description": "Blocks that interact with the Dash API. Official.",
+     "author": "polzovatel_8787, DBDev-IT",
+     "author_link": "https://github.com/DBDev-IT",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Auto Save",
+   "description": "Several features for games",
+   "author": "QBacks",
+   "image": "https://dashblocks.org/extensions/static/images/QBacks/AutoSave.svg",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/QBacks/AutoSave.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/QBacks/AutoSave.js",
+     "image": "https://dashblocks.org/extensions/static/images/QBacks/AutoSave.svg",
+     "description": "Several features for games",
+     "author": "QBacks",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Stylus",
+   "description": "Get the pressure and tilt of a stylus or graphic tablet",
+   "author": "sourdoggy",
+   "image": "https://dashblocks.org/extensions/static/images/sourdoggy/stylus_ext.avif",
+   "categories": [
+    "Графика и эффекты"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/sourdoggy/stylus extension.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/sourdoggy/stylus extension.js",
+     "image": "https://dashblocks.org/extensions/static/images/sourdoggy/stylus_ext.avif",
+     "description": "Get the pressure and tilt of a stylus or graphic tablet",
+     "author": "sourdoggy",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Spritesheeter",
+   "description": "Load and manipulate spritesheets with customizable frames and XML support",
+   "author": "cicerorph",
+   "image": "https://dashblocks.org/extensions/static/images/MubiLop/spritesheeter.png",
+   "categories": [
+    "Текст и шрифты"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/MubiLop/spritesheeter.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/MubiLop/spritesheeter.js",
+     "image": "https://dashblocks.org/extensions/static/images/MubiLop/spritesheeter.png",
+     "description": "Load and manipulate spritesheets with customizable frames and XML support",
+     "author": "cicerorph",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null
+    }
+   ]
+  },
+  {
+   "name": "Project Page",
+   "description": "Modify and affect the studio project page from the code. How annoying can an extension possibly be?",
+   "author": "jwklong",
+   "image": "https://dashblocks.org/extensions/static/images/jwklong/projectpage.png",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/jwklong/projectpage.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/jwklong/projectpage.js",
+     "image": "https://dashblocks.org/extensions/static/images/jwklong/projectpage.png",
+     "description": "Modify and affect the studio project page from the code. How annoying can an extension possibly be?",
+     "author": "jwklong",
+     "author_link": null,
      "documentation": null,
      "deprecated": false,
      "tags": null

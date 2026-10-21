@@ -17,7 +17,10 @@
 | 🀄 turbowarp-cn | https://github.com/turbowarp-cn/cn-extensions |
 | 🩵 BlueDome77 | https://github.com/BlueDome77/Turbowarp-Extension-List (архив) |
 | 🌫️ MistWarp | https://extensions.mistium.com/ |
+| 🦕 DinosaurMod | https://dinosaurmod.github.io/extensions/ |
+| 🔥 DashBlocks | https://dashblocks.org/extensions/ |
+| 🐌 Snail IDE | https://snail-ide.js.org/community-extensions/ |
 
-Данные лежат в [`extensions.json`](extensions.json) — 499 расширений из 7 источников, 383 уникальных после объединения дублей (с названием, описанием, ссылкой на `.js` и картинкой, где есть).
+Данные лежат в [`extensions.json`](extensions.json) — 655 расширений из 10 источников, уникальные после объединения дублей (с названием, описанием, ссылкой на `.js` и картинкой, где есть).
 
 Сайт: https://123asxcqasdc.github.io/turbowarp-extensions/
