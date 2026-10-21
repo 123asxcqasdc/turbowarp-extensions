@@ -721,12 +721,16 @@
             const icon = best.image
                 ? '<img class="card-icon" loading="lazy" src="' + esc(best.image) + '" alt="" onerror="this.outerHTML=\'<div class=&quot;card-emoji&quot;>🐌</div>\'">'
                 : '<div class="card-emoji">🐌</div>';
-            const commCount = communitySources(e).size;
-            const multi = commCount > 1;
+            const seenSrc = [];
+            e.variants.forEach(v => {
+                if (!seenSrc.includes(v.source)) seenSrc.push(v.source);
+            });
+            seenSrc.sort((a, b) => SOURCE_ORDER.indexOf(a) - SOURCE_ORDER.indexOf(b));
+            const srcTags = seenSrc.map(s =>
+                '<span class="card-source" title="' + esc(SOURCE_LABELS[s] || s) + '">' +
+                esc((SOURCE_EMOJI[s] || "🐌") + " " + (SOURCE_LABELS[s] || s)) + '</span>').join('');
             const badges =
-                (multi
-                    ? '<span class="card-source multi">' + commCount + ' источника</span>'
-                    : '<span class="card-source">' + esc(best.source_emoji + " " + best.source_label) + '</span>') +
+                srcTags +
                 (e.all_deprecated ? '<span class="deprecated-badge">устарело</span>' : '');
             const cats = (e.categories || []).map(c =>
                 '<span class="card-cat" data-cat="' + esc(c) + '">' + esc(c) + '</span>').join('');
