@@ -696,7 +696,6 @@
                 '<div class="card-description">' + esc(e.description || "без описания") + '</div>' +
                 '<div class="card-buttons">' +
                     '<button class="card-link dl" data-idx="' + idx + '">⬇ скачать .js</button>' +
-                    '<button class="card-link warn open" data-idx="' + idx + '">открыть в TW</button>' +
                 '</div>';
             frag.appendChild(card);
         });
@@ -734,12 +733,10 @@
         setTimeout(() => { btn.textContent = original; btn.disabled = false; }, 2500);
     }
 
-    function pickVariant(ext, action) {
+    function pickVariant(ext) {
         const vs = variantsForSource(ext);
         if (vs.length === 1) {
-            const v = vs[0];
-            if (action === "open") window.open(v.open, "_blank", "noopener");
-            return { single: v };
+            return { single: vs[0] };
         }
         // модалка выбора источника
         const ordered = vs.slice().sort((a, b) =>
@@ -757,7 +754,6 @@
                     (v.author ? '<div class="modal-variant-desc">автор: ' + esc(v.author) + '</div>' : '') +
                     '<div class="modal-variant-actions">' +
                         '<button class="card-link dl-v" data-v="' + i + '">⬇ скачать .js</button>' +
-                        '<button class="card-link warn open-v" data-v="' + i + '">открыть в TW</button>' +
                         (v.documentation ? '<a class="card-link" href="' + esc(v.documentation) + '" target="_blank" rel="noopener">доки</a>' : '') +
                     '</div>' +
                 '</div>'
@@ -767,15 +763,7 @@
         modal.querySelectorAll("button.dl-v").forEach(btn => {
             btn.addEventListener("click", () => downloadFrom(btn, ordered[+btn.dataset.v], ext.name));
         });
-        modal.querySelectorAll("button.open-v").forEach(btn => {
-            btn.addEventListener("click", () => window.open(ordered[+btn.dataset.v].open, "_blank", "noopener"));
-        });
         document.getElementById("modal-close").addEventListener("click", () => { overlay.hidden = true; });
-        if (action === "open") {
-            // подсветить первую кнопку открытия
-            const first = modal.querySelector("button.open-v");
-            if (first) first.focus();
-        }
         return { modal: true };
     }
 
@@ -798,18 +786,7 @@
             if (vs.length <= 1) {
                 if (vs[0]) downloadFrom(dl, vs[0], ext.name);
             } else {
-                pickVariant(ext, "download");
-            }
-            return;
-        }
-        const open = ev.target.closest("button.open");
-        if (open) {
-            const ext = EXTENSIONS[+open.dataset.idx];
-            const vs = variantsForSource(ext);
-            if (vs.length <= 1) {
-                if (vs[0]) window.open(vs[0].open, "_blank", "noopener");
-            } else {
-                pickVariant(ext, "open");
+                pickVariant(ext);
             }
         }
     });
