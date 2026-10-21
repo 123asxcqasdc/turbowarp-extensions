@@ -3,7 +3,8 @@
 import json, re, os
 from collections import Counter
 
-DATA = json.load(open('/home/ulitos/turbowarp_extensions.json'))
+HERE = os.path.dirname(os.path.abspath(__file__))
+DATA = json.load(open(os.environ.get("TW_RAW", os.path.join(HERE, 'turbowarp_extensions.json'))))
 
 SOURCE_LABELS = {
     "official": "Официальная галерея",
@@ -62,7 +63,7 @@ def norm_key(name):
     return k
 
 IDS = {}
-_ids_path = '/home/ulitos/extension_ids.json'
+_ids_path = os.environ.get("TW_IDS", os.path.join(HERE, 'extension_ids.json'))
 if os.path.exists(_ids_path):
     IDS = json.load(open(_ids_path))
 
@@ -163,8 +164,7 @@ out = {
     "categories": cats,
     "extensions": result,
 }
-import os
-json.dump(out, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'extensions.json'), 'w'), ensure_ascii=False, indent=1)
+json.dump(out, open(os.path.join(HERE, 'extensions.json'), 'w'), ensure_ascii=False, indent=1)
 
 print('raw:', len(DATA['extensions']), '-> merged:', len(result))
 print('categories:', cats)
