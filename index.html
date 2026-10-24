@@ -864,38 +864,37 @@
             const btn = ev.target.closest("button.dl");
             if (btn) {
                 const ext = EXTENSIONS[+btn.dataset.idx];
-                const vs = ext.variants;
-                if (vs && vs.length <= 1) {
-                    if (vs[0]) downloadFrom(btn, vs[0], ext.name);
-                } else if (vs && vs.length > 1) {
+                if (!ext) return;
+                const vs = ext.variants || [];
+                if (vs.length <= 1 && vs[0]) {
+                    const v = vs[0];
+                    const url = v.url;
+                    if (!url) return;
+                    const name = ext.name || url;
+                    const image = v.image || ext.image || null;
+                    try {
+                        const key = 'uliblock:saved-extensions';
+                        const list = JSON.parse(localStorage.getItem(key) || '[]');
+                        if (!list.find(x => x.url === url)) {
+                            list.push({ name, url, type: 'gallery', tags: ['saved', 'gallery'], iconURL: image, added: Date.now() });
+                            localStorage.setItem(key, JSON.stringify(list));
+                        } else {
+                            const idx2 = list.findIndex(x => x.url === url);
+                            if (idx2 >= 0 && !list[idx2].iconURL && image) list[idx2].iconURL = image;
+                            localStorage.setItem(key, JSON.stringify(list));
+                        }
+                    } catch (e) {}
+                    if (window.opener) {
+                        try { window.opener.postMessage({ type: 'uliblock:add-extension', url, name, image }, '*'); } catch (e) {}
+                    }
+                    if (window.parent && window.parent !== window) {
+                        try { window.parent.postMessage({ type: 'uliblock:add-extension', url, name, image }, '*'); } catch (e) {}
+                    }
+                    return;
+                } else if (vs.length > 1) {
                     pickVariant(ext);
+                    return;
                 }
-                return;
-            }
-            const card = ev.target.closest(".snail-card");
-            if (!card || ev.target.closest('a')) return;
-            const url = card.dataset.url;
-            if (!url) return;
-            const name = card.dataset.name || url;
-            const image = card.dataset.image || null;
-            try {
-                const key = 'uliblock:saved-extensions';
-                const list = JSON.parse(localStorage.getItem(key) || '[]');
-                if (!list.find(x => x.url === url)) {
-                    list.push({ name, url, type: 'gallery', tags: ['saved', 'gallery'], iconURL: image, added: Date.now() });
-                    localStorage.setItem(key, JSON.stringify(list));
-                } else {
-                    // update icon if missing
-                    const idx2 = list.findIndex(x => x.url === url);
-                    if (idx2 >= 0 && !list[idx2].iconURL && image) list[idx2].iconURL = image;
-                    localStorage.setItem(key, JSON.stringify(list));
-                }
-            } catch (e) {}
-            if (window.opener) {
-                try { window.opener.postMessage({ type: 'uliblock:add-extension', url, name, image }, '*'); } catch (e) {}
-            }
-            if (window.parent && window.parent !== window) {
-                try { window.parent.postMessage({ type: 'uliblock:add-extension', url, name, image }, '*'); } catch (e) {}
             }
             return;
         }
