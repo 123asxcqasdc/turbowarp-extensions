@@ -7,6 +7,21 @@
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🐌%3C/text%3E%3C/svg%3E">
     <meta property="og:title" content="Расширения TurboWarp">
     <meta property="og:description" content="Каталог расширений для TurboWarp с категориями и скачиванием .js">
+    <script>
+        (function(){
+            try {
+                var p = new URLSearchParams(window.location.search);
+                if (p.get('mode') === 'uliblock') {
+                    window.__ULIBLOCK__ = true;
+                    document.documentElement.classList.add('uliblock-mode');
+                }
+                // auto-detect if opened from UliBlock
+                if (window.opener || document.referrer.indexOf('uliblock') !== -1 || document.referrer.indexOf('turbowarp') === -1 && window.opener) {
+                    // keep default unless explicitly requested
+                }
+            } catch(e) {}
+        })();
+    </script>
     <meta property="og:type" content="website">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -720,6 +735,9 @@
             const best = bestVariant(e);
             const card = document.createElement("div");
             card.className = "snail-card";
+            card.dataset.url = best.url || '';
+            card.dataset.name = e.name || '';
+            card.dataset.image = best.image || '';
             const icon = best.image
                 ? '<img class="card-icon" loading="lazy" src="' + esc(best.image) + '" alt="" onerror="this.outerHTML=\'<div class=&quot;card-emoji&quot;>🐌</div>\'">'
                 : '<div class="card-emoji">🐌</div>';
@@ -737,16 +755,28 @@
             const cats = (e.categories || []).map(c =>
                 '<span class="card-cat" data-cat="' + esc(c) + '">' + esc(c) + '</span>').join('');
             const idx = EXTENSIONS.indexOf(e);
-            card.innerHTML =
-                icon +
-                '<div class="card-name">' + esc(e.name) + '</div>' +
-                '<div class="card-badges">' + badges + '</div>' +
-                (cats ? '<div class="card-cats">' + cats + '</div>' : '') +
-                (e.author ? '<p class="card-author">' + esc(e.author) + '</p>' : '') +
-                '<div class="card-description">' + esc(e.description || "без описания") + '</div>' +
-                '<div class="card-buttons">' +
-                    '<button class="card-link dl" data-idx="' + idx + '">⬇ скачать .js</button>' +
-                '</div>';
+            if (window.__ULIBLOCK__) {
+                card.innerHTML =
+                    icon +
+                    '<div class="card-name">' + esc(e.name) + '</div>' +
+                    '<div class="card-badges">' + badges + '</div>' +
+                    (cats ? '<div class="card-cats">' + cats + '</div>' : '') +
+                    (e.author ? '<p class="card-author">' + esc(e.author) + '</p>' : '') +
+                    '<div class="card-description">' + esc(e.description || "без описания") + '</div>' +
+                    '<div class="card-buttons">' +
+                    '</div>';
+            } else {
+                card.innerHTML =
+                    icon +
+                    '<div class="card-name">' + esc(e.name) + '</div>' +
+                    '<div class="card-badges">' + badges + '</div>' +
+                    (cats ? '<div class="card-cats">' + cats + '</div>' : '') +
+                    (e.author ? '<p class="card-author">' + esc(e.author) + '</p>' : '') +
+                    '<div class="card-description">' + esc(e.description || "без описания") + '</div>' +
+                    '<div class="card-buttons">' +
+                        '<button class="card-link dl" data-idx="' + idx + '">⬇ скачать .js</button>' +
+                    '</div>';
+            }
             frag.appendChild(card);
         });
         grid.appendChild(frag);
@@ -829,6 +859,29 @@
             window.scrollTo({ top: 0, behavior: "smooth" });
             return;
         }
+        if (window.__ULIBLOCK__) {
+            const card = ev.target.closest(".snail-card");
+            if (!card || ev.target.closest('a')) return;
+            const url = card.dataset.url;
+            if (!url) return;
+            const name = card.dataset.name || url;
+            const image = card.dataset.image || null;
+            try {
+                const key = 'uliblock:saved-extensions';
+                const list = JSON.parse(localStorage.getItem(key) || '[]');
+                if (!list.find(x => x.url === url)) {
+                    list.push({ name, url, type: 'gallery', tags: ['saved', 'gallery'], iconURL: image, added: Date.now() });
+                    localStorage.setItem(key, JSON.stringify(list));
+                }
+            } catch (e) {}
+            if (window.opener) {
+                try { window.opener.postMessage({ type: 'uliblock:add-extension', url, name, image }, '*'); } catch (e) {}
+            }
+            if (window.parent && window.parent !== window) {
+                try { window.parent.postMessage({ type: 'uliblock:add-extension', url, name, image }, '*'); } catch (e) {}
+            }
+            return;
+        }
         const dl = ev.target.closest("button.dl");
         if (dl) {
             const ext = EXTENSIONS[+dl.dataset.idx];
@@ -842,6 +895,15 @@
     });
 
     searchEl.addEventListener("input", render);
+
+    const p2 = new URLSearchParams(window.location.search);
+    if (p2.get('uliblock') === '1' || p2.get('mode') === 'uliblock') window.__ULIBLOCK__ = true;
+    try {
+        if (window.opener) window.__ULIBLOCK__ = true;
+    } catch (e) {}
+    try {
+        if (document.referrer && (document.referrer.indexOf('uliblock') !== -1)) window.__ULIBLOCK__ = true;
+    } catch (e) {}
 
     fetch("extensions.json", { cache: "no-cache" })
         .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
