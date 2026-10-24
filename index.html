@@ -755,17 +755,18 @@
             const cats = (e.categories || []).map(c =>
                 '<span class="card-cat" data-cat="' + esc(c) + '">' + esc(c) + '</span>').join('');
             const idx = EXTENSIONS.indexOf(e);
-            if (window.__ULIBLOCK__) {
-                card.innerHTML =
-                    icon +
-                    '<div class="card-name">' + esc(e.name) + '</div>' +
-                    '<div class="card-badges">' + badges + '</div>' +
-                    (cats ? '<div class="card-cats">' + cats + '</div>' : '') +
-                    (e.author ? '<p class="card-author">' + esc(e.author) + '</p>' : '') +
-                    '<div class="card-description">' + esc(e.description || "без описания") + '</div>' +
-                    '<div class="card-buttons">' +
-                    '</div>';
-            } else {
+        if (window.__ULIBLOCK__) {
+            card.innerHTML =
+                icon +
+                '<div class="card-name">' + esc(e.name) + '</div>' +
+                '<div class="card-badges">' + badges + '</div>' +
+                (cats ? '<div class="card-cats">' + cats + '</div>' : '') +
+                (e.author ? '<p class="card-author">' + esc(e.author) + '</p>' : '') +
+                '<div class="card-description">' + esc(e.description || "без описания") + '</div>' +
+                '<div class="card-buttons">' +
+                    '<button class="card-link dl" data-idx="' + idx + '">⬇ скачать .js</button>' +
+                '</div>';
+        } else {
                 card.innerHTML =
                     icon +
                     '<div class="card-name">' + esc(e.name) + '</div>' +
@@ -860,6 +861,17 @@
             return;
         }
         if (window.__ULIBLOCK__) {
+            const btn = ev.target.closest("button.dl");
+            if (btn) {
+                const ext = EXTENSIONS[+btn.dataset.idx];
+                const vs = ext.variants;
+                if (vs && vs.length <= 1) {
+                    if (vs[0]) downloadFrom(btn, vs[0], ext.name);
+                } else if (vs && vs.length > 1) {
+                    pickVariant(ext);
+                }
+                return;
+            }
             const card = ev.target.closest(".snail-card");
             if (!card || ev.target.closest('a')) return;
             const url = card.dataset.url;
@@ -871,6 +883,11 @@
                 const list = JSON.parse(localStorage.getItem(key) || '[]');
                 if (!list.find(x => x.url === url)) {
                     list.push({ name, url, type: 'gallery', tags: ['saved', 'gallery'], iconURL: image, added: Date.now() });
+                    localStorage.setItem(key, JSON.stringify(list));
+                } else {
+                    // update icon if missing
+                    const idx2 = list.findIndex(x => x.url === url);
+                    if (idx2 >= 0 && !list[idx2].iconURL && image) list[idx2].iconURL = image;
                     localStorage.setItem(key, JSON.stringify(list));
                 }
             } catch (e) {}
