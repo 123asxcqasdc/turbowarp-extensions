@@ -825,24 +825,51 @@
         modal.innerHTML =
             '<h3>🐌 ' + esc(ext.name) + '</h3>' +
             '<div class="modal-sub">выберите источник — их ' + ordered.length + '</div>' +
-            ordered.map((v, i) =>
-                '<div class="modal-variant">' +
-                    '<div class="modal-variant-head">' +
-                        '<span class="modal-variant-src">' + esc(v.source_emoji + " " + v.source_label) + '</span>' +
-                        (v.deprecated ? '<span class="deprecated-badge">устарело</span>' : '') +
-                    '</div>' +
-                    (v.description ? '<div class="modal-variant-desc">' + esc(v.description) + '</div>' : '') +
-                    (v.author ? '<div class="modal-variant-desc">автор: ' + esc(v.author) + '</div>' : '') +
-                    '<div class="modal-variant-actions">' +
-                        '<button class="card-link dl-v" data-v="' + i + '">⬇ скачать .js</button>' +
-                        (v.documentation ? '<a class="card-link" href="' + esc(v.documentation) + '" target="_blank" rel="noopener">доки</a>' : '') +
-                    '</div>' +
-                '</div>'
-            ).join('') +
+        ordered.map((v, i) =>
+            '<div class="modal-variant">' +
+                '<div class="modal-variant-head">' +
+                    '<span class="modal-variant-src">' + esc(v.source_emoji + " " + v.source_label) + '</span>' +
+                    (v.deprecated ? '<span class="deprecated-badge">устарело</span>' : '') +
+                '</div>' +
+                (v.description ? '<div class="modal-variant-desc">' + esc(v.description) + '</div>' : '') +
+                (v.author ? '<div class="modal-variant-desc">автор: ' + esc(v.author) + '</div>' : '') +
+                '<div class="modal-variant-actions">' +
+                    (window.__ULIBLOCK__ ? '<button class="card-link add-v" data-v="' + i + '">➕ добавить в UliBlock</button>' : '<button class="card-link dl-v" data-v="' + i + '">⬇ скачать .js</button>') +
+                    (v.documentation ? '<a class="card-link" href="' + esc(v.documentation) + '" target="_blank" rel="noopener">доки</a>' : '') +
+                '</div>' +
+            '</div>'
+        ).join('') +
             '<button class="modal-close" id="modal-close">← закрыть</button>';
         overlay.hidden = false;
         modal.querySelectorAll("button.dl-v").forEach(btn => {
             btn.addEventListener("click", () => downloadFrom(btn, ordered[+btn.dataset.v], ext.name));
+        });
+        modal.querySelectorAll("button.add-v").forEach(btn => {
+            btn.addEventListener("click", () => {
+                const v = ordered[+btn.dataset.v];
+                if (!v || !v.url) return;
+                const url = v.url;
+                const name = ext.name || url;
+                const image = v.image || ext.image || null;
+                try {
+                    const key = 'uliblock:saved-extensions';
+                    const list = JSON.parse(localStorage.getItem(key) || '[]');
+                    if (!list.find(x => x.url === url)) {
+                        list.push({ name, url, type: 'gallery', tags: ['saved', 'gallery'], iconURL: image, added: Date.now() });
+                        localStorage.setItem(key, JSON.stringify(list));
+                    } else {
+                        const idx2 = list.findIndex(x => x.url === url);
+                        if (idx2 >= 0 && !list[idx2].iconURL && image) list[idx2].iconURL = image;
+                        localStorage.setItem(key, JSON.stringify(list));
+                    }
+                } catch (e) {}
+                if (window.opener) {
+                    try { window.opener.postMessage({ type: 'uliblock:add-extension', url, name, image }, '*'); } catch (e) {}
+                }
+                if (window.parent && window.parent !== window) {
+                    try { window.parent.postMessage({ type: 'uliblock:add-extension', url, name, image }, '*'); } catch (e) {}
+                }
+            });
         });
         document.getElementById("modal-close").addEventListener("click", () => { overlay.hidden = true; });
         return { modal: true };
