@@ -721,6 +721,16 @@
         progressFill.style.width = "0%";
     }
 
+    function closeBrowser() {
+        try {
+            if (window.parent && window.parent !== window) {
+                window.parent.postMessage({ type: "uliblock:close-browser" }, "*");
+            } else {
+                window.close();
+            }
+        } catch (e) {}
+    }
+
     window.addEventListener("message", (ev) => {
         const data = ev.data;
         if (!data || typeof data !== "object" || data.type !== "uliblock:extension-result") return;
@@ -992,7 +1002,7 @@
             if (!result.ok) throw new Error(result.error || "loading failed");
             setProgress(name, 100, "Готово!");
             if (btn) btn.textContent = "✅ импортировано";
-            setTimeout(hideProgress, 1200);
+            closeBrowser();
         } catch (err) {
             console.warn(err);
             hideProgress();
