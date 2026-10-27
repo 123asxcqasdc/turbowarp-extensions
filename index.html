@@ -1092,14 +1092,10 @@
 
     searchEl.addEventListener("input", render);
 
+    // The site is modified only when UliBlock explicitly requests it.
+    // Regular TurboWarp users always get the normal download UI.
     const p2 = new URLSearchParams(window.location.search);
     if (p2.get('uliblock') === '1' || p2.get('mode') === 'uliblock') window.__ULIBLOCK__ = true;
-    try {
-        if (window.opener) window.__ULIBLOCK__ = true;
-    } catch (e) {}
-    try {
-        if (document.referrer && (document.referrer.indexOf('uliblock') !== -1)) window.__ULIBLOCK__ = true;
-    } catch (e) {}
 
     fetch("extensions.json", { cache: "no-cache" })
         .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
