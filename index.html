@@ -399,6 +399,59 @@
 
         button.card-link:disabled { opacity: 0.6; cursor: wait; transform: none; }
 
+        .progress-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(5, 15, 5, 0.78);
+            backdrop-filter: blur(3px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+            padding: 1rem;
+        }
+
+        .progress-overlay[hidden] { display: none; }
+
+        .progress-box {
+            width: min(460px, 92vw);
+            background: #2e4d2e;
+            border: 2px solid #9bbc7b;
+            border-radius: 24px;
+            padding: 1.5rem;
+            box-shadow: 0 20px 40px -12px #000;
+            text-align: center;
+        }
+
+        .progress-title {
+            font-weight: 700;
+            margin-bottom: 0.4rem;
+            color: #f0f7da;
+            word-break: break-word;
+        }
+
+        .progress-label {
+            font-size: 0.9rem;
+            color: #c7e0b0;
+            margin-bottom: 0.9rem;
+        }
+
+        .progress-track {
+            height: 16px;
+            border-radius: 10px;
+            background: #1b321b;
+            border: 1px solid #6f9a6a;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            width: 0%;
+            border-radius: 10px;
+            background: linear-gradient(90deg, #3fb950, #7ee787);
+            transition: width 0.2s ease;
+        }
+
         .empty {
             text-align: center;
             font-size: 1.2rem;
@@ -611,6 +664,16 @@
     <div class="modal" id="modal"></div>
 </div>
 
+<div class="progress-overlay" id="progress-overlay" hidden>
+    <div class="progress-box">
+        <div class="progress-title" id="progress-title">Импорт расширения</div>
+        <div class="progress-label" id="progress-label">Подготовка...</div>
+        <div class="progress-track">
+            <div class="progress-fill" id="progress-fill"></div>
+        </div>
+    </div>
+</div>
+
 <script>
 (function () {
     const SOURCE_ORDER = ["official", "sharkpool", "penguinmod", "mistwarp", "dinosaurmod", "dashblocks", "snail-ide", "dimka-10", "turbowarp-cn", "bluedome77", "scrandled", "crispstrobe"];
@@ -628,6 +691,44 @@
     const catFiltersEl = document.getElementById("cat-filters");
     const overlay = document.getElementById("modal-overlay");
     const modal = document.getElementById("modal");
+    const progressOverlay = document.getElementById("progress-overlay");
+    const progressTitle = document.getElementById("progress-title");
+    const progressLabel = document.getElementById("progress-label");
+    const progressFill = document.getElementById("progress-fill");
+    const pendingImports = new Map();
+
+    function hasHost() {
+        return Boolean(window.opener) || (window.parent && window.parent !== window);
+    }
+
+    function sendToHost(data) {
+        if (window.parent && window.parent !== window) {
+            try { window.parent.postMessage(data, "*"); } catch (e) {}
+        } else if (window.opener) {
+            try { window.opener.postMessage(data, "*"); } catch (e) {}
+        }
+    }
+
+    function setProgress(name, percent, label) {
+        progressTitle.textContent = name;
+        progressLabel.textContent = label;
+        progressFill.style.width = Math.max(0, Math.min(100, percent)) + "%";
+        progressOverlay.hidden = false;
+    }
+
+    function hideProgress() {
+        progressOverlay.hidden = true;
+        progressFill.style.width = "0%";
+    }
+
+    window.addEventListener("message", (ev) => {
+        const data = ev.data;
+        if (!data || typeof data !== "object" || data.type !== "uliblock:extension-result") return;
+        const resolve = pendingImports.get(data.requestId);
+        if (!resolve) return;
+        pendingImports.delete(data.requestId);
+        resolve(data);
+    });
 
     function esc(s) {
         return String(s == null ? "" : s)
@@ -764,7 +865,7 @@
                 (e.author ? '<p class="card-author">' + esc(e.author) + '</p>' : '') +
                 '<div class="card-description">' + esc(e.description || "без описания") + '</div>' +
                 '<div class="card-buttons">' +
-                    '<button class="card-link dl" data-idx="' + idx + '">⬇ скачать .js</button>' +
+                    '<button class="card-link dl" data-idx="' + idx + '">' + (window.__ULIBLOCK__ ? "📥 Импортировать" : "⬇ скачать .js") + '</button>' +
                 '</div>';
         } else {
                 card.innerHTML =
@@ -775,7 +876,7 @@
                     (e.author ? '<p class="card-author">' + esc(e.author) + '</p>' : '') +
                     '<div class="card-description">' + esc(e.description || "без описания") + '</div>' +
                     '<div class="card-buttons">' +
-                        '<button class="card-link dl" data-idx="' + idx + '">⬇ скачать .js</button>' +
+                        '<button class="card-link dl" data-idx="' + idx + '">' + (window.__ULIBLOCK__ ? "📥 Импортировать" : "⬇ скачать .js") + '</button>' +
                     '</div>';
             }
             frag.appendChild(card);
@@ -814,6 +915,99 @@
         setTimeout(() => { btn.textContent = original; btn.disabled = false; }, 2500);
     }
 
+    async function readWithProgress(resp, onProgress) {
+        const total = Number(resp.headers.get("content-length")) || 0;
+        if (!resp.body || !resp.body.getReader) {
+            const text = await resp.text();
+            onProgress(85);
+            return text;
+        }
+        const reader = resp.body.getReader();
+        const chunks = [];
+        let received = 0;
+        while (true) {
+            const step = await reader.read();
+            if (step.done) break;
+            if (step.value) {
+                chunks.push(step.value);
+                received += step.value.length;
+                const percent = total ?
+                    Math.min(84, (received / total) * 85) :
+                    Math.min(70, 10 + (received / 400000) * 60);
+                onProgress(percent);
+            }
+        }
+        let length = 0;
+        for (const chunk of chunks) length += chunk.length;
+        const bytes = new Uint8Array(length);
+        let offset = 0;
+        for (const chunk of chunks) {
+            bytes.set(chunk, offset);
+            offset += chunk.length;
+        }
+        return new TextDecoder("utf-8").decode(bytes);
+    }
+
+    async function importFrom(btn, v, extName, image) {
+        const original = btn ? btn.textContent : "";
+        const name = extName || "расширение";
+        if (!hasHost()) {
+            return downloadFrom(btn, v, name);
+        }
+        if (!v || !v.url) {
+            alert("Ошибка загрузки " + name);
+            return;
+        }
+        if (btn) {
+            btn.disabled = true;
+            btn.textContent = "⏳ импорт...";
+        }
+        const requestId = "imp-" + Date.now() + "-" + Math.random().toString(36).slice(2);
+        try {
+            setProgress(name, 0, "Скачиваем расширение...");
+            const resp = await fetch(v.url, { cache: "no-store" });
+            if (!resp.ok) throw new Error("HTTP " + resp.status);
+            const source = await readWithProgress(resp, percent => {
+                setProgress(name, percent, "Скачиваем расширение...");
+            });
+            setProgress(name, 90, "Добавляем расширение в проект...");
+            const result = await new Promise((resolve, reject) => {
+                const timeout = setTimeout(() => {
+                    pendingImports.delete(requestId);
+                    reject(new Error("timeout"));
+                }, 120000);
+                pendingImports.set(requestId, data => {
+                    clearTimeout(timeout);
+                    resolve(data);
+                });
+                sendToHost({
+                    type: "uliblock:add-extension",
+                    requestId: requestId,
+                    url: v.url,
+                    name: name,
+                    image: image || v.image || null,
+                    source: source
+                });
+            });
+            if (!result.ok) throw new Error(result.error || "loading failed");
+            setProgress(name, 100, "Готово!");
+            if (btn) btn.textContent = "✅ импортировано";
+            setTimeout(hideProgress, 1200);
+        } catch (err) {
+            console.warn(err);
+            hideProgress();
+            if (btn) btn.textContent = "⚠ ошибка";
+            alert("Ошибка загрузки " + name);
+        } finally {
+            if (btn) {
+                setTimeout(() => {
+                    btn.textContent = original;
+                    btn.disabled = false;
+                }, 2500);
+            }
+        }
+    }
+
     function pickVariant(ext) {
         const vs = ext.variants;
         if (vs.length === 1) {
@@ -834,7 +1028,7 @@
                 (v.description ? '<div class="modal-variant-desc">' + esc(v.description) + '</div>' : '') +
                 (v.author ? '<div class="modal-variant-desc">автор: ' + esc(v.author) + '</div>' : '') +
                 '<div class="modal-variant-actions">' +
-                    (window.__ULIBLOCK__ ? '<button class="card-link add-v" data-v="' + i + '">➕ добавить в UliBlock</button>' : '<button class="card-link dl-v" data-v="' + i + '">⬇ скачать .js</button>') +
+                    (window.__ULIBLOCK__ ? '<button class="card-link add-v" data-v="' + i + '">📥 Импортировать</button>' : '<button class="card-link dl-v" data-v="' + i + '">⬇ скачать .js</button>') +
                     (v.documentation ? '<a class="card-link" href="' + esc(v.documentation) + '" target="_blank" rel="noopener">доки</a>' : '') +
                 '</div>' +
             '</div>'
@@ -848,27 +1042,8 @@
             btn.addEventListener("click", () => {
                 const v = ordered[+btn.dataset.v];
                 if (!v || !v.url) return;
-                const url = v.url;
-                const name = ext.name || url;
-                const image = v.image || ext.image || null;
-                try {
-                    const key = 'uliblock:saved-extensions';
-                    const list = JSON.parse(localStorage.getItem(key) || '[]');
-                    if (!list.find(x => x.url === url)) {
-                        list.push({ name, url, type: 'gallery', tags: ['saved', 'gallery'], iconURL: image, added: Date.now() });
-                        localStorage.setItem(key, JSON.stringify(list));
-                    } else {
-                        const idx2 = list.findIndex(x => x.url === url);
-                        if (idx2 >= 0 && !list[idx2].iconURL && image) list[idx2].iconURL = image;
-                        localStorage.setItem(key, JSON.stringify(list));
-                    }
-                } catch (e) {}
-                if (window.opener) {
-                    try { window.opener.postMessage({ type: 'uliblock:add-extension', url, name, image }, '*'); } catch (e) {}
-                }
-                if (window.parent && window.parent !== window) {
-                    try { window.parent.postMessage({ type: 'uliblock:add-extension', url, name, image }, '*'); } catch (e) {}
-                }
+                overlay.hidden = true;
+                importFrom(btn, v, ext.name, v.image || ext.image || null);
             });
         });
         document.getElementById("modal-close").addEventListener("click", () => { overlay.hidden = true; });
@@ -894,29 +1069,7 @@
                 if (!ext) return;
                 const vs = ext.variants || [];
                 if (vs.length <= 1 && vs[0]) {
-                    const v = vs[0];
-                    const url = v.url;
-                    if (!url) return;
-                    const name = ext.name || url;
-                    const image = v.image || ext.image || null;
-                    try {
-                        const key = 'uliblock:saved-extensions';
-                        const list = JSON.parse(localStorage.getItem(key) || '[]');
-                        if (!list.find(x => x.url === url)) {
-                            list.push({ name, url, type: 'gallery', tags: ['saved', 'gallery'], iconURL: image, added: Date.now() });
-                            localStorage.setItem(key, JSON.stringify(list));
-                        } else {
-                            const idx2 = list.findIndex(x => x.url === url);
-                            if (idx2 >= 0 && !list[idx2].iconURL && image) list[idx2].iconURL = image;
-                            localStorage.setItem(key, JSON.stringify(list));
-                        }
-                    } catch (e) {}
-                    if (window.opener) {
-                        try { window.opener.postMessage({ type: 'uliblock:add-extension', url, name, image }, '*'); } catch (e) {}
-                    }
-                    if (window.parent && window.parent !== window) {
-                        try { window.parent.postMessage({ type: 'uliblock:add-extension', url, name, image }, '*'); } catch (e) {}
-                    }
+                    importFrom(btn, vs[0], ext.name, vs[0].image || ext.image || null);
                     return;
                 } else if (vs.length > 1) {
                     pickVariant(ext);
