@@ -11,13 +11,9 @@
         (function(){
             try {
                 var p = new URLSearchParams(window.location.search);
-                if (p.get('mode') === 'uliblock') {
+                if (p.get('uliblock') === '1' || p.get('mode') === 'uliblock') {
                     window.__ULIBLOCK__ = true;
                     document.documentElement.classList.add('uliblock-mode');
-                }
-                // auto-detect if opened from UliBlock
-                if (window.opener || document.referrer.indexOf('uliblock') !== -1 || document.referrer.indexOf('turbowarp') === -1 && window.opener) {
-                    // keep default unless explicitly requested
                 }
             } catch(e) {}
         })();
