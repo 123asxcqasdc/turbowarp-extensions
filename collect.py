@@ -391,18 +391,25 @@ SOURCES = [
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--out", default=os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                                   "turbowarp_extensions.json"))
+    ap.add_argument("--out", default=os.environ.get("TW_RAW", os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                                   "turbowarp_extensions.json")))
+    ap.add_argument("--strict", action="store_true", help="не записывать неполный каталог при ошибках")
     args = ap.parse_args()
 
     extensions = []
     known = set()
     source_meta = []
+    errors = []
     for sid, sname, surl, fetch, always in SOURCES:
         try:
             records = fetch()
         except Exception as ex:
             print(f"  ! {sid}: ошибка загрузки: {ex}", file=sys.stderr)
+            errors.append(sid)
+            continue
+        if not records:
+            print(f"  ! {sid}: пустой каталог", file=sys.stderr)
+            errors.append(sid)
             continue
         new_names = [r["name"] for r in records if norm(r["name"]) not in known]
         if not always and not new_names:
@@ -415,6 +422,9 @@ def main():
         source_meta.append({"id": sid, "name": sname, "url": surl, "count": len(records)})
         extra = "" if always else f" (новых: {len(new_names)})"
         print(f"  + {sid}: {len(records)} расширений{extra}")
+
+    if args.strict and errors:
+        sys.exit("Не удалось собрать источники: " + ", ".join(errors))
 
     out = {
         "generated_at": __import__("datetime").date.today().isoformat(),

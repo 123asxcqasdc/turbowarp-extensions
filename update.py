@@ -17,7 +17,7 @@ STEPS = ["collect.py", "fetch_ids.py", "build_data.py"]
 def main():
     for step in STEPS:
         print(f"\n=== {step} ===")
-        rc = subprocess.call([sys.executable, os.path.join(HERE, step)])
+        rc = subprocess.call([sys.executable, os.path.join(HERE, step)] + (["--strict"] if step == "collect.py" else []))
         if rc != 0:
             sys.exit(f"{step} упал с кодом {rc}")
     print("\nГотово: extensions.json обновлён.")

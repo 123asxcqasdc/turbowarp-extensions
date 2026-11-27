@@ -1,0 +1,46 @@
+name: Проверка обновлений каталога
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4 * * 1'
+
+permissions:
+  contents: read
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Собрать каталог отдельно от базы репозитория
+        run: |
+          mkdir -p output
+          python3 update.py
+        env:
+          TW_RAW: output/turbowarp_extensions.json
+          TW_IDS: output/extension_ids.json
+          TW_OUTPUT: output/extensions.json
+          TW_CACHE: output/cache
+      - name: Сравнить с базой
+        run: |
+          python3 report_changes.py turbowarp_extensions.json output/turbowarp_extensions.json > output/changes.md
+          cat output/changes.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Сохранить результат и отчёт
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalog-update
+          path: |
+            output/turbowarp_extensions.json
+            output/extension_ids.json
+            output/extensions.json
+            output/changes.md
+          retention-days: 30

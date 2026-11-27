@@ -162,13 +162,13 @@ for key in order:
 
 cats = sorted({c for e in result for c in e['categories']})
 out = {
-    "generated_at": "2026-10-18",
+    "generated_at": DATA["generated_at"],
     "total_raw": len(DATA['extensions']),
     "total_merged": len(result),
     "categories": cats,
     "extensions": result,
 }
-json.dump(out, open(os.path.join(HERE, 'extensions.json'), 'w'), ensure_ascii=False, indent=1)
+json.dump(out, open(os.environ.get('TW_OUTPUT', os.path.join(HERE, 'extensions.json')), 'w'), ensure_ascii=False, indent=1)
 
 print('raw:', len(DATA['extensions']), '-> merged:', len(result))
 print('categories:', cats)

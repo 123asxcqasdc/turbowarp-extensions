@@ -27,7 +27,7 @@ def fetch(url):
         with urllib.request.urlopen(req, timeout=60) as r:
             raw = r.read()
     except Exception as ex:
-        raw = b""
+        raise RuntimeError(f"Не удалось скачать {url}: {ex}") from ex
     text = decode_js(raw)
     open(path, "w", encoding="utf-8").write(text)
     return text
