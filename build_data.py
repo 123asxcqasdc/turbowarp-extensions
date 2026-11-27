@@ -19,6 +19,8 @@ SOURCE_LABELS = {
     "dashblocks": "DashBlocks",
     "scrandled": "scrandled",
     "crispstrobe": "CrispStrobe",
+    "electramod": "ElectraMod",
+    "gaia": "Gaia’s Gallery",
 }
 SOURCE_EMOJI = {
     "official": "✅", "sharkpool": "🦈", "dimka-10": "🔟",
@@ -27,6 +29,7 @@ SOURCE_EMOJI = {
     "dashblocks": "🔥",
     "scrandled": "🎲",
     "crispstrobe": "🧱",
+    "electramod": "⚡", "gaia": "🐈",
 }
 
 # ordered: first matches win priority (we collect up to 3)
