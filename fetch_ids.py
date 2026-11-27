@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Fetch every extension .js and extract its registered extension id.
 
-Writes /home/ulitos/extension_ids.json mapping url -> id (or null).
-Uses a local cache (/home/ulitos/.ext_cache) to avoid re-downloading.
+Writes extension_ids.json mapping URL to ID (or null).
+Uses a local cache to avoid re-downloading. Unavailable URLs retain a previous ID.
 """
 import json, os, re, hashlib, urllib.request, concurrent.futures as cf
 
@@ -10,6 +10,12 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 RAW = os.environ.get("TW_RAW", os.path.join(HERE, "turbowarp_extensions.json"))
 OUT = os.environ.get("TW_IDS", os.path.join(HERE, "extension_ids.json"))
 CACHE = os.environ.get("TW_CACHE", os.path.join(HERE, ".ext_cache"))
+PREVIOUS = os.environ.get("TW_PREVIOUS_IDS", os.path.join(HERE, "extension_ids.json"))
+ERRORS = os.environ.get("TW_FETCH_ERRORS")
+previous = {}
+if os.path.exists(PREVIOUS):
+    with open(PREVIOUS, encoding="utf-8") as f:
+        previous = json.load(f)
 os.makedirs(CACHE, exist_ok=True)
 
 data = json.load(open(RAW))
@@ -21,13 +27,17 @@ def fetch(url):
     key = hashlib.sha1(url.encode()).hexdigest()
     path = os.path.join(CACHE, key)
     if os.path.exists(path):
-        return open(path, encoding="utf-8", errors="replace").read()
+        cached = open(path, encoding="utf-8", errors="replace").read()
+        if cached:
+            return cached
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     try:
         with urllib.request.urlopen(req, timeout=60) as r:
             raw = r.read()
     except Exception as ex:
         raise RuntimeError(f"Не удалось скачать {url}: {ex}") from ex
+    if not raw:
+        raise RuntimeError(f"Пустой файл: {url}")
     text = decode_js(raw)
     open(path, "w", encoding="utf-8").write(text)
     return text
@@ -73,15 +83,25 @@ def extract_id(text):
 
 
 results = {}
+failures = []
 def work(url):
-    text = fetch(url)
-    return url, extract_id(text)
+    try:
+        return url, extract_id(fetch(url)), None
+    except Exception as ex:
+        return url, previous.get(url), str(ex)
 
 with cf.ThreadPoolExecutor(max_workers=24) as ex:
-    for url, eid in ex.map(work, urls):
+    for url, eid, error in ex.map(work, urls):
         results[url] = eid
+        if error:
+            failures.append({"url": url, "error": error, "previous_id": eid})
+            print(f"  ! {error}; прежний id: {eid!r}")
 
-json.dump(results, open(OUT, "w"), ensure_ascii=False, indent=1)
+json.dump(results, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+if ERRORS:
+    with open(ERRORS, "w", encoding="utf-8") as f:
+        json.dump(failures, f, ensure_ascii=False, indent=1)
+print(f"download failures: {len(failures)} (previous ID or null used)")
 found = sum(1 for v in results.values() if v)
 print(f"ids found: {found}/{len(urls)}")
 print("sample:", list(results.items())[:5])

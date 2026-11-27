@@ -29,9 +29,10 @@ jobs:
           TW_IDS: output/extension_ids.json
           TW_OUTPUT: output/extensions.json
           TW_CACHE: output/cache
+          TW_FETCH_ERRORS: output/fetch-errors.json
       - name: Сравнить с базой
         run: |
-          python3 report_changes.py turbowarp_extensions.json output/turbowarp_extensions.json > output/changes.md
+          python3 report_changes.py turbowarp_extensions.json output/turbowarp_extensions.json output/fetch-errors.json > output/changes.md
           cat output/changes.md >> "$GITHUB_STEP_SUMMARY"
       - name: Сохранить результат и отчёт
         if: success()
@@ -43,4 +44,5 @@ jobs:
             output/extension_ids.json
             output/extensions.json
             output/changes.md
+            output/fetch-errors.json
           retention-days: 30

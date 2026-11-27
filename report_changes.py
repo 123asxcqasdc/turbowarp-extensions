@@ -53,6 +53,14 @@ def main():
                 print(f"- {name} — {entry['url']}")
             print()
 
+    if len(sys.argv) > 3:
+        failures = load(sys.argv[3])
+        print(f'## Недоступные файлы JS: {len(failures)}\n')
+        if failures:
+            print('Использован прежний ID, если он был известен, иначе null. Объединение расширений может быть неточным.\n')
+            for failure in failures:
+                print(f"- {failure['url']} — {failure['error']} (прежний ID: {failure['previous_id']})")
+
 
 if __name__ == '__main__':
     main()
