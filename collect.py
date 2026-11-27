@@ -373,6 +373,61 @@ def fetch_dashblocks():
     return recs
 
 
+# ----------------------------------------------------- ElectraMod (архив галереи)
+def fetch_electramod():
+    base = "https://electramod-extensions-gallery.vercel.app/"
+    src = get("https://raw.githubusercontent.com/ElectraMod/ElectraMod-ExtensionsGallery/main/src/lib/extensions.js")
+    # The gallery is an array of plain objects, not JSON. Read its string fields
+    # without executing the downloaded JavaScript.
+    src = re.sub(r'/\*.*?\*/', '', src, flags=re.S)
+    records = []
+    for body in re.findall(r'\{([^{}]*)\}', src, re.S):
+        def field(name):
+            match = re.search(r'\b' + name + r'\s*:\s*("(?:\\.|[^"\\])*")', body)
+            return json.loads(match.group(1)) if match else None
+        name, code = field('name'), field('code')
+        if not name or not code or not code.endswith('.js'):
+            continue
+        author = field('creator')
+        github = bool(re.search(r'\bisGitHub\s*:\s*true', body))
+        banner = field('banner')
+        docs = field('documentation')
+        records.append({
+            'name': name, 'description': field('description'),
+            'url': base + 'extensions/' + quote(code, safe='/'),
+            'image': base + 'images/' + quote(banner, safe='/') if banner else None,
+            'author': author,
+            'author_link': (('https://github.com/' if github else 'https://scratch.mit.edu/users/') + quote(author)) if author else None,
+            'documentation': base + 'docs/' + quote(docs) if docs else None,
+            'source': 'electramod',
+        })
+    return records
+
+
+# --------------------------------------------- Gaia's Gallery (TurboWarp entries)
+def fetch_gaia():
+    base = "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/"
+    entries = json.loads(get(base + "extensions.json"))
+    records = []
+    for entry in entries:
+        # Respect the gallery's explicit TurboWarp compatibility flag and hidden items.
+        if entry.get('hidden') or entry.get('canBeUsedOn', {}).get('tw') is not True:
+            continue
+        ident = entry.get('id')
+        if not isinstance(ident, str) or not re.fullmatch(r'[A-Za-z0-9_-]+', ident) or not entry.get('name'):
+            raise ValueError('Некорректная запись Gaia Gallery')
+        ext = entry.get('imgFormat', 'svg')
+        if ext not in ('svg', 'png', 'jpg', 'jpeg', 'webp'):
+            raise ValueError('Некорректный формат изображения Gaia Gallery')
+        records.append({
+            'name': entry['name'], 'description': entry.get('description'),
+            'url': base + 'code/' + ident + '.js',
+            'image': base + 'thumbnail/' + ident + '.' + ext,
+            'tags': entry.get('tags'), 'source': 'gaia',
+        })
+    return records
+
+
 SOURCES = [
     ("official", "TurboWarp Extension Gallery (official)", "https://extensions.turbowarp.org/", fetch_official, True),
     ("sharkpool", "SharkPool's Extension Collection", "https://sharkpool-sp.github.io/SharkPools-Extensions/", fetch_sharkpool, False),
@@ -386,6 +441,8 @@ SOURCES = [
     ("dashblocks", "DashBlocks", "https://dashblocks.org/extensions/", fetch_dashblocks, False),
     ("scrandled", "scrandled", "https://scrandled.vercel.app/", fetch_scrandled, False),
     ("crispstrobe", "CrispStrobe", "https://crispstrobe.github.io/extensions/", fetch_crispstrobe, False),
+    ("electramod", "ElectraMod Extra Extensions", "https://electramod-extensions-gallery.vercel.app/", fetch_electramod, False),
+    ("gaia", "Gaia’s Gallery", "https://github.com/gaiawindwave90/gaias-gallery", fetch_gaia, False),
 ]
 
 
