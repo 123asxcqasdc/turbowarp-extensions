@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-18",
- "total_raw": 923,
- "total_merged": 482,
+ "generated_at": "2026-11-27",
+ "total_raw": 909,
+ "total_merged": 474,
  "categories": [
   "3D и физика",
   "Время и таймеры",
@@ -688,12 +688,12 @@
   {
    "name": "Fetch",
    "description": "Make requests to the broader internet. Created by GarboMuffin.",
-   "author": "0znzw",
+   "author": "???",
    "image": "https://extensions.turbowarp.org/images/fetch.svg",
    "categories": [
     "Сеть и онлайн"
    ],
-   "sources_count": 5,
+   "sources_count": 4,
    "all_deprecated": false,
    "variants": [
     {
@@ -710,21 +710,6 @@
      "deprecated": false,
      "tags": null,
      "ext_id": "fetch"
-    },
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_FetchButCooler.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_FetchButCooler.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_FetchButCooler.png",
-     "description": "Позволяет выполнять HTTP-запросы, получать данные с URL, а также управлять заголовками, методами и обработкой ответов.",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "0znzwfetch"
     },
     {
      "source": "dimka-10",
@@ -1068,13 +1053,13 @@
   {
    "name": "Utilities",
    "description": "A bunch of interesting blocks. Created by Sheep_maker.",
-   "author": "0znzw",
+   "author": "CrispStrobe",
    "image": "https://extensions.turbowarp.org/images/utilities.svg",
    "categories": [
     "Скрипты и данные",
     "Утилиты"
    ],
-   "sources_count": 4,
+   "sources_count": 3,
    "all_deprecated": false,
    "variants": [
     {
@@ -1091,21 +1076,6 @@
      "deprecated": false,
      "tags": null,
      "ext_id": "utilities"
-    },
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_0tils.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_0tils.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_0tils.png",
-     "description": "Различные новые блоки.",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "sgcutils"
     },
     {
      "source": "snail-ide",
@@ -1436,14 +1406,12 @@
   {
    "name": "Clipboard",
    "description": "Read and write from the system clipboard. Created by tomyo-code, AdamMady, and NamelessCat.",
-   "author": "0znzw",
+   "author": "CrispStrobe",
    "image": "https://extensions.turbowarp.org/images/clipboard.svg",
    "categories": [
-    "Графика и эффекты",
-    "Файлы и хранилище",
-    "Текст и шрифты"
+    "Графика и эффекты"
    ],
-   "sources_count": 4,
+   "sources_count": 3,
    "all_deprecated": false,
    "variants": [
     {
@@ -1456,21 +1424,6 @@
      "description": "Read and write from the system clipboard. Created by tomyo-code, AdamMady, and NamelessCat.",
      "author": null,
      "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "clipboard"
-    },
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_ClipboardV2.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_ClipboardV2.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_ClipboardV2.png",
-     "description": "Позволяет взаимодействовать с буфером обмена: копировать, вставлять текст и файлы, а также отслеживать историю операций.",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
      "tags": null,
@@ -1741,6 +1694,70 @@
      "deprecated": false,
      "tags": null,
      "ext_id": "lmsskins"
+    }
+   ]
+  },
+  {
+   "name": "Particle Engine",
+   "description": "Create powerful particle engines without clones. Created by SharkPool.",
+   "author": "SharkPool",
+   "image": "https://extensions.turbowarp.org/images/SharkPool/Particle-Engine.svg",
+   "categories": [
+    "Скрипты и данные",
+    "Утилиты",
+    "Графика и эффекты"
+   ],
+   "sources_count": 3,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "official",
+     "source_label": "Официальная галерея",
+     "source_emoji": "✅",
+     "url": "https://extensions.turbowarp.org/SharkPool/Particle-Engine.js",
+     "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/SharkPool/Particle-Engine.js",
+     "image": "https://extensions.turbowarp.org/images/SharkPool/Particle-Engine.svg",
+     "description": "Create powerful particle engines without clones. Created by SharkPool.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "sppartengine"
+    },
+    {
+     "source": "sharkpool",
+     "source_label": "SharkPool",
+     "source_emoji": "🦈",
+     "url": "https://sharkpool-sp.github.io/SharkPools-Extensions/extension-code/Particle-Engine.js",
+     "open": "https://turbowarp.org/editor?extension=https://sharkpool-sp.github.io/SharkPools-Extensions/extension-code/Particle-Engine.js",
+     "image": "https://sharkpool-sp.github.io/SharkPools-Extensions/extension-thumbs/Particle-Engine.svg",
+     "description": "Create customizable and powerful Particle Engines with NO Clones",
+     "author": "SharkPool",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": [
+      "Utility",
+      "Graphics",
+      "Data Management"
+     ],
+     "ext_id": "sppartengine"
+    },
+    {
+     "source": "dimka-10",
+     "source_label": "Dimka-10",
+     "source_emoji": "🔟",
+     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/Particle-Engine.js",
+     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/Particle-Engine.js",
+     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/Particle-Engine.svg",
+     "description": "Новое дополнение, о подробностях сообщат позже.",
+     "author": "SharkPool",
+     "author_link": "https://github.com/SharkPool-SP",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "sppartengine"
     }
    ]
   },
@@ -5105,77 +5122,30 @@
    ]
   },
   {
-   "name": "Images",
-   "description": "Some blocks for working with images. Created by CST1229.",
-   "author": "???",
-   "image": "https://extensions.turbowarp.org/images/CST1229/images.svg",
+   "name": "Extendable Blocks",
+   "description": "Blocks with inputs that can be added and removed. Created by CST1229.",
+   "author": null,
+   "image": "https://extensions.turbowarp.org/images/CST1229/extendableblocks.svg",
    "categories": [
-    "Костюмы и скины",
-    "Сеть и онлайн",
     "Скрипты и данные"
    ],
-   "sources_count": 4,
+   "sources_count": 1,
    "all_deprecated": false,
    "variants": [
     {
      "source": "official",
      "source_label": "Официальная галерея",
      "source_emoji": "✅",
-     "url": "https://extensions.turbowarp.org/CST1229/images.js",
-     "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/CST1229/images.js",
-     "image": "https://extensions.turbowarp.org/images/CST1229/images.svg",
-     "description": "Some blocks for working with images. Created by CST1229.",
+     "url": "https://extensions.turbowarp.org/CST1229/extendableblocks.js",
+     "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/CST1229/extendableblocks.js",
+     "image": "https://extensions.turbowarp.org/images/CST1229/extendableblocks.svg",
+     "description": "Blocks with inputs that can be added and removed. Created by CST1229.",
      "author": null,
      "author_link": null,
      "documentation": null,
      "deprecated": false,
      "tags": null,
-     "ext_id": "images"
-    },
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/Images.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/Images.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/Images.png",
-     "description": "Позволяет работать с костюмами из интернета",
-     "author": "???",
-     "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "images"
-    },
-    {
-     "source": "bluedome77",
-     "source_label": "BlueDome77",
-     "source_emoji": "🩵",
-     "url": "https://raw.githubusercontent.com/BlueDome77/Turbowarp-Extension-List/main/Extensions/Images.js",
-     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/BlueDome77/Turbowarp-Extension-List/main/Extensions/Images.js",
-     "image": null,
-     "description": null,
-     "author": null,
-     "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "images"
-    },
-    {
-     "source": "crispstrobe",
-     "source_label": "CrispStrobe",
-     "source_emoji": "🧱",
-     "url": "https://extensions.turbowarp.org/CST1229/images.js",
-     "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/CST1229/images.js",
-     "image": "https://crispstrobe.github.io/extensions/images/CST1229/images.svg",
-     "description": "Some blocks for working with images. Created by CST1229.",
-     "author": "CrispStrobe",
-     "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "images"
+     "ext_id": "cstextendable"
     }
    ]
   },
@@ -5236,80 +5206,6 @@
      "deprecated": false,
      "tags": null,
      "ext_id": "shovellzcompress"
-    }
-   ]
-  },
-  {
-   "name": "rxFS",
-   "description": "Blocks for interacting with a virtual in-memory filesystem. Created by 0832.",
-   "author": "0832",
-   "image": "https://extensions.turbowarp.org/images/0832/rxFS2.svg",
-   "categories": [
-    "Файлы и хранилище",
-    "Скрипты и данные"
-   ],
-   "sources_count": 4,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "official",
-     "source_label": "Официальная галерея",
-     "source_emoji": "✅",
-     "url": "https://extensions.turbowarp.org/0832/rxFS2.js",
-     "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/0832/rxFS2.js",
-     "image": "https://extensions.turbowarp.org/images/0832/rxFS2.svg",
-     "description": "Blocks for interacting with a virtual in-memory filesystem. Created by 0832.",
-     "author": null,
-     "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "sync"
-    },
-    {
-     "source": "turbowarp-cn",
-     "source_label": "turbowarp-cn",
-     "source_emoji": "🀄",
-     "url": "https://raw.githubusercontent.com/turbowarp-cn/cn-extensions/main/extensions/0832/rxFS.js",
-     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/turbowarp-cn/cn-extensions/main/extensions/0832/rxFS.js",
-     "image": null,
-     "description": null,
-     "author": null,
-     "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "webin"
-    },
-    {
-     "source": "snail-ide",
-     "source_label": "Snail IDE",
-     "source_emoji": "🐌",
-     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/0832/rxFS2.js",
-     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/0832/rxFS2.js",
-     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/0832/rxFS2.svg",
-     "description": "Blocks for interacting with a virtual in-memory filesystem. Created by 0832.",
-     "author": "0832",
-     "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "folderdefault"
-    },
-    {
-     "source": "crispstrobe",
-     "source_label": "CrispStrobe",
-     "source_emoji": "🧱",
-     "url": "https://extensions.turbowarp.org/0832/rxFS2.js",
-     "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/0832/rxFS2.js",
-     "image": "https://crispstrobe.github.io/extensions/images/0832/rxFS2.svg",
-     "description": "Blocks for interacting with a virtual in-memory filesystem. Created by 0832.",
-     "author": "CrispStrobe",
-     "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "sync"
     }
    ]
   },
@@ -6205,8 +6101,8 @@
    ]
   },
   {
-   "name": "DECtalk Text to Speech",
-   "description": "Text to speech powered by DECtalk. Does not use an internet connection, so it works offline. English only. Created by NishiOwO.",
+   "name": "SharpVox Text to Speech",
+   "description": "Text to speech powered by SharpVox (previously DECtalk). Does not use an internet connection, so it works offline. English only. Created by NishiOwO.",
    "author": "CrispStrobe",
    "image": "https://extensions.turbowarp.org/images/NishiOwO/dectalk.png",
    "categories": [
@@ -6223,7 +6119,7 @@
      "url": "https://extensions.turbowarp.org/NishiOwO/dectalk.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/NishiOwO/dectalk.js",
      "image": "https://extensions.turbowarp.org/images/NishiOwO/dectalk.png",
-     "description": "Text to speech powered by DECtalk. Does not use an internet connection, so it works offline. English only. Created by NishiOwO.",
+     "description": "Text to speech powered by SharpVox (previously DECtalk). Does not use an internet connection, so it works offline. English only. Created by NishiOwO.",
      "author": null,
      "author_link": null,
      "documentation": null,
@@ -6466,6 +6362,63 @@
      "deprecated": false,
      "tags": null,
      "ext_id": "ngio"
+    }
+   ]
+  },
+  {
+   "name": "Wikipedia",
+   "description": "Fetch the content of Wikipedia pages. Created by SamuelLouf.",
+   "author": null,
+   "image": "https://extensions.turbowarp.org/images/SamuelLouf/Wikipedia.svg",
+   "categories": [
+    "Сеть и онлайн"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "official",
+     "source_label": "Официальная галерея",
+     "source_emoji": "✅",
+     "url": "https://extensions.turbowarp.org/SamuelLouf/Wikipedia.js",
+     "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/SamuelLouf/Wikipedia.js",
+     "image": "https://extensions.turbowarp.org/images/SamuelLouf/Wikipedia.svg",
+     "description": "Fetch the content of Wikipedia pages. Created by SamuelLouf.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "samuelloufwikipedia"
+    }
+   ]
+  },
+  {
+   "name": "More Randomness",
+   "description": "Adds blocks related to randomness, driven by an editable seed. Created by LukeAnimationss.",
+   "author": null,
+   "image": "https://extensions.turbowarp.org/images/LukeAnimationss/MoreRandomness.png",
+   "categories": [
+    "Математика и логика",
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "official",
+     "source_label": "Официальная галерея",
+     "source_emoji": "✅",
+     "url": "https://extensions.turbowarp.org/LukeAnimationss/MoreRandomness.js",
+     "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/LukeAnimationss/MoreRandomness.js",
+     "image": "https://extensions.turbowarp.org/images/LukeAnimationss/MoreRandomness.png",
+     "description": "Adds blocks related to randomness, driven by an editable seed. Created by LukeAnimationss.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "morerandomness"
     }
    ]
   },
@@ -6880,7 +6833,7 @@
      "documentation": null,
      "deprecated": false,
      "tags": null,
-     "ext_id": null
+     "ext_id": "spsoundwaves"
     }
    ]
   },
@@ -7139,55 +7092,6 @@
      "deprecated": false,
      "tags": null,
      "ext_id": "camerasensingplussp"
-    }
-   ]
-  },
-  {
-   "name": "Particle-Engine",
-   "description": "Create customizable and powerful Particle Engines with NO Clones",
-   "author": "SharkPool",
-   "image": "https://sharkpool-sp.github.io/SharkPools-Extensions/extension-thumbs/Particle-Engine.svg",
-   "categories": [
-    "Скрипты и данные",
-    "Утилиты",
-    "Графика и эффекты"
-   ],
-   "sources_count": 2,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "sharkpool",
-     "source_label": "SharkPool",
-     "source_emoji": "🦈",
-     "url": "https://sharkpool-sp.github.io/SharkPools-Extensions/extension-code/Particle-Engine.js",
-     "open": "https://turbowarp.org/editor?extension=https://sharkpool-sp.github.io/SharkPools-Extensions/extension-code/Particle-Engine.js",
-     "image": "https://sharkpool-sp.github.io/SharkPools-Extensions/extension-thumbs/Particle-Engine.svg",
-     "description": "Create customizable and powerful Particle Engines with NO Clones",
-     "author": "SharkPool",
-     "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": [
-      "Utility",
-      "Graphics",
-      "Data Management"
-     ],
-     "ext_id": "sppartengine"
-    },
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/Particle-Engine.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/Particle-Engine.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/Particle-Engine.svg",
-     "description": "Новое дополнение, о подробностях сообщат позже.",
-     "author": "SharkPool",
-     "author_link": "https://github.com/SharkPool-SP",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "sppartengine"
     }
    ]
   },
@@ -10347,6 +10251,34 @@
    ]
   },
   {
+   "name": "iCastRays",
+   "description": "Cast rays into other sprites in your project.",
+   "author": "cicerorph",
+   "image": "https://extensions.penguinmod.com/images/MubiLop/icastrays.svg",
+   "categories": [
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "penguinmod",
+     "source_label": "PenguinMod",
+     "source_emoji": "🐧",
+     "url": "https://extensions.penguinmod.com/extensions/MubiLop/icastrays.js",
+     "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/MubiLop/icastrays.js",
+     "image": "https://extensions.penguinmod.com/images/MubiLop/icastrays.svg",
+     "description": "Cast rays into other sprites in your project.",
+     "author": "cicerorph",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "mubiraycast"
+    }
+   ]
+  },
+  {
    "name": "Beat Sync",
    "description": "An extension designed to let you sync anything in your project to a musical beat, with incredible precision.",
    "author": "Gen1xLol",
@@ -10400,6 +10332,34 @@
      "deprecated": false,
      "tags": null,
      "ext_id": "skyhigh173object"
+    }
+   ]
+  },
+  {
+   "name": "Scope Variables",
+   "description": "Manage your variables in a block-like structure.",
+   "author": "yuri-kiss",
+   "image": "https://extensions.penguinmod.com/images/0znzw/ScopeVars.avif",
+   "categories": [
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "penguinmod",
+     "source_label": "PenguinMod",
+     "source_emoji": "🐧",
+     "url": "https://extensions.penguinmod.com/extensions/0znzw/ScopeVars2.js",
+     "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/0znzw/ScopeVars2.js",
+     "image": "https://extensions.penguinmod.com/images/0znzw/ScopeVars.avif",
+     "description": "Manage your variables in a block-like structure.",
+     "author": "yuri-kiss",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": null
     }
    ]
   },
@@ -10462,11 +10422,10 @@
   },
   {
    "name": "Dictation",
-   "description": "Convert your voice into text. (not supported in all browsers)",
+   "description": "Convert your voice into text",
    "author": "pooiod7",
    "image": "https://extensions.penguinmod.com/images/pooiod/Dictation.svg",
    "categories": [
-    "Окно и интерфейс",
     "Текст и шрифты"
    ],
    "sources_count": 1,
@@ -10479,7 +10438,7 @@
      "url": "https://extensions.penguinmod.com/extensions/pooiod/Dictation.js",
      "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/pooiod/Dictation.js",
      "image": "https://extensions.penguinmod.com/images/pooiod/Dictation.svg",
-     "description": "Convert your voice into text. (not supported in all browsers)",
+     "description": "Convert your voice into text",
      "author": "pooiod7",
      "author_link": null,
      "documentation": null,
@@ -10845,6 +10804,49 @@
      "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/MubiLop/numutils.js",
      "image": "https://dashblocks.org/extensions/static/images/MubiLop/numutils.png",
      "description": "Adds blocks for number formatting and manipulation.",
+     "author": "cicerorph",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": null
+    }
+   ]
+  },
+  {
+   "name": "Spritesheeter",
+   "description": "Manage Spritesheets with ease and no trouble.",
+   "author": "cicerorph",
+   "image": "https://extensions.penguinmod.com/images/MubiLop/spritesheeter.avif",
+   "categories": [
+    "Текст и шрифты"
+   ],
+   "sources_count": 2,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "penguinmod",
+     "source_label": "PenguinMod",
+     "source_emoji": "🐧",
+     "url": "https://extensions.penguinmod.com/extensions/MubiLop/spritesheeter.js",
+     "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/MubiLop/spritesheeter.js",
+     "image": "https://extensions.penguinmod.com/images/MubiLop/spritesheeter.avif",
+     "description": "Manage Spritesheets with ease and no trouble.",
+     "author": "cicerorph",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "spritesheeter"
+    },
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/MubiLop/spritesheeter.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/MubiLop/spritesheeter.js",
+     "image": "https://dashblocks.org/extensions/static/images/MubiLop/spritesheeter.png",
+     "description": "Load and manipulate spritesheets with customizable frames and XML support",
      "author": "cicerorph",
      "author_link": null,
      "documentation": null,
@@ -11599,10 +11601,9 @@
    "author": "yuri-kiss",
    "image": "https://extensions.penguinmod.com/images/0znzw/MoreFields.avif",
    "categories": [
-    "Файлы и хранилище",
-    "Текст и шрифты"
+    "Прочее"
    ],
-   "sources_count": 3,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -11615,21 +11616,6 @@
      "description": "Custom Field Types",
      "author": "yuri-kiss",
      "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "0znzwmorefields"
-    },
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_MoreFields.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_MoreFields.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_MoreFields.png",
-     "description": "Добавляет новые типы полей, такие как текстовые области, слайдеры, скрытые строки и файлы, улучшая взаимодействие с данными.",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
      "documentation": null,
      "deprecated": false,
      "tags": null,
@@ -12210,7 +12196,7 @@
    "categories": [
     "Математика и логика"
    ],
-   "sources_count": 3,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -12227,21 +12213,6 @@
      "deprecated": false,
      "tags": null,
      "ext_id": "gaimericryptoextension"
-    },
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_EncodingV2.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_EncodingV2.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_EncodingV2.png",
-     "description": "Реализует криптографические функции, включая поддержку шифрования и хэширования.",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "12840113549111"
     },
     {
      "source": "dashblocks",
@@ -12519,50 +12490,6 @@
    ]
   },
   {
-   "name": "How many lines?",
-   "description": "Blocks to determine the amount of new lines in a piece of text.",
-   "author": "Monochromasity",
-   "image": "https://extensions.penguinmod.com/images/Monochromasity/placeholder-howmanylines.avif",
-   "categories": [
-    "Текст и шрифты",
-    "Скрипты и данные"
-   ],
-   "sources_count": 2,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "penguinmod",
-     "source_label": "PenguinMod",
-     "source_emoji": "🐧",
-     "url": "https://extensions.penguinmod.com/extensions/Monochromasity/howmanylines.js",
-     "open": "https://turbowarp.org/editor?extension=https://extensions.penguinmod.com/extensions/Monochromasity/howmanylines.js",
-     "image": "https://extensions.penguinmod.com/images/Monochromasity/placeholder-howmanylines.avif",
-     "description": "Blocks to determine the amount of new lines in a piece of text.",
-     "author": "Monochromasity",
-     "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "monochromasityhml"
-    },
-    {
-     "source": "dashblocks",
-     "source_label": "DashBlocks",
-     "source_emoji": "🔥",
-     "url": "https://dashblocks.org/extensions/static/extensions/Monochromasity/howmanylines.js",
-     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/Monochromasity/howmanylines.js",
-     "image": "https://dashblocks.org/extensions/static/images/Monochromasity/placeholder-howmanylines.png",
-     "description": "Blocks to determine the amount of new lines in a piece of text.",
-     "author": "Monochromasity",
-     "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": null
-    }
-   ]
-  },
-  {
    "name": "Paint Utils",
    "description": "A colour extension that lets you mix colours.",
    "author": "Fruits555000",
@@ -12800,519 +12727,6 @@
      "deprecated": false,
      "tags": null,
      "ext_id": "nishiowolibxmp"
-    }
-   ]
-  },
-  {
-   "name": "Buffers",
-   "description": "Дополнение позволяет манипулировать двоичными данными, включая создание, чтение и запись буферов, а также конвертацию форматов.",
-   "author": "0znzw",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_Buffers.png",
-   "categories": [
-    "Математика и логика",
-    "Скрипты и данные"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_Buffers.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_Buffers.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_Buffers.png",
-     "description": "Дополнение позволяет манипулировать двоичными данными, включая создание, чтение и запись буферов, а также конвертацию форматов.",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "0znzwbuffers"
-    }
-   ]
-  },
-  {
-   "name": "Compiler Injector",
-   "description": "Позволяет внедрять и модифицировать JavaScript-код в Scratch, управляя блоками и их поведением во время выполнения.",
-   "author": "0znzw",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_CompilerPatcher.png",
-   "categories": [
-    "Время и таймеры",
-    "Скрипты и данные"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_CompilerPatcher.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_CompilerPatcher.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_CompilerPatcher.png",
-     "description": "Позволяет внедрять и модифицировать JavaScript-код в Scratch, управляя блоками и их поведением во время выполнения.",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "0znzwcompilerpatching"
-    }
-   ]
-  },
-  {
-   "name": "Document Events",
-   "description": "Позволяет отслеживать события, такие как изменение видимости вкладки, перемещение мыши по холсту и статус подключения (онлайн/офлайн) в Scratch.",
-   "author": "0znzw",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_DocumentEvents.png",
-   "categories": [
-    "Сеть и онлайн",
-    "Устройство и датчики",
-    "Окно и интерфейс"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_DocumentEvents.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_DocumentEvents.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_DocumentEvents.png",
-     "description": "Позволяет отслеживать события, такие как изменение видимости вкладки, перемещение мыши по холсту и статус подключения (онлайн/офлайн) в Scratch.",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "documentevents0znzw"
-    }
-   ]
-  },
-  {
-   "name": "DOMPurify",
-   "description": "Обеспечивает безопасную очистку HTML, предотвращая внедрение вредоносного кода при работе с пользовательским вводом.",
-   "author": "0znzw",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_DOMPurify.png",
-   "categories": [
-    "Прочее"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_DOMPurify.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_DOMPurify.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_DOMPurify.png",
-     "description": "Обеспечивает безопасную очистку HTML, предотвращая внедрение вредоносного кода при работе с пользовательским вводом.",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "0znzwdompurify"
-    }
-   ]
-  },
-  {
-   "name": "Fake Errors",
-   "description": "Генерирует фальшивые ошибки, позволяя отображать настраиваемые сообщения об ошибках и управлять их видимостью.",
-   "author": "0znzw",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_ErrorPages.png",
-   "categories": [
-    "Скрипты и данные"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_ErrorPages.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_ErrorPages.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_ErrorPages.png",
-     "description": "Генерирует фальшивые ошибки, позволяя отображать настраиваемые сообщения об ошибках и управлять их видимостью.",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "0znzwerrorpages"
-    }
-   ]
-  },
-  {
-   "name": "Image Blocks",
-   "description": "Позволяет использовать изображения и видео в проектах, включая уникальные графические элементы и анимации.",
-   "author": "0znzw",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_FunneImageBlocks.png",
-   "categories": [
-    "Звук и видео",
-    "Скрипты и данные"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_FunneImageBlocks.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_FunneImageBlocks.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_FunneImageBlocks.png",
-     "description": "Позволяет использовать изображения и видео в проектах, включая уникальные графические элементы и анимации.",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "pmblock0znzw"
-    }
-   ]
-  },
-  {
-   "name": "HTML Entitys",
-   "description": "Позволяет безопасно кодировать строки в HTML, преобразуя символы в соответствующие HTML-сущности, и получать информации о сущностях.",
-   "author": "0znzw",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_HTMLEntitys.png",
-   "categories": [
-    "Текст и шрифты"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_HTMLEntitys.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_HTMLEntitys.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_HTMLEntitys.png",
-     "description": "Позволяет безопасно кодировать строки в HTML, преобразуя символы в соответствующие HTML-сущности, и получать информации о сущностях.",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "0znzwhtmlentitys"
-    }
-   ]
-  },
-  {
-   "name": "MicroBit Matrix+",
-   "description": "Позволяет работать с двоичными матрицами, проверять их на валидность, извлекать подматрицы и получать значения пикселей по координатам.",
-   "author": "0znzw",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_MatrixPlus.png",
-   "categories": [
-    "Математика и логика"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_MatrixPlus.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_MatrixPlus.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_MatrixPlus.png",
-     "description": "Позволяет работать с двоичными матрицами, проверять их на валидность, извлекать подматрицы и получать значения пикселей по координатам.",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "matrixplus0znzw"
-    }
-   ]
-  },
-  {
-   "name": "MimeDB",
-   "description": "Предоставляет информацию о типах MIME и расширениях, позволяя искать, добавлять пользовательские MIME-типы и получать атрибуты.",
-   "author": "0znzw",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_MimeDB.png",
-   "categories": [
-    "Прочее"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_MimeDB.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_MimeDB.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_MimeDB.png",
-     "description": "Предоставляет информацию о типах MIME и расширениях, позволяя искать, добавлять пользовательские MIME-типы и получать атрибуты.",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "0znzwmimedb"
-    }
-   ]
-  },
-  {
-   "name": "More Buttons",
-   "description": "Позволяет создавать и управлять пользовательскими кнопками, включая добавление, удаление, перемещение и изменение видимости кнопок, а также обработку событий кликов.",
-   "author": "0znzw",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_MoreButtons.png",
-   "categories": [
-    "Скрипты и данные"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_MoreButtons.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_MoreButtons.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_MoreButtons.png",
-     "description": "Позволяет создавать и управлять пользовательскими кнопками, включая добавление, удаление, перемещение и изменение видимости кнопок, а также обработку событий кликов.",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": null
-    }
-   ]
-  },
-  {
-   "name": "Niche Toolbox",
-   "description": "Предоставляет набор утилит, включая функции для работы с цветами, звуками, слоями, проектами и манипуляции текстом.",
-   "author": "0znzw",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_NicheToolbox.png",
-   "categories": [
-    "Графика и эффекты",
-    "Звук и видео",
-    "Текст и шрифты"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_NicheToolbox.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_NicheToolbox.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_NicheToolbox.png",
-     "description": "Предоставляет набор утилит, включая функции для работы с цветами, звуками, слоями, проектами и манипуляции текстом.",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "0znzwnichetoolbox"
-    }
-   ]
-  },
-  {
-   "name": "Periodic Table",
-   "description": "Предоставляет доступ к информации о химических элементах периодической таблицы.",
-   "author": "0znzw",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_PeriodicTable.png",
-   "categories": [
-    "Устройство и датчики"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_PeriodicTable.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_PeriodicTable.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_PeriodicTable.png",
-     "description": "Предоставляет доступ к информации о химических элементах периодической таблицы.",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "0znzwperiodictable"
-    }
-   ]
-  },
-  {
-   "name": "Right Click Menu",
-   "description": "Позволяет управлять контекстным меню.",
-   "author": "0znzw",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_RightClickMenu.png",
-   "categories": [
-    "Окно и интерфейс",
-    "Текст и шрифты",
-    "Скрипты и данные"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_RightClickMenu.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_RightClickMenu.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_RightClickMenu.png",
-     "description": "Позволяет управлять контекстным меню.",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "0znzwrightclick"
-    }
-   ]
-  },
-  {
-   "name": "Script Manager",
-   "description": "Позволяет контролировать выполнение потоков, сохранять и получать данные, изменять блоки и управлять их состоянием.",
-   "author": "0znzw",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_ScriptManagement.png",
-   "categories": [
-    "Скрипты и данные"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_ScriptManagement.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_ScriptManagement.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_ScriptManagement.png",
-     "description": "Позволяет контролировать выполнение потоков, сохранять и получать данные, изменять блоки и управлять их состоянием.",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "0znzwscriptmanagement"
-    }
-   ]
-  },
-  {
-   "name": "Spellcheck",
-   "description": "Предоставляет функции для проверки правописания",
-   "author": "0znzw",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_spellCheck.png",
-   "categories": [
-    "Прочее"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_spellCheck.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_spellCheck.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_spellCheck.png",
-     "description": "Предоставляет функции для проверки правописания",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "0znzwspellcheck"
-    }
-   ]
-  },
-  {
-   "name": "StarStorage",
-   "description": "Позволяет сохранять и управлять данными в различных хранилищах (localStorage, sessionStorage, cookies, IndexedDB)",
-   "author": "0znzw",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_StarStorage.png",
-   "categories": [
-    "Файлы и хранилище"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_StarStorage.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_StarStorage.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_StarStorage.png",
-     "description": "Позволяет сохранять и управлять данными в различных хранилищах (localStorage, sessionStorage, cookies, IndexedDB)",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "0znzwstarstorage"
-    }
-   ]
-  },
-  {
-   "name": "Switch Case",
-   "description": "Предоставляет структуру для реализации операторов выбора (switch-case)",
-   "author": "0znzw",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_SwitchCaseUSB.png",
-   "categories": [
-    "Текст и шрифты"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_SwitchCaseUSB.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_SwitchCaseUSB.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_SwitchCaseUSB.png",
-     "description": "Предоставляет структуру для реализации операторов выбора (switch-case)",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "0znzwswitchcaseusb"
-    }
-   ]
-  },
-  {
-   "name": "Try Catch",
-   "description": "Позволяет обрабатывать ошибки в Scratch, обеспечивая механизм попробовать-поймать для управления исключениями и улучшения стабильности проектов.",
-   "author": "0znzw",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_TryCatchV2.png",
-   "categories": [
-    "Математика и логика"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dimka-10",
-     "source_label": "Dimka-10",
-     "source_emoji": "🔟",
-     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_TryCatchV2.js",
-     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_TryCatchV2.js",
-     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_TryCatchV2.png",
-     "description": "Позволяет обрабатывать ошибки в Scratch, обеспечивая механизм попробовать-поймать для управления исключениями и улучшения стабильности проектов.",
-     "author": "0znzw",
-     "author_link": "https://scratch.mit.edu/users/0znzw/",
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": "0znzwtrycatchv2"
     }
    ]
   },
@@ -14685,6 +14099,66 @@
      "deprecated": false,
      "tags": null,
      "ext_id": "htmlinputs"
+    }
+   ]
+  },
+  {
+   "name": "Images",
+   "description": "Позволяет работать с костюмами из интернета",
+   "author": "???",
+   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/Images.png",
+   "categories": [
+    "Костюмы и скины",
+    "Сеть и онлайн",
+    "Скрипты и данные"
+   ],
+   "sources_count": 3,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dimka-10",
+     "source_label": "Dimka-10",
+     "source_emoji": "🔟",
+     "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/Images.js",
+     "open": "https://turbowarp.org/editor?extension=https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/Images.js",
+     "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/Images.png",
+     "description": "Позволяет работать с костюмами из интернета",
+     "author": "???",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "images"
+    },
+    {
+     "source": "bluedome77",
+     "source_label": "BlueDome77",
+     "source_emoji": "🩵",
+     "url": "https://raw.githubusercontent.com/BlueDome77/Turbowarp-Extension-List/main/Extensions/Images.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/BlueDome77/Turbowarp-Extension-List/main/Extensions/Images.js",
+     "image": null,
+     "description": null,
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "images"
+    },
+    {
+     "source": "crispstrobe",
+     "source_label": "CrispStrobe",
+     "source_emoji": "🧱",
+     "url": "https://extensions.turbowarp.org/CST1229/images.js",
+     "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/CST1229/images.js",
+     "image": "https://crispstrobe.github.io/extensions/images/CST1229/images.svg",
+     "description": "Some blocks for working with images. Created by CST1229.",
+     "author": "CrispStrobe",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "images"
     }
    ]
   },
@@ -18318,6 +17792,65 @@
    ]
   },
   {
+   "name": "rxFS",
+   "description": "Blocks for interacting with a virtual in-memory filesystem. Created by 0832.",
+   "author": "0832",
+   "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/0832/rxFS2.svg",
+   "categories": [
+    "Файлы и хранилище",
+    "Скрипты и данные"
+   ],
+   "sources_count": 3,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "turbowarp-cn",
+     "source_label": "turbowarp-cn",
+     "source_emoji": "🀄",
+     "url": "https://raw.githubusercontent.com/turbowarp-cn/cn-extensions/main/extensions/0832/rxFS.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/turbowarp-cn/cn-extensions/main/extensions/0832/rxFS.js",
+     "image": null,
+     "description": null,
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "webin"
+    },
+    {
+     "source": "snail-ide",
+     "source_label": "Snail IDE",
+     "source_emoji": "🐌",
+     "url": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/0832/rxFS2.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/extensions/0832/rxFS2.js",
+     "image": "https://raw.githubusercontent.com/Snail-IDE/community-extensions/master/images/0832/rxFS2.svg",
+     "description": "Blocks for interacting with a virtual in-memory filesystem. Created by 0832.",
+     "author": "0832",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "folderdefault"
+    },
+    {
+     "source": "crispstrobe",
+     "source_label": "CrispStrobe",
+     "source_emoji": "🧱",
+     "url": "https://extensions.turbowarp.org/0832/rxFS2.js",
+     "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/0832/rxFS2.js",
+     "image": "https://crispstrobe.github.io/extensions/images/0832/rxFS2.svg",
+     "description": "Blocks for interacting with a virtual in-memory filesystem. Created by 0832.",
+     "author": "CrispStrobe",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "sync"
+    }
+   ]
+  },
+  {
    "name": "rxFS3",
    "description": null,
    "author": null,
@@ -19953,34 +19486,6 @@
    ]
   },
   {
-   "name": "Spritesheeter",
-   "description": "Load and manipulate spritesheets with customizable frames and XML support",
-   "author": "cicerorph",
-   "image": "https://dashblocks.org/extensions/static/images/MubiLop/spritesheeter.png",
-   "categories": [
-    "Текст и шрифты"
-   ],
-   "sources_count": 1,
-   "all_deprecated": false,
-   "variants": [
-    {
-     "source": "dashblocks",
-     "source_label": "DashBlocks",
-     "source_emoji": "🔥",
-     "url": "https://dashblocks.org/extensions/static/extensions/MubiLop/spritesheeter.js",
-     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/MubiLop/spritesheeter.js",
-     "image": "https://dashblocks.org/extensions/static/images/MubiLop/spritesheeter.png",
-     "description": "Load and manipulate spritesheets with customizable frames and XML support",
-     "author": "cicerorph",
-     "author_link": null,
-     "documentation": null,
-     "deprecated": false,
-     "tags": null,
-     "ext_id": null
-    }
-   ]
-  },
-  {
    "name": "Mathematics",
    "description": "Complicated maths extension for nerds.",
    "author": "jwklong",
@@ -20028,6 +19533,35 @@
      "image": "https://dashblocks.org/extensions/static/images/jwklong/projectpage.png",
      "description": "Modify and affect the studio project page from the code. How annoying can an extension possibly be?",
      "author": "jwklong",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": null
+    }
+   ]
+  },
+  {
+   "name": "How many lines?",
+   "description": "Blocks to determine the amount of new lines in a piece of text.",
+   "author": "Monochromasity",
+   "image": "https://dashblocks.org/extensions/static/images/Monochromasity/placeholder-howmanylines.png",
+   "categories": [
+    "Текст и шрифты",
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "dashblocks",
+     "source_label": "DashBlocks",
+     "source_emoji": "🔥",
+     "url": "https://dashblocks.org/extensions/static/extensions/Monochromasity/howmanylines.js",
+     "open": "https://turbowarp.org/editor?extension=https://dashblocks.org/extensions/static/extensions/Monochromasity/howmanylines.js",
+     "image": "https://dashblocks.org/extensions/static/images/Monochromasity/placeholder-howmanylines.png",
+     "description": "Blocks to determine the amount of new lines in a piece of text.",
+     "author": "Monochromasity",
      "author_link": null,
      "documentation": null,
      "deprecated": false,
@@ -20733,6 +20267,152 @@
      "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/CrispStrobe/circuitplayground.js",
      "image": "https://crispstrobe.github.io/extensions/images/unknown.svg",
      "description": "Adafruit Circuit Playground Express on-board devices — the NeoPixel ring, buttons, slide switch, motion, light, temperature, sound, touch and speaker — as VM state a device pane draws and drives. Created by CrispStrobe.",
+     "author": "CrispStrobe",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": null
+    }
+   ]
+  },
+  {
+   "name": "Sprite Utils",
+   "description": "Distance, angle and velocity helpers between sprites, ported from the MakeCode Arcade Sprite Utils extension. Created by Joey Wunderlich (arcade-sprite-util). Updated by Joey Wunderlich and CrispStrobe.",
+   "author": "CrispStrobe",
+   "image": "https://crispstrobe.github.io/extensions/images/unknown.svg",
+   "categories": [
+    "Время и таймеры",
+    "Утилиты"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "crispstrobe",
+     "source_label": "CrispStrobe",
+     "source_emoji": "🧱",
+     "url": "https://extensions.turbowarp.org/CrispStrobe/spriteutils.js",
+     "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/CrispStrobe/spriteutils.js",
+     "image": "https://crispstrobe.github.io/extensions/images/unknown.svg",
+     "description": "Distance, angle and velocity helpers between sprites, ported from the MakeCode Arcade Sprite Utils extension. Created by Joey Wunderlich (arcade-sprite-util). Updated by Joey Wunderlich and CrispStrobe.",
+     "author": "CrispStrobe",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": null
+    }
+   ]
+  },
+  {
+   "name": "Status Bars",
+   "description": "Health, energy and other bars that follow sprites, ported from the MakeCode Arcade Status Bars extension. Created by Joey Wunderlich (pxt-status-bar). Updated by Joey Wunderlich and CrispStrobe.",
+   "author": "CrispStrobe",
+   "image": "https://crispstrobe.github.io/extensions/images/unknown.svg",
+   "categories": [
+    "Время и таймеры"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "crispstrobe",
+     "source_label": "CrispStrobe",
+     "source_emoji": "🧱",
+     "url": "https://extensions.turbowarp.org/CrispStrobe/statusbars.js",
+     "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/CrispStrobe/statusbars.js",
+     "image": "https://crispstrobe.github.io/extensions/images/unknown.svg",
+     "description": "Health, energy and other bars that follow sprites, ported from the MakeCode Arcade Status Bars extension. Created by Joey Wunderlich (pxt-status-bar). Updated by Joey Wunderlich and CrispStrobe.",
+     "author": "CrispStrobe",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": null
+    }
+   ]
+  },
+  {
+   "name": "Carnival Games",
+   "description": "Countdown and timer games with saved best scores, plus throwable balls with aim and power, ported from the MakeCode Arcade Carnival extension. Created by Microsoft (arcade-carnival). Updated by Microsoft Corporation and CrispStrobe.",
+   "author": "CrispStrobe",
+   "image": "https://crispstrobe.github.io/extensions/images/unknown.svg",
+   "categories": [
+    "Время и таймеры",
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "crispstrobe",
+     "source_label": "CrispStrobe",
+     "source_emoji": "🧱",
+     "url": "https://extensions.turbowarp.org/CrispStrobe/carnival.js",
+     "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/CrispStrobe/carnival.js",
+     "image": "https://crispstrobe.github.io/extensions/images/unknown.svg",
+     "description": "Countdown and timer games with saved best scores, plus throwable balls with aim and power, ported from the MakeCode Arcade Carnival extension. Created by Microsoft (arcade-carnival). Updated by Microsoft Corporation and CrispStrobe.",
+     "author": "CrispStrobe",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": null
+    }
+   ]
+  },
+  {
+   "name": "Saved Settings",
+   "description": "Save and read named numbers, text and number lists that persist between runs, ported from the MakeCode settings blocks. Created by Microsoft (pxt-settings-blocks). Updated by Microsoft Corporation and CrispStrobe.",
+   "author": "CrispStrobe",
+   "image": "https://crispstrobe.github.io/extensions/images/unknown.svg",
+   "categories": [
+    "Время и таймеры",
+    "Текст и шрифты",
+    "Математика и логика"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "crispstrobe",
+     "source_label": "CrispStrobe",
+     "source_emoji": "🧱",
+     "url": "https://extensions.turbowarp.org/CrispStrobe/settingsblocks.js",
+     "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/CrispStrobe/settingsblocks.js",
+     "image": "https://crispstrobe.github.io/extensions/images/unknown.svg",
+     "description": "Save and read named numbers, text and number lists that persist between runs, ported from the MakeCode settings blocks. Created by Microsoft (pxt-settings-blocks). Updated by Microsoft Corporation and CrispStrobe.",
+     "author": "CrispStrobe",
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": null
+    }
+   ]
+  },
+  {
+   "name": "NeoPixel Strips",
+   "description": "Virtual NeoPixel LED strips drawn on the stage: colours, rainbow, brightness, shift, rotate and ranges, ported from the MakeCode NeoPixel driver. Created by Microsoft (pxt-neopixel). Updated by Microsoft Corporation and CrispStrobe.",
+   "author": "CrispStrobe",
+   "image": "https://crispstrobe.github.io/extensions/images/unknown.svg",
+   "categories": [
+    "Графика и эффекты",
+    "Время и таймеры",
+    "Математика и логика"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "crispstrobe",
+     "source_label": "CrispStrobe",
+     "source_emoji": "🧱",
+     "url": "https://extensions.turbowarp.org/CrispStrobe/neopixel.js",
+     "open": "https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/CrispStrobe/neopixel.js",
+     "image": "https://crispstrobe.github.io/extensions/images/unknown.svg",
+     "description": "Virtual NeoPixel LED strips drawn on the stage: colours, rainbow, brightness, shift, rotate and ranges, ported from the MakeCode NeoPixel driver. Created by Microsoft (pxt-neopixel). Updated by Microsoft Corporation and CrispStrobe.",
      "author": "CrispStrobe",
      "author_link": null,
      "documentation": null,

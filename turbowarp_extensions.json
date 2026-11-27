@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-21",
+ "generated_at": "2026-11-27",
  "sources": [
   {
    "id": "official",
    "name": "TurboWarp Extension Gallery (official)",
    "url": "https://extensions.turbowarp.org/",
-   "count": 104
+   "count": 106
   },
   {
    "id": "sharkpool",
@@ -17,13 +17,13 @@
    "id": "penguinmod",
    "name": "PenguinMod Extension Gallery",
    "url": "https://extensions.penguinmod.com/",
-   "count": 71
+   "count": 73
   },
   {
    "id": "dimka-10",
    "name": "Dimka10 Scratch-Extensions-Gallery",
    "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/",
-   "count": 252
+   "count": 229
   },
   {
    "id": "turbowarp-cn",
@@ -71,7 +71,7 @@
    "id": "crispstrobe",
    "name": "CrispStrobe",
    "url": "https://crispstrobe.github.io/extensions/",
-   "count": 130
+   "count": 135
   }
  ],
  "extensions": [
@@ -255,6 +255,13 @@
    "description": "Have your sprites render as other images or costumes. Created by LilyMakesThings.",
    "url": "https://extensions.turbowarp.org/Lily/Skins.js",
    "image": "https://extensions.turbowarp.org/images/Lily/Skins.svg",
+   "source": "official"
+  },
+  {
+   "name": "Particle Engine",
+   "description": "Create powerful particle engines without clones. Created by SharkPool.",
+   "url": "https://extensions.turbowarp.org/SharkPool/Particle-Engine.js",
+   "image": "https://extensions.turbowarp.org/images/SharkPool/Particle-Engine.svg",
    "source": "official"
   },
   {
@@ -636,10 +643,10 @@
    "source": "official"
   },
   {
-   "name": "Images",
-   "description": "Some blocks for working with images. Created by CST1229.",
-   "url": "https://extensions.turbowarp.org/CST1229/images.js",
-   "image": "https://extensions.turbowarp.org/images/CST1229/images.svg",
+   "name": "Extendable Blocks",
+   "description": "Blocks with inputs that can be added and removed. Created by CST1229.",
+   "url": "https://extensions.turbowarp.org/CST1229/extendableblocks.js",
+   "image": "https://extensions.turbowarp.org/images/CST1229/extendableblocks.svg",
    "source": "official"
   },
   {
@@ -647,13 +654,6 @@
    "description": "Compress and decompress text using lz-string. Created by TheShovel.",
    "url": "https://extensions.turbowarp.org/TheShovel/LZ-String.js",
    "image": "https://extensions.turbowarp.org/images/TheShovel/LZ-String.svg",
-   "source": "official"
-  },
-  {
-   "name": "rxFS",
-   "description": "Blocks for interacting with a virtual in-memory filesystem. Created by 0832.",
-   "url": "https://extensions.turbowarp.org/0832/rxFS2.js",
-   "image": "https://extensions.turbowarp.org/images/0832/rxFS2.svg",
    "source": "official"
   },
   {
@@ -762,8 +762,8 @@
    "source": "official"
   },
   {
-   "name": "DECtalk Text to Speech",
-   "description": "Text to speech powered by DECtalk. Does not use an internet connection, so it works offline. English only. Created by NishiOwO.",
+   "name": "SharpVox Text to Speech",
+   "description": "Text to speech powered by SharpVox (previously DECtalk). Does not use an internet connection, so it works offline. English only. Created by NishiOwO.",
    "url": "https://extensions.turbowarp.org/NishiOwO/dectalk.js",
    "image": "https://extensions.turbowarp.org/images/NishiOwO/dectalk.png",
    "source": "official"
@@ -794,6 +794,20 @@
    "description": "Blocks that allow games to interact with the Newgrounds API. Unofficial. Created by ObviousAlexC.",
    "url": "https://extensions.turbowarp.org/obviousAlexC/newgroundsIO.js",
    "image": "https://extensions.turbowarp.org/images/obviousAlexC/newgroundsIO.svg",
+   "source": "official"
+  },
+  {
+   "name": "Wikipedia",
+   "description": "Fetch the content of Wikipedia pages. Created by SamuelLouf.",
+   "url": "https://extensions.turbowarp.org/SamuelLouf/Wikipedia.js",
+   "image": "https://extensions.turbowarp.org/images/SamuelLouf/Wikipedia.svg",
+   "source": "official"
+  },
+  {
+   "name": "More Randomness",
+   "description": "Adds blocks related to randomness, driven by an editable seed. Created by LukeAnimationss.",
+   "url": "https://extensions.turbowarp.org/LukeAnimationss/MoreRandomness.js",
+   "image": "https://extensions.turbowarp.org/images/LukeAnimationss/MoreRandomness.png",
    "source": "official"
   },
   {
@@ -1859,6 +1873,14 @@
    "source": "penguinmod"
   },
   {
+   "name": "iCastRays",
+   "description": "Cast rays into other sprites in your project.",
+   "url": "https://extensions.penguinmod.com/extensions/MubiLop/icastrays.js",
+   "image": "https://extensions.penguinmod.com/images/MubiLop/icastrays.svg",
+   "author": "cicerorph",
+   "source": "penguinmod"
+  },
+  {
    "name": "Beat Sync",
    "description": "An extension designed to let you sync anything in your project to a musical beat, with incredible precision.",
    "url": "https://extensions.penguinmod.com/extensions/Gen1x/beat_sync.js",
@@ -1872,6 +1894,14 @@
    "url": "https://extensions.penguinmod.com/extensions/skyhigh173/object.js",
    "image": "https://extensions.penguinmod.com/images/skyhigh173/object.svg",
    "author": "skyhigh173",
+   "source": "penguinmod"
+  },
+  {
+   "name": "Scope Variables",
+   "description": "Manage your variables in a block-like structure.",
+   "url": "https://extensions.penguinmod.com/extensions/0znzw/ScopeVars2.js",
+   "image": "https://extensions.penguinmod.com/images/0znzw/ScopeVars.avif",
+   "author": "yuri-kiss",
    "source": "penguinmod"
   },
   {
@@ -1892,7 +1922,7 @@
   },
   {
    "name": "Dictation",
-   "description": "Convert your voice into text. (not supported in all browsers)",
+   "description": "Convert your voice into text",
    "url": "https://extensions.penguinmod.com/extensions/pooiod/Dictation.js",
    "image": "https://extensions.penguinmod.com/images/pooiod/Dictation.svg",
    "author": "pooiod7",
@@ -1951,6 +1981,14 @@
    "description": "Adds blocks for number formatting and manipulation.",
    "url": "https://extensions.penguinmod.com/extensions/MubiLop/numutils.js",
    "image": "https://extensions.penguinmod.com/images/MubiLop/numutils.avif",
+   "author": "cicerorph",
+   "source": "penguinmod"
+  },
+  {
+   "name": "Spritesheeter",
+   "description": "Manage Spritesheets with ease and no trouble.",
+   "url": "https://extensions.penguinmod.com/extensions/MubiLop/spritesheeter.js",
+   "image": "https://extensions.penguinmod.com/images/MubiLop/spritesheeter.avif",
    "author": "cicerorph",
    "source": "penguinmod"
   },
@@ -2283,14 +2321,6 @@
    "source": "penguinmod"
   },
   {
-   "name": "How many lines?",
-   "description": "Blocks to determine the amount of new lines in a piece of text.",
-   "url": "https://extensions.penguinmod.com/extensions/Monochromasity/howmanylines.js",
-   "image": "https://extensions.penguinmod.com/images/Monochromasity/placeholder-howmanylines.avif",
-   "author": "Monochromasity",
-   "source": "penguinmod"
-  },
-  {
    "name": "Paint Utils",
    "description": "A colour extension that lets you mix colours.",
    "url": "https://extensions.penguinmod.com/extensions/Fruits555000/PaintUtils.js",
@@ -2353,213 +2383,6 @@
    "image": "https://extensions.penguinmod.com/images/NishiOwO/libxmp.svg",
    "author": "NishiOwO",
    "source": "penguinmod"
-  },
-  {
-   "name": "Utilities",
-   "description": "Различные новые блоки.",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_0tils.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_0tils.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "Buffers",
-   "description": "Дополнение позволяет манипулировать двоичными данными, включая создание, чтение и запись буферов, а также конвертацию форматов.",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_Buffers.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_Buffers.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "Clipboard",
-   "description": "Позволяет взаимодействовать с буфером обмена: копировать, вставлять текст и файлы, а также отслеживать историю операций.",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_ClipboardV2.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_ClipboardV2.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "Compiler Injector",
-   "description": "Позволяет внедрять и модифицировать JavaScript-код в Scratch, управляя блоками и их поведением во время выполнения.",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_CompilerPatcher.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_CompilerPatcher.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "Document Events",
-   "description": "Позволяет отслеживать события, такие как изменение видимости вкладки, перемещение мыши по холсту и статус подключения (онлайн/офлайн) в Scratch.",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_DocumentEvents.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_DocumentEvents.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "DOMPurify",
-   "description": "Обеспечивает безопасную очистку HTML, предотвращая внедрение вредоносного кода при работе с пользовательским вводом.",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_DOMPurify.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_DOMPurify.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "Cryptography",
-   "description": "Реализует криптографические функции, включая поддержку шифрования и хэширования.",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_EncodingV2.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_EncodingV2.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "Fake Errors",
-   "description": "Генерирует фальшивые ошибки, позволяя отображать настраиваемые сообщения об ошибках и управлять их видимостью.",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_ErrorPages.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_ErrorPages.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "Fetch",
-   "description": "Позволяет выполнять HTTP-запросы, получать данные с URL, а также управлять заголовками, методами и обработкой ответов.",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_FetchButCooler.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_FetchButCooler.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "Image Blocks",
-   "description": "Позволяет использовать изображения и видео в проектах, включая уникальные графические элементы и анимации.",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_FunneImageBlocks.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_FunneImageBlocks.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "HTML Entitys",
-   "description": "Позволяет безопасно кодировать строки в HTML, преобразуя символы в соответствующие HTML-сущности, и получать информации о сущностях.",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_HTMLEntitys.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_HTMLEntitys.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "MicroBit Matrix+",
-   "description": "Позволяет работать с двоичными матрицами, проверять их на валидность, извлекать подматрицы и получать значения пикселей по координатам.",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_MatrixPlus.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_MatrixPlus.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "MimeDB",
-   "description": "Предоставляет информацию о типах MIME и расширениях, позволяя искать, добавлять пользовательские MIME-типы и получать атрибуты.",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_MimeDB.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_MimeDB.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "More Buttons",
-   "description": "Позволяет создавать и управлять пользовательскими кнопками, включая добавление, удаление, перемещение и изменение видимости кнопок, а также обработку событий кликов.",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_MoreButtons.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_MoreButtons.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "More Fields",
-   "description": "Добавляет новые типы полей, такие как текстовые области, слайдеры, скрытые строки и файлы, улучшая взаимодействие с данными.",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_MoreFields.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_MoreFields.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "Niche Toolbox",
-   "description": "Предоставляет набор утилит, включая функции для работы с цветами, звуками, слоями, проектами и манипуляции текстом.",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_NicheToolbox.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_NicheToolbox.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "Periodic Table",
-   "description": "Предоставляет доступ к информации о химических элементах периодической таблицы.",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_PeriodicTable.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_PeriodicTable.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "Right Click Menu",
-   "description": "Позволяет управлять контекстным меню.",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_RightClickMenu.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_RightClickMenu.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "Script Manager",
-   "description": "Позволяет контролировать выполнение потоков, сохранять и получать данные, изменять блоки и управлять их состоянием.",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_ScriptManagement.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_ScriptManagement.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "Spellcheck",
-   "description": "Предоставляет функции для проверки правописания",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_spellCheck.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_spellCheck.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "StarStorage",
-   "description": "Позволяет сохранять и управлять данными в различных хранилищах (localStorage, sessionStorage, cookies, IndexedDB)",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_StarStorage.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_StarStorage.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "Switch Case",
-   "description": "Предоставляет структуру для реализации операторов выбора (switch-case)",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_SwitchCaseUSB.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_SwitchCaseUSB.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
-  },
-  {
-   "name": "Try Catch",
-   "description": "Позволяет обрабатывать ошибки в Scratch, обеспечивая механизм попробовать-поймать для управления исключениями и улучшения стабильности проектов.",
-   "url": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataCode/0znzw_TryCatchV2.js",
-   "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/0znzw_TryCatchV2.png",
-   "author": "0znzw",
-   "author_link": "https://scratch.mit.edu/users/0znzw/",
-   "source": "dimka-10"
   },
   {
    "name": "Browser",
@@ -7191,6 +7014,46 @@
    "name": "Text to Speech",
    "description": "On-device speech with no cloud round trip — the Web Speech API, or a local recogniser worker. A drop-in for the stock AWS text2speech extension. Created by CrispStrobe.",
    "url": "https://extensions.turbowarp.org/CrispStrobe/brickwright_tts.js",
+   "image": "https://crispstrobe.github.io/extensions/images/unknown.svg",
+   "author": "CrispStrobe",
+   "source": "crispstrobe"
+  },
+  {
+   "name": "Sprite Utils",
+   "description": "Distance, angle and velocity helpers between sprites, ported from the MakeCode Arcade Sprite Utils extension. Created by Joey Wunderlich (arcade-sprite-util). Updated by Joey Wunderlich and CrispStrobe.",
+   "url": "https://extensions.turbowarp.org/CrispStrobe/spriteutils.js",
+   "image": "https://crispstrobe.github.io/extensions/images/unknown.svg",
+   "author": "CrispStrobe",
+   "source": "crispstrobe"
+  },
+  {
+   "name": "Status Bars",
+   "description": "Health, energy and other bars that follow sprites, ported from the MakeCode Arcade Status Bars extension. Created by Joey Wunderlich (pxt-status-bar). Updated by Joey Wunderlich and CrispStrobe.",
+   "url": "https://extensions.turbowarp.org/CrispStrobe/statusbars.js",
+   "image": "https://crispstrobe.github.io/extensions/images/unknown.svg",
+   "author": "CrispStrobe",
+   "source": "crispstrobe"
+  },
+  {
+   "name": "Carnival Games",
+   "description": "Countdown and timer games with saved best scores, plus throwable balls with aim and power, ported from the MakeCode Arcade Carnival extension. Created by Microsoft (arcade-carnival). Updated by Microsoft Corporation and CrispStrobe.",
+   "url": "https://extensions.turbowarp.org/CrispStrobe/carnival.js",
+   "image": "https://crispstrobe.github.io/extensions/images/unknown.svg",
+   "author": "CrispStrobe",
+   "source": "crispstrobe"
+  },
+  {
+   "name": "Saved Settings",
+   "description": "Save and read named numbers, text and number lists that persist between runs, ported from the MakeCode settings blocks. Created by Microsoft (pxt-settings-blocks). Updated by Microsoft Corporation and CrispStrobe.",
+   "url": "https://extensions.turbowarp.org/CrispStrobe/settingsblocks.js",
+   "image": "https://crispstrobe.github.io/extensions/images/unknown.svg",
+   "author": "CrispStrobe",
+   "source": "crispstrobe"
+  },
+  {
+   "name": "NeoPixel Strips",
+   "description": "Virtual NeoPixel LED strips drawn on the stage: colours, rainbow, brightness, shift, rotate and ranges, ported from the MakeCode NeoPixel driver. Created by Microsoft (pxt-neopixel). Updated by Microsoft Corporation and CrispStrobe.",
+   "url": "https://extensions.turbowarp.org/CrispStrobe/neopixel.js",
    "image": "https://crispstrobe.github.io/extensions/images/unknown.svg",
    "author": "CrispStrobe",
    "source": "crispstrobe"
