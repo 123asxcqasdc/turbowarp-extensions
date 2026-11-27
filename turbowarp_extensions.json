@@ -72,6 +72,18 @@
    "name": "CrispStrobe",
    "url": "https://crispstrobe.github.io/extensions/",
    "count": 135
+  },
+  {
+   "id": "electramod",
+   "name": "ElectraMod Extra Extensions",
+   "url": "https://electramod-extensions-gallery.vercel.app/",
+   "count": 8
+  },
+  {
+   "id": "gaia",
+   "name": "Gaia’s Gallery",
+   "url": "https://github.com/gaiawindwave90/gaias-gallery",
+   "count": 11
   }
  ],
  "extensions": [
@@ -7889,6 +7901,205 @@
    "image": "https://crispstrobe.github.io/extensions/images/Lily/McUtils.png",
    "author": "CrispStrobe",
    "source": "crispstrobe"
+  },
+  {
+   "name": "Debugger Console",
+   "description": "Based on Turbowarp CN's Debugger by NOname",
+   "url": "https://electramod-extensions-gallery.vercel.app/extensions/Aness6040/debuggerconsole.js",
+   "image": "https://electramod-extensions-gallery.vercel.app/images/Aness6040/debuggerconsole.svg",
+   "author": "Aness6040",
+   "author_link": "https://github.com/Aness6040",
+   "documentation": null,
+   "source": "electramod"
+  },
+  {
+   "name": "Lazy Multi-lines",
+   "description": "A handy extension for JavaScript Extension or to create your own text file!",
+   "url": "https://electramod-extensions-gallery.vercel.app/extensions/Aness6040/lazymultilines.js",
+   "image": "https://electramod-extensions-gallery.vercel.app/images/Aness6040/lazymultilines.svg",
+   "author": "Aness6040",
+   "author_link": "https://github.com/Aness6040",
+   "documentation": null,
+   "source": "electramod"
+  },
+  {
+   "name": "Jul Mik Utilities",
+   "description": "An Extension of Blocks Utilities by Jul Mik (V1 and V2 when named Jul Mik Blocks with Turbobuilder) and helped by Aness6040 (Actual v3)",
+   "url": "https://electramod-extensions-gallery.vercel.app/extensions/julmik6478/julmik_utilities.js",
+   "image": "https://electramod-extensions-gallery.vercel.app/images/julmik6478/julmik_utilities.svg",
+   "author": "julmik6478",
+   "author_link": "https://scratch.mit.edu/users/julmik6478",
+   "documentation": null,
+   "source": "electramod"
+  },
+  {
+   "name": "E2EE",
+   "description": "This is a Scratch 3 extension that enables E2EE (End-to-End Encryption). This E2EE extension utilizes the same underlying cryptography code that powers CloudLink Omega.",
+   "url": "https://electramod-extensions-gallery.vercel.app/extensions/MikeDev101/e2ee.js",
+   "image": "https://electramod-extensions-gallery.vercel.app/images/MikeDev101/e2ee.svg",
+   "author": "MikeDev101",
+   "author_link": "https://github.com/MikeDev101",
+   "documentation": null,
+   "source": "electramod"
+  },
+  {
+   "name": "WebRTC",
+   "description": "A slimmed-down version of the CL5 protocol extension, designed to offer a basic implementation of the WebRTC standard for Scratch 3.",
+   "url": "https://electramod-extensions-gallery.vercel.app/extensions/MikeDev101/webrtc.js",
+   "image": "https://electramod-extensions-gallery.vercel.app/images/MikeDev101/webrtc.png",
+   "author": "MikeDev101",
+   "author_link": "https://github.com/MikeDev101",
+   "documentation": null,
+   "source": "electramod"
+  },
+  {
+   "name": "ElectraAPI",
+   "description": "Based on Pang API for ElectraMod.",
+   "url": "https://electramod-extensions-gallery.vercel.app/extensions/Aness6040/electraapi.js",
+   "image": "https://electramod-extensions-gallery.vercel.app/images/Aness6040/electraapi.svg",
+   "author": "Aness6040",
+   "author_link": "https://github.com/Aness6040",
+   "documentation": null,
+   "source": "electramod"
+  },
+  {
+   "name": "ElectraGPT",
+   "description": "ElectraMod modification of PenguinGPT! Adds more prompts like Mishael or Slixbot!\nElectraGPT banner by Aness6040",
+   "url": "https://electramod-extensions-gallery.vercel.app/extensions/MubiLop/electragpt.js",
+   "image": "https://electramod-extensions-gallery.vercel.app/images/MubiLop/electragpt.png",
+   "author": "MubiLop",
+   "author_link": "https://scratch.mit.edu/users/MubiLop",
+   "documentation": null,
+   "source": "electramod"
+  },
+  {
+   "name": "Markdown to HTML",
+   "description": "Converts Markdown to HTML code.",
+   "url": "https://electramod-extensions-gallery.vercel.app/extensions/Aness6040/md2html.js",
+   "image": "https://electramod-extensions-gallery.vercel.app/images/Aness6040/md2html.png",
+   "author": "Aness6040",
+   "author_link": "https://scratch.mit.edu/users/Aness6040",
+   "documentation": "https://electramod-extensions-gallery.vercel.app/docs/md2html",
+   "source": "electramod"
+  },
+  {
+   "name": "Sprite Controller",
+   "description": "Control or send events to sprites.",
+   "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/spriteController.js",
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/spriteController.svg",
+   "tags": [
+    "sprites",
+    "events"
+   ],
+   "source": "gaia"
+  },
+  {
+   "name": "Sweet Alerts",
+   "description": "Display customizable alerts and popups.",
+   "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/sweetAlert2.js",
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/sweetAlert2.svg",
+   "tags": [
+    "ui",
+    "utility"
+   ],
+   "source": "gaia"
+  },
+  {
+   "name": "String Mutilation",
+   "description": "Modify a string in various ways.",
+   "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/stringMutilation.js",
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/stringMutilation.png",
+   "tags": [
+    "text",
+    "utility"
+   ],
+   "source": "gaia"
+  },
+  {
+   "name": "Measurement Format",
+   "description": "Convert and format units.",
+   "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/measurementFormat.js",
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/measurementFormat.svg",
+   "tags": [
+    "formatting",
+    "utility"
+   ],
+   "source": "gaia"
+  },
+  {
+   "name": "Speech Synthesis",
+   "description": "Play and customize TTS audio.",
+   "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/speechSynthesis.js",
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/speechSynthesis.svg",
+   "tags": [
+    "audio",
+    "media"
+   ],
+   "source": "gaia"
+  },
+  {
+   "name": "Nasa Media Search",
+   "description": "Search for images on Nasa's public database.",
+   "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/nasaMediaSearch.js",
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/nasaMediaSearch.svg",
+   "tags": [
+    "images",
+    "media"
+   ],
+   "source": "gaia"
+  },
+  {
+   "name": "Potato Extension",
+   "description": "yummy potatoes 🥔",
+   "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/potatoExtension.js",
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/potatoExtension.svg",
+   "tags": [
+    "fun"
+   ],
+   "source": "gaia"
+  },
+  {
+   "name": "Poop Extension",
+   "description": "The best poop ever!",
+   "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/poopExtension.js",
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/poopExtension.svg",
+   "tags": [
+    "fun"
+   ],
+   "source": "gaia"
+  },
+  {
+   "name": "Subway Surfers",
+   "description": "Watch Subway Surfers while you're coding. Multitask!",
+   "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/subwaySurfers.js",
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/subwaySurfers.png",
+   "tags": [
+    "fun",
+    "media"
+   ],
+   "source": "gaia"
+  },
+  {
+   "name": "Posenet2Scratch",
+   "description": "Detect human poses fast using a webcam.",
+   "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/posenet2scratch.js",
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/posenet2scratch.png",
+   "tags": [
+    "ai",
+    "sensors"
+   ],
+   "source": "gaia"
+  },
+  {
+   "name": "Facemesh2Scratch",
+   "description": "Get human faces as meshes using a webcam.",
+   "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/facemesh2scratch.js",
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/facemesh2scratch.png",
+   "tags": [
+    "ai",
+    "sensors"
+   ],
+   "source": "gaia"
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
  "generated_at": "2026-11-27",
- "total_raw": 909,
- "total_merged": 474,
+ "total_raw": 928,
+ "total_merged": 485,
  "categories": [
   "3D и физика",
   "Время и таймеры",
@@ -10630,9 +10630,9 @@
    "author": "MikeDev101",
    "image": "https://extensions.penguinmod.com/images/MikeDev101/e2ee.svg",
    "categories": [
-    "Прочее"
+    "Сеть и онлайн"
    ],
-   "sources_count": 3,
+   "sources_count": 4,
    "all_deprecated": false,
    "variants": [
     {
@@ -10679,6 +10679,21 @@
      "deprecated": false,
      "tags": null,
      "ext_id": null
+    },
+    {
+     "source": "electramod",
+     "source_label": "ElectraMod",
+     "source_emoji": "⚡",
+     "url": "https://electramod-extensions-gallery.vercel.app/extensions/MikeDev101/e2ee.js",
+     "open": "https://turbowarp.org/editor?extension=https://electramod-extensions-gallery.vercel.app/extensions/MikeDev101/e2ee.js",
+     "image": "https://electramod-extensions-gallery.vercel.app/images/MikeDev101/e2ee.svg",
+     "description": "This is a Scratch 3 extension that enables E2EE (End-to-End Encryption). This E2EE extension utilizes the same underlying cryptography code that powers CloudLink Omega.",
+     "author": "MikeDev101",
+     "author_link": "https://github.com/MikeDev101",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "e2ee"
     }
    ]
   },
@@ -10690,7 +10705,7 @@
    "categories": [
     "Прочее"
    ],
-   "sources_count": 3,
+   "sources_count": 4,
    "all_deprecated": false,
    "variants": [
     {
@@ -10737,6 +10752,21 @@
      "deprecated": false,
      "tags": null,
      "ext_id": null
+    },
+    {
+     "source": "electramod",
+     "source_label": "ElectraMod",
+     "source_emoji": "⚡",
+     "url": "https://electramod-extensions-gallery.vercel.app/extensions/MikeDev101/webrtc.js",
+     "open": "https://turbowarp.org/editor?extension=https://electramod-extensions-gallery.vercel.app/extensions/MikeDev101/webrtc.js",
+     "image": "https://electramod-extensions-gallery.vercel.app/images/MikeDev101/webrtc.png",
+     "description": "A slimmed-down version of the CL5 protocol extension, designed to offer a basic implementation of the WebRTC standard for Scratch 3.",
+     "author": "MikeDev101",
+     "author_link": "https://github.com/MikeDev101",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "webrtc"
     }
    ]
   },
@@ -11330,7 +11360,7 @@
     "Сеть и онлайн",
     "Скрипты и данные"
    ],
-   "sources_count": 2,
+   "sources_count": 3,
    "all_deprecated": false,
    "variants": [
     {
@@ -11358,6 +11388,21 @@
      "description": "Новые блоки для взаймодействия с projects.mubi.tech",
      "author": "???",
      "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "sammerpenguinapi"
+    },
+    {
+     "source": "electramod",
+     "source_label": "ElectraMod",
+     "source_emoji": "⚡",
+     "url": "https://electramod-extensions-gallery.vercel.app/extensions/Aness6040/electraapi.js",
+     "open": "https://turbowarp.org/editor?extension=https://electramod-extensions-gallery.vercel.app/extensions/Aness6040/electraapi.js",
+     "image": "https://electramod-extensions-gallery.vercel.app/images/Aness6040/electraapi.svg",
+     "description": "Based on Pang API for ElectraMod.",
+     "author": "Aness6040",
+     "author_link": "https://github.com/Aness6040",
      "documentation": null,
      "deprecated": false,
      "tags": null,
@@ -13289,7 +13334,7 @@
    "categories": [
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -13302,6 +13347,21 @@
      "description": "добавляет отладочную консоль для вывода сообщений, управления режимами, установки точек остановки и взаимодействия с пользователем.",
      "author": "Aness6040",
      "author_link": "https://github.com/Aness6040/",
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "aness6040debugger"
+    },
+    {
+     "source": "electramod",
+     "source_label": "ElectraMod",
+     "source_emoji": "⚡",
+     "url": "https://electramod-extensions-gallery.vercel.app/extensions/Aness6040/debuggerconsole.js",
+     "open": "https://turbowarp.org/editor?extension=https://electramod-extensions-gallery.vercel.app/extensions/Aness6040/debuggerconsole.js",
+     "image": "https://electramod-extensions-gallery.vercel.app/images/Aness6040/debuggerconsole.svg",
+     "description": "Based on Turbowarp CN's Debugger by NOname",
+     "author": "Aness6040",
+     "author_link": "https://github.com/Aness6040",
      "documentation": null,
      "deprecated": false,
      "tags": null,
@@ -13530,9 +13590,10 @@
    "author": "???",
    "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/electragpt.png",
    "categories": [
+    "Окно и интерфейс",
     "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -13545,6 +13606,21 @@
      "description": "Блоки для взаймодействия с gpt",
      "author": "???",
      "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "electragpt"
+    },
+    {
+     "source": "electramod",
+     "source_label": "ElectraMod",
+     "source_emoji": "⚡",
+     "url": "https://electramod-extensions-gallery.vercel.app/extensions/MubiLop/electragpt.js",
+     "open": "https://turbowarp.org/editor?extension=https://electramod-extensions-gallery.vercel.app/extensions/MubiLop/electragpt.js",
+     "image": "https://electramod-extensions-gallery.vercel.app/images/MubiLop/electragpt.png",
+     "description": "ElectraMod modification of PenguinGPT! Adds more prompts like Mishael or Slixbot!\nElectraGPT banner by Aness6040",
+     "author": "MubiLop",
+     "author_link": "https://scratch.mit.edu/users/MubiLop",
      "documentation": null,
      "deprecated": false,
      "tags": null,
@@ -14397,9 +14473,10 @@
    "author": "???",
    "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/julmik_utilities.png",
    "categories": [
+    "Скрипты и данные",
     "Утилиты"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -14412,6 +14489,21 @@
      "description": "Новое дополнение, о подробностях сообщат позже.",
      "author": "???",
      "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": null
+    },
+    {
+     "source": "electramod",
+     "source_label": "ElectraMod",
+     "source_emoji": "⚡",
+     "url": "https://electramod-extensions-gallery.vercel.app/extensions/julmik6478/julmik_utilities.js",
+     "open": "https://turbowarp.org/editor?extension=https://electramod-extensions-gallery.vercel.app/extensions/julmik6478/julmik_utilities.js",
+     "image": "https://electramod-extensions-gallery.vercel.app/images/julmik6478/julmik_utilities.svg",
+     "description": "An Extension of Blocks Utilities by Jul Mik (V1 and V2 when named Jul Mik Blocks with Turbobuilder) and helped by Aness6040 (Actual v3)",
+     "author": "julmik6478",
+     "author_link": "https://scratch.mit.edu/users/julmik6478",
      "documentation": null,
      "deprecated": false,
      "tags": null,
@@ -14539,9 +14631,11 @@
    "author": "???",
    "image": "https://dimka-10.github.io/Scratch-Extensions-Gallery.github.io/DataImage/lazymultilines.png",
    "categories": [
-    "Прочее"
+    "Файлы и хранилище",
+    "Текст и шрифты",
+    "Скрипты и данные"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -14554,6 +14648,21 @@
      "description": "Новое дополнение, о подробностях сообщат позже.",
      "author": "???",
      "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "aness6040lazymultilines"
+    },
+    {
+     "source": "electramod",
+     "source_label": "ElectraMod",
+     "source_emoji": "⚡",
+     "url": "https://electramod-extensions-gallery.vercel.app/extensions/Aness6040/lazymultilines.js",
+     "open": "https://turbowarp.org/editor?extension=https://electramod-extensions-gallery.vercel.app/extensions/Aness6040/lazymultilines.js",
+     "image": "https://electramod-extensions-gallery.vercel.app/images/Aness6040/lazymultilines.svg",
+     "description": "A handy extension for JavaScript Extension or to create your own text file!",
+     "author": "Aness6040",
+     "author_link": "https://github.com/Aness6040",
      "documentation": null,
      "deprecated": false,
      "tags": null,
@@ -14740,7 +14849,7 @@
    "categories": [
     "Прочее"
    ],
-   "sources_count": 1,
+   "sources_count": 2,
    "all_deprecated": false,
    "variants": [
     {
@@ -14754,6 +14863,21 @@
      "author": "???",
      "author_link": null,
      "documentation": null,
+     "deprecated": false,
+     "tags": null,
+     "ext_id": "aness6040md2html"
+    },
+    {
+     "source": "electramod",
+     "source_label": "ElectraMod",
+     "source_emoji": "⚡",
+     "url": "https://electramod-extensions-gallery.vercel.app/extensions/Aness6040/md2html.js",
+     "open": "https://turbowarp.org/editor?extension=https://electramod-extensions-gallery.vercel.app/extensions/Aness6040/md2html.js",
+     "image": "https://electramod-extensions-gallery.vercel.app/images/Aness6040/md2html.png",
+     "description": "Converts Markdown to HTML code.",
+     "author": "Aness6040",
+     "author_link": "https://scratch.mit.edu/users/Aness6040",
+     "documentation": "https://electramod-extensions-gallery.vercel.app/docs/md2html",
      "deprecated": false,
      "tags": null,
      "ext_id": "aness6040md2html"
@@ -20419,6 +20543,350 @@
      "deprecated": false,
      "tags": null,
      "ext_id": null
+    }
+   ]
+  },
+  {
+   "name": "Sprite Controller",
+   "description": "Control or send events to sprites.",
+   "author": null,
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/spriteController.svg",
+   "categories": [
+    "Окно и интерфейс",
+    "Скрипты и данные"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "gaia",
+     "source_label": "Gaia’s Gallery",
+     "source_emoji": "🐈",
+     "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/spriteController.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/spriteController.js",
+     "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/spriteController.svg",
+     "description": "Control or send events to sprites.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": [
+      "sprites",
+      "events"
+     ],
+     "ext_id": "ddespritecontroller"
+    }
+   ]
+  },
+  {
+   "name": "Sweet Alerts",
+   "description": "Display customizable alerts and popups.",
+   "author": null,
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/sweetAlert2.svg",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "gaia",
+     "source_label": "Gaia’s Gallery",
+     "source_emoji": "🐈",
+     "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/sweetAlert2.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/sweetAlert2.js",
+     "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/sweetAlert2.svg",
+     "description": "Display customizable alerts and popups.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": [
+      "ui",
+      "utility"
+     ],
+     "ext_id": "ddesweetalert2"
+    }
+   ]
+  },
+  {
+   "name": "String Mutilation",
+   "description": "Modify a string in various ways.",
+   "author": null,
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/stringMutilation.png",
+   "categories": [
+    "Текст и шрифты",
+    "Математика и логика"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "gaia",
+     "source_label": "Gaia’s Gallery",
+     "source_emoji": "🐈",
+     "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/stringMutilation.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/stringMutilation.js",
+     "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/stringMutilation.png",
+     "description": "Modify a string in various ways.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": [
+      "text",
+      "utility"
+     ],
+     "ext_id": "ddestringmutilation"
+    }
+   ]
+  },
+  {
+   "name": "Measurement Format",
+   "description": "Convert and format units.",
+   "author": null,
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/measurementFormat.svg",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "gaia",
+     "source_label": "Gaia’s Gallery",
+     "source_emoji": "🐈",
+     "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/measurementFormat.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/measurementFormat.js",
+     "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/measurementFormat.svg",
+     "description": "Convert and format units.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": [
+      "formatting",
+      "utility"
+     ],
+     "ext_id": "ddemeasurementformat"
+    }
+   ]
+  },
+  {
+   "name": "Speech Synthesis",
+   "description": "Play and customize TTS audio.",
+   "author": null,
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/speechSynthesis.svg",
+   "categories": [
+    "Звук и видео"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "gaia",
+     "source_label": "Gaia’s Gallery",
+     "source_emoji": "🐈",
+     "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/speechSynthesis.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/speechSynthesis.js",
+     "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/speechSynthesis.svg",
+     "description": "Play and customize TTS audio.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": [
+      "audio",
+      "media"
+     ],
+     "ext_id": "ddespeechsynthesis"
+    }
+   ]
+  },
+  {
+   "name": "Nasa Media Search",
+   "description": "Search for images on Nasa's public database.",
+   "author": null,
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/nasaMediaSearch.svg",
+   "categories": [
+    "Сеть и онлайн",
+    "Математика и логика"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "gaia",
+     "source_label": "Gaia’s Gallery",
+     "source_emoji": "🐈",
+     "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/nasaMediaSearch.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/nasaMediaSearch.js",
+     "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/nasaMediaSearch.svg",
+     "description": "Search for images on Nasa's public database.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": [
+      "images",
+      "media"
+     ],
+     "ext_id": "ddenasamediasearch"
+    }
+   ]
+  },
+  {
+   "name": "Potato Extension",
+   "description": "yummy potatoes 🥔",
+   "author": null,
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/potatoExtension.svg",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "gaia",
+     "source_label": "Gaia’s Gallery",
+     "source_emoji": "🐈",
+     "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/potatoExtension.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/potatoExtension.js",
+     "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/potatoExtension.svg",
+     "description": "yummy potatoes 🥔",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": [
+      "fun"
+     ],
+     "ext_id": "ddepotatoextension"
+    }
+   ]
+  },
+  {
+   "name": "Poop Extension",
+   "description": "The best poop ever!",
+   "author": null,
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/poopExtension.svg",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "gaia",
+     "source_label": "Gaia’s Gallery",
+     "source_emoji": "🐈",
+     "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/poopExtension.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/poopExtension.js",
+     "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/poopExtension.svg",
+     "description": "The best poop ever!",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": [
+      "fun"
+     ],
+     "ext_id": "poopextensionruby"
+    }
+   ]
+  },
+  {
+   "name": "Subway Surfers",
+   "description": "Watch Subway Surfers while you're coding. Multitask!",
+   "author": null,
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/subwaySurfers.png",
+   "categories": [
+    "Прочее"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "gaia",
+     "source_label": "Gaia’s Gallery",
+     "source_emoji": "🐈",
+     "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/subwaySurfers.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/subwaySurfers.js",
+     "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/subwaySurfers.png",
+     "description": "Watch Subway Surfers while you're coding. Multitask!",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": [
+      "fun",
+      "media"
+     ],
+     "ext_id": "ddesubwaysurfers"
+    }
+   ]
+  },
+  {
+   "name": "Posenet2Scratch",
+   "description": "Detect human poses fast using a webcam.",
+   "author": null,
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/posenet2scratch.png",
+   "categories": [
+    "Устройство и датчики",
+    "Математика и логика"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "gaia",
+     "source_label": "Gaia’s Gallery",
+     "source_emoji": "🐈",
+     "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/posenet2scratch.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/posenet2scratch.js",
+     "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/posenet2scratch.png",
+     "description": "Detect human poses fast using a webcam.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": [
+      "ai",
+      "sensors"
+     ],
+     "ext_id": "tidedataflowconnectnnparameterseparseparameterstparamstreacttinitonlyparseparametersfunctionteeeconstnthisforconstrintconstitrerobjectzbiimaptetneeinereturneparsestreamfunctiontvarenthisrnulltfilterneventexpressiontfiltervoid0inulltstreamngettstreamvoid0tsourceineventstsourcettypertmergeietmergemaptngett0mergeapplye0eslice1tbetweenetbetweenmaptngettiibetweene0e1tfilteriifilterrnulltthrottleiithrottletthrottlenulltdebounceiidebouncetdebouncenulliobjectzo"
+    }
+   ]
+  },
+  {
+   "name": "Facemesh2Scratch",
+   "description": "Get human faces as meshes using a webcam.",
+   "author": null,
+   "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/facemesh2scratch.png",
+   "categories": [
+    "Устройство и датчики",
+    "Математика и логика"
+   ],
+   "sources_count": 1,
+   "all_deprecated": false,
+   "variants": [
+    {
+     "source": "gaia",
+     "source_label": "Gaia’s Gallery",
+     "source_emoji": "🐈",
+     "url": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/facemesh2scratch.js",
+     "open": "https://turbowarp.org/editor?extension=https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/code/facemesh2scratch.js",
+     "image": "https://raw.githubusercontent.com/gaiawindwave90/gaias-gallery/main/public/extensions/thumbnail/facemesh2scratch.png",
+     "description": "Get human faces as meshes using a webcam.",
+     "author": null,
+     "author_link": null,
+     "documentation": null,
+     "deprecated": false,
+     "tags": [
+      "ai",
+      "sensors"
+     ],
+     "ext_id": "facemesh2scratch"
     }
    ]
   }
